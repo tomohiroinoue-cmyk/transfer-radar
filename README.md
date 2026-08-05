@@ -22,8 +22,8 @@ node scripts/serve.mjs
 
 ## 構成
 
-場所: `C:\Users\Tomohiro Inoue\projects\transfer-radar`
-（git と OneDrive の同期が競合するため、OneDrive の外に置いています）
+> クローンする場所は OneDrive / Dropbox 等の同期フォルダの**外**にしてください。
+> 30分ごとにコミットが増えるため、同期処理と競合して `.git` が壊れることがあります。
 
 ```
 transfer-radar/
