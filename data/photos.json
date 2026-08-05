@@ -326,5 +326,166 @@
     "birthDate": "2002-03-22",
     "noPhoto": true,
     "reason": "記事に代表画像がない"
+  },
+  "Takehiro Tomiyasu": {
+    "checkedAt": "2026-08-05T20:07:20.556Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Takehiro_Tomiyasu",
+    "birthDate": "1998-11-05",
+    "file": "takehiro-tomiyasu.jpg",
+    "artist": "Amir Ostovari",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Takehiro_Tomiyasu,_2019_AFC_Asian_Cup_1.jpg"
+  },
+  "Kaishu Sano": {
+    "checkedAt": "2026-08-05T20:07:24.590Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Kaish%C5%AB_Sano",
+    "birthDate": "2000-12-30",
+    "file": "kaishu-sano.jpg",
+    "artist": "RuinDig/Yuki Uchida",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaishu_Sano_2024_(cropped).jpg"
+  },
+  "Zion Suzuki": {
+    "checkedAt": "2026-08-05T20:07:27.943Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Zion_Suzuki",
+    "birthDate": "2002-08-21",
+    "file": "zion-suzuki.jpg",
+    "artist": "RuinDig/Yuki Uchida",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg"
+  },
+  "Kaoru Mitoma": {
+    "checkedAt": "2026-08-05T20:08:04.510Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Kaoru_Mitoma",
+    "birthDate": "1997-05-20",
+    "file": "kaoru-mitoma.jpg",
+    "artist": "jamesboyes",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaoru_Mitoma_(2022).jpg"
+  },
+  "Daichi Kamada": {
+    "checkedAt": "2026-08-05T20:08:07.721Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Daichi_Kamada",
+    "birthDate": "1996-08-05",
+    "file": "daichi-kamada.jpg",
+    "artist": "Sven Mandel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2022128173756_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0725_-_AK8I7460_(Daichi_Kamada_cropped).jpg"
+  },
+  "Takefusa Kubo": {
+    "checkedAt": "2026-08-05T20:08:11.025Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Takefusa_Kubo",
+    "birthDate": "2001-06-04",
+    "file": "takefusa-kubo.png",
+    "artist": "Real Madrid",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Takefusa_Kubo_2019.png"
+  },
+  "Ryotaro Araki": {
+    "checkedAt": "2026-08-05T20:09:05.757Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Ry%C5%8Dtar%C5%8D_Araki",
+    "birthDate": "2002-01-29",
+    "noPhoto": true,
+    "reason": "記事に代表画像がない"
+  },
+  "Sota Nakamura": {
+    "checkedAt": "2026-08-05T20:09:08.366Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/S%C5%8Dta_Nakamura",
+    "birthDate": "2002-10-15",
+    "noPhoto": true,
+    "reason": "記事に代表画像がない"
+  },
+  "Morgan Rogers": {
+    "checkedAt": "2026-08-05T20:09:11.131Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Morgan_Rogers",
+    "birthDate": "2002-07-26",
+    "file": "morgan-rogers.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Morgan_Rogers_England_v_Panama_27_June_26-144_(cropped).jpg"
+  },
+  "Sandro Tonali": {
+    "checkedAt": "2026-08-05T20:10:05.699Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Sandro_Tonali",
+    "birthDate": "2000-05-08",
+    "file": "sandro-tonali.jpg",
+    "artist": "MichaelEmilio",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_B_03.jpg"
+  },
+  "Elliot Anderson": {
+    "checkedAt": "2026-08-05T20:10:09.034Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Elliot_Anderson",
+    "birthDate": "2002-11-06",
+    "file": "elliot-anderson.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Elliot_Anderson_England_v_Ghana_23_June_2026-059_(cropped).jpg"
+  },
+  "Lukas Hornicek": {
+    "checkedAt": "2026-08-05T20:11:04.274Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Horn%C3%AD%C4%8Dek",
+    "birthDate": "2002-07-13",
+    "noPhoto": true,
+    "reason": "記事に代表画像がない"
+  },
+  "Valentin Barco": {
+    "checkedAt": "2026-08-05T20:11:06.930Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Valent%C3%ADn_Barco",
+    "birthDate": "2004-07-23",
+    "file": "valentin-barco.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Valentin_Barco_Argentina_v_Egypt_7_July_2026-028.jpg"
+  },
+  "Mamadou Sangare": {
+    "checkedAt": "2026-08-05T20:11:10.877Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Mamadou_Sangar%C3%A9",
+    "birthDate": "2002-06-26",
+    "file": "mamadou-sangare.jpg",
+    "artist": "Werner100359",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:FC_Liefering_gegen_SK_Rapid_Wien_II_(2020-09-13)_27.jpg"
+  },
+  "Ismael Saibari": {
+    "checkedAt": "2026-08-05T20:12:05.447Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Ismael_Saibari",
+    "birthDate": "2001-01-28",
+    "file": "ismael-saibari.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ismael_Saibari_Brazil_V_Morocco_13_June_2026-152.jpg"
+  },
+  "Gonçalo Ramos": {
+    "checkedAt": "2026-08-05T20:12:08.618Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Ramos",
+    "birthDate": "2001-06-20",
+    "file": "gonc-alo-ramos.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Gon%C3%A7alo_Ramos_USMNT_v_Portugal_Mar_31_2026-32_(cropped).jpg"
+  },
+  "Felix Nmecha": {
+    "checkedAt": "2026-08-05T20:13:03.964Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Felix_Nmecha",
+    "birthDate": "2000-10-10",
+    "file": "felix-nmecha.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Felix_Nmecha_Ecuador_v_Germany_25_June_2026-150.jpg"
   }
 }

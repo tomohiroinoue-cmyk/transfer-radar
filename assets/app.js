@@ -34,6 +34,10 @@ const CLUB_COLORS = {
   'Ajax': '#D2122E', 'PSV': '#ED1C24', 'Benfica': '#DA020E', 'Porto': '#00428C',
   'Slavia Prague': '#D7141A', 'KV Mechelen': '#F9E11E', 'LA Galaxy': '#00245D',
   'DC United': '#000000', 'Urawa Reds': '#E7262C', 'Free agent': '#64748B',
+  'Mainz': '#C3141E', 'Parma': '#FFD700', 'Real Sociedad': '#0067B1',
+  'Braga': '#C60C30', 'Strasbourg': '#009EE0', 'Lens': '#FFE500',
+  'Kashima Antlers': '#A5052C', 'Sint-Truiden': '#FFE500',
+  'Sanfrecce Hiroshima': '#4B2E83', 'Le Havre': '#0072BC',
 };
 
 function clubColor(name) {

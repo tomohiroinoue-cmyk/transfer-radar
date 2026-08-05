@@ -7,7 +7,7 @@
 
 ## 0. 実行の上限（必ず守る）
 
-- **Web検索は1回の実行で最大 8 クエリまで。** それ以上は次の実行に回す。
+- **Web検索は1回の実行で最大 12 クエリまで。** それ以上は次の実行に回す。
 - **WebFetch は1回の実行で最大 6 ページまで。**
 - 上限に達したら、そこまでで得た情報だけで `transfers.json` を更新して終了する。
   「情報が足りないからもっと調べる」は禁止。次の実行が30分後にある。
@@ -37,12 +37,36 @@
 | 噂のランキング | https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked |
 | 欧州全体 | https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436 |
 | プレミア公式（成立分） | https://www.premierleague.com/en/transfers/2026-27/summer |
-| 日本人選手 | https://web.ultra-soccer.jp/news/all/28454/ |
-| 日本人選手 | https://www.soccer-king.jp/news/world/fixed/ |
+| 日本人・噂 | https://football-tribe.com/japan/ |
+| 日本人・噂 | https://www.soccerdigestweb.com/news/contents_type=245 |
+| 日本人・噂 | https://sakanowa.jp/ |
+| 日本人・一覧 | https://www.footballchannel.jp/ |
+| 日本人・確定 | https://web.ultra-soccer.jp/news/all/28454/ |
+| 日本人・確定 | https://www.soccer-king.jp/news/world/fixed/ |
+
+### ⚠ 日本人選手は「確定情報まとめ」だけを見てはいけない
+
+過去にこの失敗をしている。確定情報ページ（超WORLDサッカー／サッカーキング）だけを
+見た結果、**冨安健洋のクリスタル・パレス移籍や佐野海舟の争奪戦といった主要な噂が
+まるごと漏れた。** 確定ページは「もう終わった移籍」しか載っていない。
+
+噂・交渉中を拾うには Football Tribe Japan / サッカーダイジェスト / サカノワ /
+東スポWEB / Goal.com日本 を見るか、**選手名で直接検索する**。
+
+以下の選手は毎回名指しで動きを確認する（1クエリにまとめてよい）:
+
+> 久保建英 / 三笘薫 / 鎌田大地 / 冨安健洋 / 佐野海舟 / 鈴木彩艶 / 遠藤航 /
+> 伊藤洋輝 / 南野拓実 / 堂安律 / 上田綺世 / 菅原由勢 / 町田浩樹 / 中村敬斗 /
+> 板倉滉 / 守田英正
 
 検索クエリの例（この中から必要なものを選ぶ。全部やらない）:
-`Premier League transfer rumours today` / `Real Madrid Barcelona Bayern transfer news today` /
-`日本人選手 海外移籍 移籍情報`
+
+- `Premier League transfer rumours today`
+- `Real Madrid Barcelona Bayern transfer news today`
+- `Serie A Bundesliga LaLiga transfer rumours today`
+- `日本人選手 移籍 噂 交渉中`
+- `久保建英 三笘薫 鎌田大地 移籍 最新`
+- `冨安健洋 佐野海舟 鈴木彩艶 移籍 最新`
 
 ## 3. 確度ルーブリック（サイトの表示と一致させる）
 
@@ -147,7 +171,11 @@
 - 前回あった案件を、根拠なく消さない。動きがなければ `updatedAt` を据え置き、
   §3の「5日以上更新なし = −10」を適用する。7日以上動きがなく確度が10%未満に
   なった案件は削除してよい。
-- `items` は 45 件までに抑える（確度の高い順・更新の新しい順で残す）。
+- `items` は 60 件までに抑える（確度の高い順・更新の新しい順で残す）。
+  ただし **`japanese` タグの案件は削らない**。日本人選手の情報が薄いという指摘を
+  受けて拡充した部分なので、件数調整は premier / bigclub の低確度案件から行う。
+- **成立済み（100%）の案件も残す。** 「成立済みを隠す」トグルが用意されているので、
+  読者側で消せる。勝手に削らない。
 
 ## 6. 終了時の自己チェック
 
