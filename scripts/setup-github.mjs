@@ -52,7 +52,11 @@ if (html.includes(placeholder)) {
 
 /* --- 2. git remote --- */
 
-const git = (args) => execFileSync('git', args, { cwd: ROOT, encoding: 'utf8' }).trim();
+// stderr は piped にする。存在確認で失敗させる使い方をするので、git の
+// エラー出力がそのまま画面に出ると「失敗した」ように見えてしまう。
+const git = (args) => execFileSync('git', args, {
+  cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
+}).trim();
 const tryGit = (args) => {
   try { return { ok: true, out: git(args) }; }
   catch (e) { return { ok: false, out: ((e.stdout || '') + (e.stderr || '')).trim() }; }
@@ -61,6 +65,25 @@ const tryGit = (args) => {
 if (!tryGit(['rev-parse', '--git-dir']).ok) {
   console.error('✗ git リポジトリではありません。先に `git init` を実行してください。');
   process.exit(1);
+}
+
+/* コミットの作者メールは公開リポジトリで全世界に見える。会社アドレスや実メールを
+   出さないよう、GitHub が用意している noreply アドレスを使う。 */
+const noreply = `${user}@users.noreply.github.com`;
+git(['config', 'user.name', user]);
+git(['config', 'user.email', noreply]);
+console.log(`✓ コミット作者を設定: ${user} <${noreply}>`);
+
+// まだ push していない初回コミットの作者も差し替える（プレースホルダを公開しないため）
+const authored = tryGit(['log', '--format=%ae', '-1']);
+if (authored.ok && authored.out.endsWith('@localhost.invalid')) {
+  const unpushed = !tryGit(['rev-parse', '--verify', `origin/${git(['rev-parse', '--abbrev-ref', 'HEAD'])}`]).ok;
+  if (unpushed) {
+    git(['commit', '--amend', '--reset-author', '--no-edit']);
+    console.log('✓ 初回コミットの作者をプレースホルダから差し替えました');
+  } else {
+    console.warn('⚠ 既に push 済みのため初回コミットの作者は変更しませんでした');
+  }
 }
 
 const existing = tryGit(['remote', 'get-url', 'origin']);
