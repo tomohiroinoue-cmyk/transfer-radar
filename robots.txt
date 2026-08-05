@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# 30分ごとに書き換わるデータファイル。クロールしても意味がないので除外
+Disallow: /data/transfers.json
+Disallow: /data/photos.json
