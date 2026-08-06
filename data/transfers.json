@@ -1351,7 +1351,7 @@
       "updatedAt": "2026-08-05T18:58:00Z"
     },
     {
-      "id": "nono-celtic-dcunited",
+      "id": "nono-kashima-dcunited",
       "tags": [
         "japanese"
       ],
@@ -1362,9 +1362,9 @@
         "nationality": "日本"
       },
       "from": {
-        "club": "Celtic",
-        "clubJa": "セルティック",
-        "league": "Scottish Premiership"
+        "club": "Kashima Antlers",
+        "clubJa": "鹿島アントラーズ",
+        "league": "J1"
       },
       "to": {
         "club": "DC United",
@@ -1376,18 +1376,25 @@
       "probability": 100,
       "trend": "flat",
       "status": "成立",
-      "summaryJa": "セルティックからDCユナイテッドへの完全移籍が成立。MLSへ活躍の場を移す。",
-      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "summaryJa": "鹿島アントラーズからD.C.ユナイテッドへの完全移籍が成立。クラブが公式に発表した。2024年に大学から加入して攻撃的サイドバックとしてブレークし、リーグ制覇に貢献した。将来の欧州へのステップアップを見据えた初の海外挑戦となる。",
+      "reasoning": "クラブが公式に発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "超WORLDサッカー",
-          "tier": 3,
-          "title": "2026-27シーズン日本人選手・海外移籍情報まとめ｜確定情報",
-          "url": "https://web.ultra-soccer.jp/news/all/28454/",
-          "publishedAt": "2026-08-05"
+          "outlet": "鹿島アントラーズ公式",
+          "tier": 1,
+          "title": "濃野 公人選手 D.C. ユナイテッドへ完全移籍のお知らせ",
+          "url": "https://www.antlers.co.jp/blogs/news/260729g2ahbw",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "outlet": "Jリーグ公式",
+          "tier": 1,
+          "title": "【公式】DF濃野がD.C.ユナイテッドへ完全移籍【鹿島】",
+          "url": "https://www.jleague.jp/news/article/34528/",
+          "publishedAt": "2026-07-29"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-06T02:15:45Z"
     },
     {
       "id": "tomiyasu-free-palace",
