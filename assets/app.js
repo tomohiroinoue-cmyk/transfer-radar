@@ -38,6 +38,19 @@ const CLUB_COLORS = {
   'Braga': '#C60C30', 'Strasbourg': '#009EE0', 'Lens': '#FFE500',
   'Kashima Antlers': '#A5052C', 'Sint-Truiden': '#FFE500',
   'Sanfrecce Hiroshima': '#4B2E83', 'Le Havre': '#0072BC',
+  // 2026-27でプレミアに昇格した3クラブ + 各国リーグの主要クラブ
+  'Coventry City': '#59C1DE', 'Leicester City': '#003090', 'Middlesbrough': '#E1261C',
+  'Roma': '#8E1F2F', 'Lazio': '#87D8F7', 'Atalanta': '#1D2951',
+  'Fiorentina': '#7B2E8E', 'Sassuolo': '#00A752',
+  'Villarreal': '#FFE667', 'Celta Vigo': '#8AC3EE', 'Valencia': '#EE3B33',
+  'Bayer Leverkusen': '#E32219', 'Eintracht Frankfurt': '#E1000F',
+  'Wolfsburg': '#65B32E', 'Freiburg': '#E2001A', 'Hoffenheim': '#1C63B7',
+  'FC Koln': '#ED1C24', 'Fortuna Düsseldorf': '#DA291C', 'Schalke': '#004D9D',
+  'Monaco': '#E63329', 'Lyon': '#1B3282', 'Rennes': '#E23138', 'Toulouse': '#5F259F',
+  'Feyenoord': '#CC0000', 'NEC Nijmegen': '#CE2029', 'OH Leuven': '#005BAA',
+  'Anderlecht': '#5C2D91', 'Club Brugge': '#005BAC',
+  'Galatasaray': '#A90432', 'FC Tokyo': '#0B1F4D',
+  'Al-Nassr': '#F5C31D', 'Al-Hilal': '#0B4EA2',
 };
 
 function clubColor(name) {

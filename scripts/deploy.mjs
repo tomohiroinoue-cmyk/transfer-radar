@@ -56,6 +56,27 @@ const noSource = data.items.filter((it) => !it.sources?.length);
 if (noSource.length) {
   fail(`出典のない案件があります: ${noSource.map((i) => i.id).join(', ')}`);
 }
+
+/* 重複チェック。「同じ選手 × 同じ移籍先」は同一の移籍案件なので、2枚のカードに
+   なってはいけない。アクセント記号の有無で別人扱いになる事故が実際に起きたため
+   （Gonzalo Garcia と Gonzalo García が二重登録された）、記号を無視して比較する。 */
+const flatten = (s) => String(s ?? '')
+  .normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .toLowerCase().replace(/[^a-z0-9]/g, '');
+
+const byId = new Map();
+const byTransfer = new Map();
+const dupes = [];
+for (const it of data.items) {
+  if (byId.has(it.id)) dupes.push(`id重複: ${it.id}`);
+  else byId.set(it.id, it);
+
+  const k = `${flatten(it.player?.name)}|${flatten(it.to?.club)}`;
+  if (byTransfer.has(k)) {
+    dupes.push(`同一案件が2件: ${it.player?.name} → ${it.to?.club} (${byTransfer.get(k)} と ${it.id})`);
+  } else byTransfer.set(k, it.id);
+}
+if (dupes.length) fail(`重複があります:\n  ${dupes.join('\n  ')}`);
 console.log(`✓ データ検証OK — ${data.items.length}件 / 成立 ${data.items.filter(i => i.probability === 100).length}件`);
 
 /* --- 2. git リポジトリとリモートの確認 --- */

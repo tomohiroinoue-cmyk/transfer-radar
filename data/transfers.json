@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T20:07:13Z",
-  "nextUpdateAt": "2026-08-05T20:37:13Z",
+  "generatedAt": "2026-08-06T02:22:58Z",
+  "nextUpdateAt": "2026-08-06T02:52:58Z",
   "updateSchedule": {
     "intervalMinutes": 30,
     "timezone": "Asia/Tokyo",
@@ -295,7 +295,7 @@
       "to": {
         "club": "Hull City",
         "clubJa": "ハル・シティ",
-        "league": "Championship"
+        "league": "Premier League"
       },
       "fee": "€20m",
       "type": "permanent",
@@ -1251,7 +1251,7 @@
       "to": {
         "club": "Ipswich Town",
         "clubJa": "イプスウィッチ",
-        "league": "Championship"
+        "league": "Premier League"
       },
       "fee": "非公表",
       "type": "permanent",
@@ -1291,7 +1291,7 @@
       "to": {
         "club": "Hull City",
         "clubJa": "ハル・シティ",
-        "league": "Championship"
+        "league": "Premier League"
       },
       "fee": "非公表",
       "type": "permanent",
@@ -1420,11 +1420,11 @@
       },
       "fee": "フリー",
       "type": "free",
-      "probability": 84,
-      "trend": "up",
-      "status": "練習参加・契約間近",
-      "summaryJa": "アヤックスとの契約が2026年6月末で満了しフリーとなり、クリスタル・パレスの練習に参加して練習試合にも出場している。クラブがメディカル面を含めて問題ないと判断すれば正式契約に至る見通し。パレスには鎌田大地も所属する。",
-      "reasoning": "ベース: クラブ間合意 = 70–85% の帯。フリー移籍で移籍金交渉が不要な点、練習参加だけでなく練習試合に出場している点（実質的な合意がなければ通常ここまで進まない）で帯の上限寄り。ただし報道が「メディカルで問題なければ」と条件付きであり、繰り返してきた負傷歴が懸念材料として明示されているため85%以上には上げず84%。",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アヤックスを退団した冨安健洋のクリスタル・パレス加入が決定したと報じられた。移籍市場に精通する記者が「HERE WE GO」で伝えている。以前報じられていたフリー移籍の噂から、正式加入という段階へ進んだ。",
+      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
           "outlet": "サカノワ",
@@ -1439,9 +1439,16 @@
           "title": "冨安健洋がＣパレスの練習に参加",
           "url": "https://www.tokyo-sports.co.jp/articles/-/397501",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "サッカーダイジェストWeb",
+          "tier": 3,
+          "title": "冨安健洋のクリスタル・パレス移籍決定",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=195362",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T20:07:13Z"
+      "updatedAt": "2026-08-06T02:22:58Z"
     },
     {
       "id": "sano-mainz-liverpool",
@@ -1555,11 +1562,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 34,
-      "trend": "up",
-      "status": "代理人と接触",
-      "summaryJa": "バイエルンが複数回にわたり視察を行い、代理人と面会して移籍の可能性についてクラブの考えを伝えたと英メディアが報じた。ブライトンとの契約は2027年6月まで。バイエルンには伊藤洋輝も所属する。",
-      "reasoning": "ベース: 打診・代理人接触が報じられた = 20–35%。買い手が具体的に代理人へ意向を伝えている点、契約残り1年で売り手が売却を検討しやすい時期である点で帯の上限34%。ただしブライトン側の売却姿勢・移籍金・オファーのいずれも未報道で、不確実性が3つ残る。",
+      "probability": 26,
+      "trend": "down",
+      "status": "正式オファーなし",
+      "summaryJa": "バイエルンが複数回にわたり視察を行い、2024/25シーズン終了後に代理人と面会して移籍の可能性を伝えたが、現時点で正式オファーは届いていない。ブライトンは放出に応じない決断をしており、契約延長交渉の再開が見込まれると海外記者が報じている。ブライトンとの契約は2027年6月まで。",
+      "reasoning": "ベース: 打診・代理人接触が報じられた = 20–35%。当初は契約残り1年で売り手が動きやすい点を評価して帯の上限34%としたが、その後「正式オファーは未提出」と明記された報道を確認したため上限扱いを取り消した。加えてブライトンが放出に応じない決断をしたとの報道があり下降局面。ただしこれは記者による報道でクラブの公式声明ではないため「公式否定 −20」は適用せず、帯の中位26%に置いてトレンドを下降とした。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
@@ -1567,9 +1574,16 @@
           "title": "ブライトン三笘薫に移籍浮上「選手寿命延びる」",
           "url": "https://football-tribe.com/japan/2026/08/01/357660/",
           "publishedAt": "2026-08-01"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "三笘薫の去就で新展開！「交渉再開の見込み」「ブライトンは決断」",
+          "url": "https://football-tribe.com/japan/2026/08/02/357672/",
+          "publishedAt": "2026-08-02"
         }
       ],
-      "updatedAt": "2026-08-05T20:07:13Z"
+      "updatedAt": "2026-08-06T02:23:52Z"
     },
     {
       "id": "kamada-palace-sociedad",
@@ -2086,6 +2100,3472 @@
         }
       ],
       "updatedAt": "2026-08-05T20:07:13Z"
+    },
+    {
+      "id": "tzolis-clubbrugge-arsenal",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Christos Tzolis",
+        "nameJa": "クリストス・ツォリス"
+      },
+      "from": {
+        "club": "Club Brugge",
+        "clubJa": "クラブ・ブルージュ",
+        "league": "Belgian Pro League"
+      },
+      "to": {
+        "club": "Arsenal",
+        "clubJa": "アーセナル",
+        "league": "Premier League"
+      },
+      "fee": "£34m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アーセナルがクラブ・ブルージュからツォリスを獲得した。移籍金は3400万ポンドと報じられている。今夏のアーセナルの主要補強のひとつに位置づけられる。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "manzambi-freiburg-astonvilla",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Johan Manzambi",
+        "nameJa": "ヨハン・マンザンビ"
+      },
+      "from": {
+        "club": "Freiburg",
+        "clubJa": "フライブルク",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Aston Villa",
+        "clubJa": "アストン・ヴィラ",
+        "league": "Premier League"
+      },
+      "fee": "£59.5m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アストン・ヴィラがフライブルクからマンザンビを5950万ポンドで獲得した。モーガン・ロジャーズ売却で得た資金を投じた今夏最大の補強と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "tielemans-astonvilla-manchesterunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Youri Tielemans",
+        "nameJa": "ユーリ・ティーレマンス"
+      },
+      "from": {
+        "club": "Aston Villa",
+        "clubJa": "アストン・ヴィラ",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Manchester United",
+        "clubJa": "マンチェスター・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "£35m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "マンチェスター・ユナイテッドがアストン・ヴィラからティーレマンスを3500万ポンドで獲得した。中盤の経験値を補う補強で、エリオット・アンダーソン獲得を逃した後の代替策と位置づけられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "antoniosilva-benfica-bournemouth",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Antonio Silva",
+        "nameJa": "アントニオ・シウバ"
+      },
+      "from": {
+        "club": "Benfica",
+        "clubJa": "ベンフィカ",
+        "league": "Primeira Liga"
+      },
+      "to": {
+        "club": "Bournemouth",
+        "clubJa": "ボーンマス",
+        "league": "Premier League"
+      },
+      "fee": "£25.7m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ボーンマスがベンフィカからアントニオ・シウバを獲得した。移籍金はSky Sportsが2570万ポンド、Football365が2140万ポンドと報じており報道間で差がある。守備の補強として位置づけられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "anthony-burnley-brentford",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Jaidon Anthony",
+        "nameJa": "ジェイドン・アンソニー"
+      },
+      "from": {
+        "club": "Burnley",
+        "clubJa": "バーンリー",
+        "league": "EFL Championship"
+      },
+      "to": {
+        "club": "Brentford",
+        "clubJa": "ブレントフォード",
+        "league": "Premier League"
+      },
+      "fee": "£17m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ブレントフォードが降格したバーンリーからジェイドン・アンソニーを獲得した。移籍金は1500万〜1700万ポンドと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "henderson-brentford-chelsea",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Jordan Henderson",
+        "nameJa": "ジョーダン・ヘンダーソン"
+      },
+      "from": {
+        "club": "Brentford",
+        "clubJa": "ブレントフォード",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ヘンダーソンがブレントフォードとの契約を1年前倒しで合意解除し、フリーでチェルシーへ移籍した。経験豊富なリーダーとして加入したと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "FootballTransfers",
+          "tier": 4,
+          "title": "Transfer News: 10 huge deals that could be completed this month",
+          "url": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/08/transfer-news-10-deals-could-be-completed-this-month-summer-window-deadline-day",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "vuskovic-tottenham-brighton",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Luka Vuskovic",
+        "nameJa": "ルカ・ヴシュコヴィッチ"
+      },
+      "from": {
+        "club": "Tottenham",
+        "clubJa": "トッテナム",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Brighton",
+        "clubJa": "ブライトン",
+        "league": "Premier League"
+      },
+      "fee": "£50m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ブライトンがトッテナムからヴシュコヴィッチを獲得した。移籍金はSky Sportsが5000万ポンド、Football365が4600万ポンドと報じている。ファン・ヘッケのトッテナム移籍と入れ替わる形の取引となった。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "vanhecke-brighton-tottenham",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Jan Paul van Hecke",
+        "nameJa": "ヤン・パウル・ファン・ヘッケ"
+      },
+      "from": {
+        "club": "Brighton",
+        "clubJa": "ブライトン",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Tottenham",
+        "clubJa": "トッテナム",
+        "league": "Premier League"
+      },
+      "fee": "£52m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "トッテナムがブライトンからファン・ヘッケを5200万ポンドで獲得した。トッテナムは今夏トナーリ、マテウス・フェルナンデスと合わせ大型補強を続けている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "lacroix-crystalpalace-chelsea",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Maxence Lacroix",
+        "nameJa": "マクサンス・ラクロワ"
+      },
+      "from": {
+        "club": "Crystal Palace",
+        "clubJa": "クリスタル・パレス",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "fee": "£51m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "チェルシーがクリスタル・パレスからラクロワを約5100万ポンドで獲得した。パレスは代役としてオスカル・ミンゲサをフリーで確保している。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "rushworth-brighton-coventrycity",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Carl Rushworth",
+        "nameJa": "カール・ラッシュワース"
+      },
+      "from": {
+        "club": "Brighton",
+        "clubJa": "ブライトン",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Coventry City",
+        "clubJa": "コヴェントリー・シティ",
+        "league": "Premier League"
+      },
+      "fee": "£22.5m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "昇格したコヴェントリー・シティがブライトンからラッシュワースを2250万ポンドで獲得した。プレミアリーグ初挑戦に向けたクラブ最大級の投資と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "mingueza-celtavigo-crystalpalace",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Oscar Mingueza",
+        "nameJa": "オスカル・ミンゲサ"
+      },
+      "from": {
+        "club": "Celta Vigo",
+        "clubJa": "セルタ・ビーゴ",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Crystal Palace",
+        "clubJa": "クリスタル・パレス",
+        "league": "Premier League"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "クリスタル・パレスがセルタ・ビーゴからミンゲサをフリーで獲得した。8月に入るまで移籍金の支出がないパレスにとって唯一の補強と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "hackney-middlesbrough-everton",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Hayden Hackney",
+        "nameJa": "ヘイデン・ハックニー"
+      },
+      "from": {
+        "club": "Middlesbrough",
+        "clubJa": "ミドルズブラ",
+        "league": "EFL Championship"
+      },
+      "to": {
+        "club": "Everton",
+        "clubJa": "エヴァートン",
+        "league": "Premier League"
+      },
+      "fee": "£24m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "エヴァートンがミドルズブラからハックニーを獲得した。移籍金は1650万〜2400万ポンドとメディアによって幅がある。中盤の再構築の一環と位置づけられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "wilson-fulham-leedsunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Harry Wilson",
+        "nameJa": "ハリー・ウィルソン"
+      },
+      "from": {
+        "club": "Fulham",
+        "clubJa": "フラム",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Leeds United",
+        "clubJa": "リーズ・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "リーズ・ユナイテッドがフラムからハリー・ウィルソンをフリーで獲得した。フラムは昨季の得点源2人を移籍金なしで失った形と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "butland-rangers-hullcity",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Jack Butland",
+        "nameJa": "ジャック・バトランド"
+      },
+      "from": {
+        "club": "Rangers",
+        "clubJa": "レンジャーズ",
+        "league": "Scottish Premiership"
+      },
+      "to": {
+        "club": "Hull City",
+        "clubJa": "ハル・シティ",
+        "league": "Premier League"
+      },
+      "fee": "£3m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "プレーオフを制して昇格したハル・シティがレンジャーズからバトランドを約300万ポンドで獲得した。イヴォル・パンドゥールの放出に伴うGK再編の一環と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "emersonn-toulouse-ipswichtown",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Emersonn",
+        "nameJa": "エメルソン"
+      },
+      "from": {
+        "club": "Toulouse",
+        "clubJa": "トゥールーズ",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Ipswich Town",
+        "clubJa": "イプスウィッチ・タウン",
+        "league": "Premier League"
+      },
+      "fee": "£26.6m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "昇格したイプスウィッチ・タウンがトゥールーズからエメルソンを約2660万ポンドで獲得した。今夏のイプスウィッチ最大の補強と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "muharemovic-sassuolo-leedsunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Tarik Muharemovic",
+        "nameJa": "タリク・ムハレモヴィッチ"
+      },
+      "from": {
+        "club": "Sassuolo",
+        "clubJa": "サッスオーロ",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Leeds United",
+        "clubJa": "リーズ・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "£34m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "リーズ・ユナイテッドがサッスオーロからムハレモヴィッチを約3400万ポンドで獲得した。ストライクをブライトンに売却した後方の穴埋めと位置づけられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "jacquet-rennes-liverpool",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Jeremy Jacquet",
+        "nameJa": "ジェレミー・ジャケ"
+      },
+      "from": {
+        "club": "Rennes",
+        "clubJa": "レンヌ",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Liverpool",
+        "clubJa": "リバプール",
+        "league": "Premier League"
+      },
+      "fee": "£55m〜£60m（報道により差）",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "リバプールがレンヌからジャケを獲得した。移籍金は5500万〜6000万ポンドと報じられている。コナテがフリーで退団した最終ラインの再建策と位置づけられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "konate-liverpool-realmadrid",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ibrahima Konate",
+        "nameJa": "イブラヒマ・コナテ"
+      },
+      "from": {
+        "club": "Liverpool",
+        "clubJa": "リバプール",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "コナテが契約満了に伴いリバプールを退団し、レアル・マドリードへフリーで加入した。リバプールは移籍金を得られないまま主力CBを失った形と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "robertson-liverpool-tottenham",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Andy Robertson",
+        "nameJa": "アンディ・ロバートソン"
+      },
+      "from": {
+        "club": "Liverpool",
+        "clubJa": "リバプール",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Tottenham",
+        "clubJa": "トッテナム",
+        "league": "Premier League"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ロバートソンがリバプールを離れ、フリーでトッテナムに加入した。トッテナムは今夏、大型補強とフリー獲得を組み合わせてスカッドを刷新している。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "monga-leicestercity-manchestercity",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Jeremy Monga",
+        "nameJa": "ジェレミー・モンガ"
+      },
+      "from": {
+        "club": "Leicester City",
+        "clubJa": "レスター・シティ",
+        "league": "EFL Championship"
+      },
+      "to": {
+        "club": "Manchester City",
+        "clubJa": "マンチェスター・シティ",
+        "league": "Premier League"
+      },
+      "fee": "£10m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "マンチェスター・シティがレスター・シティから若手のモンガを約1000万ポンドで獲得した。エリオット・アンダーソンの英国記録移籍と並ぶ今夏の補強の一環。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "bernardosilva-manchestercity-realmadrid",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Bernardo Silva",
+        "nameJa": "ベルナルド・シウバ"
+      },
+      "from": {
+        "club": "Manchester City",
+        "clubJa": "マンチェスター・シティ",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ベルナルド・シウバがマンチェスター・シティを退団し、レアル・マドリードへフリーで加入した。ストーンズ、アケらの放出と合わせた大規模な入れ替えの一環と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "santos-chelsea-manchesterunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Andrey Santos",
+        "nameJa": "アンドレイ・サントス"
+      },
+      "from": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Manchester United",
+        "clubJa": "マンチェスター・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "£48m〜£50m（報道により差）",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "マンチェスター・ユナイテッドがチェルシーからアンドレイ・サントスを獲得した。移籍金は4800万〜5000万ポンドと報じられている。マイケル・キャリック体制の中盤補強の中心と位置づけられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "toure-hoffenheim-newcastleunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Bazoumana Toure",
+        "nameJa": "バズマナ・トゥーレ"
+      },
+      "from": {
+        "club": "Hoffenheim",
+        "clubJa": "ホッフェンハイム",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Newcastle United",
+        "clubJa": "ニューカッスル・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "£42m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ニューカッスル・ユナイテッドがホッフェンハイムからバズマナ・トゥーレを4200万ポンドで獲得した。トナーリとゴードンの高額売却で得た資金を投じた再投資の一環と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "gordon-newcastleunited-barcelona",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Anthony Gordon",
+        "nameJa": "アンソニー・ゴードン"
+      },
+      "from": {
+        "club": "Newcastle United",
+        "clubJa": "ニューカッスル・ユナイテッド",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "fee": "£69.3m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "バルセロナがニューカッスル・ユナイテッドからゴードンを約6930万ポンドで獲得した。トナーリの1億ポンド売却と合わせ、ニューカッスルは今夏大きな売却収入を得た。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "schlager-rbleipzig-nottinghamforest",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Xaver Schlager",
+        "nameJa": "クサーヴァー・シュラーガー"
+      },
+      "from": {
+        "club": "RB Leipzig",
+        "clubJa": "RBライプツィヒ",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Nottingham Forest",
+        "clubJa": "ノッティンガム・フォレスト",
+        "league": "Premier League"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ノッティンガム・フォレストがRBライプツィヒからシュラーガーをフリーで獲得した。エリオット・アンダーソンをマンチェスター・シティに1億1600万ポンドで売却した後の中盤補強と報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "meunier-lille-sunderland",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Thomas Meunier",
+        "nameJa": "トマ・ムニエ"
+      },
+      "from": {
+        "club": "Lille",
+        "clubJa": "リール",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Sunderland",
+        "clubJa": "サンダーランド",
+        "league": "Premier League"
+      },
+      "fee": "無償（フリー移籍）",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "サンダーランドがリールからムニエをフリーで獲得した。今夏のサンダーランドは補強が限定的で、確認されている加入はこの1件のみと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "moore-tottenham-fckoln",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Mikey Moore",
+        "nameJa": "マイキー・ムーア"
+      },
+      "from": {
+        "club": "Tottenham",
+        "clubJa": "トッテナム",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "FC Koln",
+        "clubJa": "ケルン",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 45,
+      "trend": "up",
+      "status": "大詰め",
+      "summaryJa": "トッテナムの若手ムーアがケルンへレンタル移籍する可能性が報じられている。ケルン側は「近いうちに合意に達する自信がある」とされ、交渉は進んだ段階にある。",
+      "reasoning": "「合意に達する自信がある」との報道は個人条件・クラブ間協議が進んだ段階に相当するためベース60（55〜70帯の中位）。出典がCaughtOffside（Tier4）のみで−15。最終45。",
+      "sources": [
+        {
+          "outlet": "CaughtOffside",
+          "tier": 4,
+          "title": "Club 'confident of reaching an agreement very soon'",
+          "url": "https://www.caughtoffside.com/tags/premier-league/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "scott-bournemouth-chelsea",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Alex Scott",
+        "nameJa": "アレックス・スコット"
+      },
+      "from": {
+        "club": "Bournemouth",
+        "clubJa": "ボーンマス",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 30,
+      "trend": "up",
+      "status": "交渉中",
+      "summaryJa": "チェルシーがボーンマスのアレックス・スコット獲得に向けて協議を続けていると報じられている。選手側はボーンマスからの複数回の契約延長提案を拒否しているとされ、移籍金は明らかになっていない。",
+      "reasoning": "クラブ間で交渉中の段階としてベース45（35〜55帯の中位）。契約延長拒否は選手側の移籍志向を示すが合意の証拠ではないため加点しない。出典がFootballTransfers（Tier4）のみで−15。最終30。",
+      "sources": [
+        {
+          "outlet": "FootballTransfers",
+          "tier": 4,
+          "title": "Transfer News: 10 huge deals that could be completed this month",
+          "url": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/08/transfer-news-10-deals-could-be-completed-this-month-summer-window-deadline-day",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "konsa-astonvilla-arsenal",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Ezri Konsa",
+        "nameJa": "エズリ・コンサ"
+      },
+      "from": {
+        "club": "Aston Villa",
+        "clubJa": "アストン・ヴィラ",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Arsenal",
+        "clubJa": "アーセナル",
+        "league": "Premier League"
+      },
+      "fee": "£60m（報道）",
+      "type": "permanent",
+      "probability": 25,
+      "trend": "up",
+      "status": "オファー準備",
+      "summaryJa": "アーセナルがアストン・ヴィラのコンサに再オファーを準備しているとアストン・ヴィラ側が身構えていると報じられている。評価額は6000万ポンド規模とされる。",
+      "reasoning": "再オファー提出が見込まれる段階としてベース40（35〜55帯の下位）。ヴィラ側の合意は確認されていないため加点なし。出典がCaughtOffside（Tier4）のみで−15。最終25。",
+      "sources": [
+        {
+          "outlet": "CaughtOffside",
+          "tier": 4,
+          "title": "Club braced for Arsenal to launch new bid for £60m-rated star",
+          "url": "https://www.caughtoffside.com/tags/premier-league/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "romero-tottenham-atleticomadrid",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Cristian Romero",
+        "nameJa": "クリスティアン・ロメロ"
+      },
+      "from": {
+        "club": "Tottenham",
+        "clubJa": "トッテナム",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Atletico Madrid",
+        "clubJa": "アトレティコ・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 12,
+      "trend": "up",
+      "status": "関心",
+      "summaryJa": "アトレティコ・マドリードが退団を望むとされるロメロの獲得に動く準備をしていると報じられている。移籍金や交渉状況の詳細は明らかになっていない。",
+      "reasoning": "「動く準備をしている」は打診・接触の前段階に近いためベース28（20〜35帯の中位）。出典がCaughtOffside（Tier4）のみで−15。さらに同選手にはインテル移籍の報道も並行しており行き先が競合するため割り引き、最終12。",
+      "sources": [
+        {
+          "outlet": "CaughtOffside",
+          "tier": 4,
+          "title": "Atletico Madrid preparing move for wantaway Tottenham star",
+          "url": "https://www.caughtoffside.com/tags/premier-league/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "woltemade-newcastleunited-liverpool",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Nick Woltemade",
+        "nameJa": "ニック・ヴォルテマデ"
+      },
+      "from": {
+        "club": "Newcastle United",
+        "clubJa": "ニューカッスル・ユナイテッド",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Liverpool",
+        "clubJa": "リバプール",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 9,
+      "trend": "up",
+      "status": "打診段階",
+      "summaryJa": "ニューカッスル・ユナイテッドがヴォルテマデの放出を容認する意向をリバプールとマンチェスター・ユナイテッドに伝えたと報じられている。レンタルを含む形が想定されているが具体的な合意には至っていない。",
+      "reasoning": "放出容認の伝達は打診・接触段階に相当するためベース30。出典がCaughtOffside（Tier4）のみで−15して15。行き先がリバプールとマンチェスター・ユナイテッドで競合しており、リバプールを選ぶ確率を割り引いて最終9。",
+      "sources": [
+        {
+          "outlet": "CaughtOffside",
+          "tier": 4,
+          "title": "Newcastle inform Liverpool & Man United transfer target that he can leave",
+          "url": "https://www.caughtoffside.com/tags/premier-league/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "hall-newcastleunited-manchesterunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Lewis Hall",
+        "nameJa": "ルイス・ホール"
+      },
+      "from": {
+        "club": "Newcastle United",
+        "clubJa": "ニューカッスル・ユナイテッド",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Manchester United",
+        "clubJa": "マンチェスター・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 8,
+      "trend": "flat",
+      "status": "関心",
+      "summaryJa": "マンチェスター・ユナイテッドが左サイドバックの補強候補としてルイス・ホールに関心を示し、選手側も移籍に前向きと報じられている。オファー提出やクラブ間協議の報道は確認されていない。",
+      "reasoning": "興味・リストアップの報道のみのためベース18（5〜20帯の上位）。出典がFootballTransfers（Tier4）のみで−15し、ニューカッスルが主力の放出に消極的とされる状況も踏まえて下限付近に置き最終8。",
+      "sources": [
+        {
+          "outlet": "FootballTransfers",
+          "tier": 4,
+          "title": "Transfer News: 10 huge deals that could be completed this month",
+          "url": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/08/transfer-news-10-deals-could-be-completed-this-month-summer-window-deadline-day",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "gusto-chelsea-psg",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Malo Gusto",
+        "nameJa": "マロ・グスト"
+      },
+      "from": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "PSG",
+        "clubJa": "パリ・サンジェルマン",
+        "league": "Ligue 1"
+      },
+      "fee": "£75m（報道）",
+      "type": "permanent",
+      "probability": 10,
+      "trend": "flat",
+      "status": "関心",
+      "summaryJa": "PSGの監督がチェルシーのグスト獲得に前向きな判断を示したと報じられている。想定される移籍金は7500万ポンド規模だが、正式なオファーやクラブ間協議は確認されていない。",
+      "reasoning": "監督の内部承認は興味・リストアップの段階に留まるためベース18（5〜20帯の上位）。出典がCaughtOffside（Tier4）のみで−15。下限を踏まえて最終10。",
+      "sources": [
+        {
+          "outlet": "CaughtOffside",
+          "tier": 4,
+          "title": "Manager greenlights potential £75m Chelsea transfer raid",
+          "url": "https://www.caughtoffside.com/tags/premier-league/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "lewisskelly-arsenal-manchesterunited",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Myles Lewis-Skelly",
+        "nameJa": "マイルズ・ルイス=スケリー"
+      },
+      "from": {
+        "club": "Arsenal",
+        "clubJa": "アーセナル",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Manchester United",
+        "clubJa": "マンチェスター・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "down",
+      "status": "関心",
+      "summaryJa": "マンチェスター・ユナイテッドがアーセナルのルイス=スケリーに驚きの関心を示したと報じられたが、アーセナル側は売却対象ではないと伝えたとされる。交渉が進んでいる兆候はない。",
+      "reasoning": "興味の報道のみでベース12（5〜20帯の下位）。出典がCaughtOffside（Tier4）のみで−15、さらに保有クラブが売却を否定した点で−20。下限に張り付くため最終5。",
+      "sources": [
+        {
+          "outlet": "CaughtOffside",
+          "tier": 4,
+          "title": "Manchester United given update amid surprise interest",
+          "url": "https://www.caughtoffside.com/tags/premier-league/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "gonzalo-garcia-real-madrid-fulham",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Gonzalo García",
+        "nameJa": "ゴンサロ・ガルシア"
+      },
+      "from": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Fulham",
+        "clubJa": "フラム",
+        "league": "Premier League"
+      },
+      "fee": "€40m + €2m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "レアル・マドリードのカンテラ出身FWがフラムへ完全移籍した。移籍金は40MEURに加えて2MEURの追加条項付きと報じられている。5年契約を結んだとされる。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "outlet": "Football Espana",
+          "tier": 3,
+          "title": "Castilla Graduate García Leaves Real Madrid for Fulham",
+          "url": "https://www.football-espana.net/2026/08/04/gonzalo-garcia-fulham-real-madrid-transfer-2",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Every Premier League transfer confirmed in the summer of 2026",
+          "url": "https://www.football365.com/news/every-premier-league-transfer-confirmed-in-the-summer-of-2026",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "cucurella-chelsea-real-madrid",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Marc Cucurella",
+        "nameJa": "マルク・ククレジャ"
+      },
+      "from": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "チェルシーからレアル・マドリードへの完全移籍が7月27日付で公式に成立したと報じられた。移籍金の詳細は公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-07-27"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "cancelo-al-hilal-barcelona",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Joao Cancelo",
+        "nameJa": "ジョアン・カンセロ"
+      },
+      "from": {
+        "club": "Al-Hilal",
+        "clubJa": "アル・ヒラル",
+        "league": "Saudi Pro League"
+      },
+      "to": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "fee": "€10m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アル・ヒラルから10MEURでバルセロナへ復帰する完全移籍がまとまった。選手側が減俸を受け入れたことで交渉が決着したと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Football Espana",
+          "tier": 3,
+          "title": "Cancelo Agrees Pay Cut to Seal €10m Barcelona Return from Al-Hilal",
+          "url": "https://www.football-espana.net/2026/08/03/cancelo-barcelona-permanent-transfer-al-hilal",
+          "publishedAt": "2026-08-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "adeyemi-borussia-dortmund-barcelona",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Karim Adeyemi",
+        "nameJa": "カリム・アデイェミ",
+        "position": "FW",
+        "nationality": "ドイツ"
+      },
+      "from": {
+        "club": "Borussia Dortmund",
+        "clubJa": "ボルシア・ドルトムント",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ブンデスリーガ公式の移籍センターに、ドルトムントからバルセロナへの放出として掲載された。移籍金は公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "grimaldo-bayer-leverkusen-atletico-madrid",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Alejandro Grimaldo",
+        "nameJa": "アレハンドロ・グリマルド",
+        "nationality": "スペイン"
+      },
+      "from": {
+        "club": "Bayer Leverkusen",
+        "clubJa": "バイエル・レバークーゼン",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Atletico Madrid",
+        "clubJa": "アトレティコ・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "レバークーゼンからアトレティコ・マドリードへの完全移籍がブンデスリーガ公式の移籍センターに掲載された。スペイン復帰となる。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "gulacsi-rb-leipzig-villarreal",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Péter Gulácsi",
+        "nameJa": "ペーテル・グラーチ",
+        "position": "GK",
+        "nationality": "ハンガリー"
+      },
+      "from": {
+        "club": "RB Leipzig",
+        "clubJa": "RBライプツィヒ",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Villarreal",
+        "clubJa": "ビジャレアル",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "長年ライプツィヒの守護神を務めたGKがビジャレアルへ移籍した。ブンデスリーガ公式の移籍センターに放出として記載されている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "ter-stegen-barcelona-ajax",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Marc-André ter Stegen",
+        "nameJa": "マルク＝アンドレ・テア・シュテーゲン",
+        "position": "GK",
+        "nationality": "ドイツ"
+      },
+      "from": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "バルセロナのGKがアヤックスへレンタル移籍した。税務上の手続きで遅れが生じていたが解消され、アムステルダムでメディカルを受けた後に正式決定した。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "outlet": "Football Espana",
+          "tier": 3,
+          "title": "Ter Stegen Flies to Amsterdam for Ajax Medical After Tax Delays Resolved",
+          "url": "https://www.football-espana.net/2026/08/02/ter-stegen-ajax-loan-medical-amsterdam",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "mastantuono-real-madrid-fiorentina",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Franco Mastantuono",
+        "nameJa": "フランコ・マスタントゥオーノ"
+      },
+      "from": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Fiorentina",
+        "clubJa": "フィオレンティーナ",
+        "league": "Serie A"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 72,
+      "trend": "up",
+      "status": "クラブ間合意",
+      "summaryJa": "レアル・マドリードからフィオレンティーナへのレンタル移籍でクラブ間が合意に達したと報じられた。出場機会確保が目的とされる。",
+      "reasoning": "ベース: クラブ間で合意（70-85帯）の中位で76 → ソースがTier3のまとめ系のみで-5、独立した裏取り報道を確認できず加点なし → 72。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "nico-gonzalez-juventus-atletico-madrid",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Nico González",
+        "nameJa": "ニコ・ゴンサレス"
+      },
+      "from": {
+        "club": "Juventus",
+        "clubJa": "ユヴェントス",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Atletico Madrid",
+        "clubJa": "アトレティコ・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 54,
+      "trend": "up",
+      "status": "クラブ間交渉中",
+      "summaryJa": "ユヴェントスが要求移籍金を引き下げ、アトレティコ・マドリードへの移籍成立に近づいたと報じられた。合意額はまだ公表されていない。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出（35-55帯）の上限付近で55、要求額引き下げという前進材料で+5 → 60 → ソースがTier3単独で-5 → 55、8月2日以降の続報未確認で-1相当 → 54。",
+      "sources": [
+        {
+          "outlet": "Football Espana",
+          "tier": 3,
+          "title": "Juventus Drop Nico González Fee Demand to Seal Atlético Madrid Deal",
+          "url": "https://www.football-espana.net/2026/08/02/nico-gonzalez-atletico-madrid-juventus-transfer",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "ferran-torres-barcelona-psg",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ferran Torres",
+        "nameJa": "フェラン・トーレス"
+      },
+      "from": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "PSG",
+        "clubJa": "パリ・サンジェルマン",
+        "league": "Ligue 1"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 34,
+      "trend": "flat",
+      "status": "オファー準備中",
+      "summaryJa": "PSGがバルセロナのFWを狙い、今週中の正式オファー提出が見込まれると報じられた。一方でバルセロナは選手本人の意思表示を待つ姿勢で膠着状態が続いている。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出（35-55帯）の下限付近で39 → ソースがTier3のみで-5 → 34。膠着状態が7月26日から続いている点も上振れ材料なしと判断。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "outlet": "Football Espana",
+          "tier": 3,
+          "title": "PSG Want Ferran Torres — But Barcelona Are Waiting for Him to Blink",
+          "url": "https://www.football-espana.net/2026/07/26/ferran-torres-psg-barcelona-transfer-standoff",
+          "publishedAt": "2026-07-26"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "julian-alvarez-atletico-madrid-barcelona",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Julián Álvarez",
+        "nameJa": "フリアン・アルバレス"
+      },
+      "from": {
+        "club": "Atletico Madrid",
+        "clubJa": "アトレティコ・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 27,
+      "trend": "up",
+      "status": "代理人接触",
+      "summaryJa": "バルセロナのスポーツディレクターがマドリードで選手の代理人と会談し、獲得の可能性が生きていると報じられた。クラブ間の交渉には至っていない。",
+      "reasoning": "ベース: 打診・代理人接触が報じられた（20-35帯）の中位で32 → ソースがTier3単独で-5 → 27。クラブ間交渉入りの報道がないため上位帯には置かない。",
+      "sources": [
+        {
+          "outlet": "Football Espana",
+          "tier": 3,
+          "title": "Barcelona's Álvarez Pursuit Stays Alive as Deco Meets Agent in Madrid",
+          "url": "https://www.football-espana.net/2026/08/05/julian-alvarez-barcelona-deco-agent-meeting",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "kolo-muani-psg-juventus",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Randal Kolo Muani",
+        "nameJa": "ランダル・コロ・ムアニ",
+        "position": "FW",
+        "nationality": "フランス"
+      },
+      "from": {
+        "club": "PSG",
+        "clubJa": "パリ・サンジェルマン",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Juventus",
+        "clubJa": "ユヴェントス",
+        "league": "Serie A"
+      },
+      "fee": "€38m + €12m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "PSGからユヴェントスへの完全移籍が8月1日に成立した。移籍金は38MEURに加えて最大12MEURの追加条項付きと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "LIVE Done deals tracker: AS Roma and Juventus welcome new faces",
+          "url": "https://football-italia.net/summer-transfer-window-live-serie-a-done-deals-tracker/",
+          "publishedAt": "2026-08-01"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "koulierakis-wolfsburg-roma",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Konstantinos Koulierakis",
+        "nameJa": "コンスタンティノス・クリエラキス",
+        "position": "DF",
+        "nationality": "ギリシャ"
+      },
+      "from": {
+        "club": "Wolfsburg",
+        "clubJa": "ヴォルフスブルク",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Roma",
+        "clubJa": "ローマ",
+        "league": "Serie A"
+      },
+      "fee": "€16.5m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ヴォルフスブルクからローマへの完全移籍が7月31日に成立した。移籍金16.5MEURに追加条項と将来の売却益20%の分配条項が付くと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "LIVE Done deals tracker: AS Roma and Juventus welcome new faces",
+          "url": "https://football-italia.net/summer-transfer-window-live-serie-a-done-deals-tracker/",
+          "publishedAt": "2026-07-31"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "gutierrez-napoli-bayer-leverkusen",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Miguel Gutiérrez",
+        "nameJa": "ミゲル・グティエレス",
+        "position": "DF",
+        "nationality": "スペイン"
+      },
+      "from": {
+        "club": "Napoli",
+        "clubJa": "ナポリ",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Bayer Leverkusen",
+        "clubJa": "バイエル・レバークーゼン",
+        "league": "Bundesliga"
+      },
+      "fee": "€30m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "レバークーゼンがナポリからスペイン人左サイドバックの獲得を公式発表した。移籍金は30MEURで、グリマルドの後任という位置づけとされる。ナポリでは1シーズンのみのプレーだった。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "LIVE Done Deals Tracker: Latest Serie A transfer agreements for summer 2026",
+          "url": "https://football-italia.net/live-done-deal-tracker-latest-serie-a-transfer/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "molina-atletico-madrid-roma",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Nahuel Molina",
+        "nameJa": "ナウエル・モリーナ",
+        "position": "DF",
+        "nationality": "アルゼンチン"
+      },
+      "from": {
+        "club": "Atletico Madrid",
+        "clubJa": "アトレティコ・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Roma",
+        "clubJa": "ローマ",
+        "league": "Serie A"
+      },
+      "fee": "€18m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アトレティコ・マドリードの右サイドバックがローマへ完全移籍した。総額18MEURのパッケージで、選手の年俸は2.7MEURと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "LIVE Done Deals Tracker: Latest Serie A transfer agreements for summer 2026",
+          "url": "https://football-italia.net/live-done-deal-tracker-latest-serie-a-transfer/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "gila-lazio-ac-milan",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Mario Gila",
+        "nameJa": "マリオ・ヒラ",
+        "position": "DF"
+      },
+      "from": {
+        "club": "Lazio",
+        "clubJa": "ラツィオ",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "AC Milan",
+        "clubJa": "ACミラン",
+        "league": "Serie A"
+      },
+      "fee": "€25m + €5m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ACミランがラツィオからセンターバックを獲得した。移籍金は基本25MEURに最大5MEURの追加条項付きで、選手は5年契約を結んだと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "LIVE Done Deals Tracker: Latest Serie A transfer agreements for summer 2026",
+          "url": "https://football-italia.net/live-done-deal-tracker-latest-serie-a-transfer/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "hojlund-manchester-united-napoli",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Rasmus Højlund",
+        "nameJa": "ラスムス・ホイルンド",
+        "position": "FW",
+        "nationality": "デンマーク"
+      },
+      "from": {
+        "club": "Manchester United",
+        "clubJa": "マンチェスター・ユナイテッド",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Napoli",
+        "clubJa": "ナポリ",
+        "league": "Serie A"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "マンチェスター・ユナイテッドからナポリへの移籍が完了した案件として報じられている。移籍金の詳細は明らかにされていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Get Italian Football News",
+          "tier": 3,
+          "title": "Serie A Summer Transfers: Big Deals and Next Moves",
+          "url": "https://www.getfootballnewsitaly.com/2026/serie-a-summer-window-completed-deals-and-the-big-moves-still-in-play/",
+          "publishedAt": "2026-07-09"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "toure-atalanta-parma",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "El-Bilal Touré",
+        "nameJa": "エル・ビラル・トゥーレ"
+      },
+      "from": {
+        "club": "Atalanta",
+        "clubJa": "アタランタ",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Parma",
+        "clubJa": "パルマ",
+        "league": "Serie A"
+      },
+      "fee": "€1.5m + €10m",
+      "type": "loan-to-buy",
+      "probability": 76,
+      "trend": "up",
+      "status": "口頭合意",
+      "summaryJa": "アタランタからパルマへのレンタル移籍で口頭合意に達したと報じられた。レンタル料1.5MEURに10MEURの買い取りオプションが付き、パルマの残留と出場数の条件を満たせば義務化される。15%のセルオン条項も含まれる。",
+      "reasoning": "ベース: 移籍金でクラブ間が合意（70-85帯）の中位で80、ただし「口頭合意」段階で書面化前のため下振れ考慮 → ソースはTier2のFootball Italiaで補正なし、独立した裏取り未確認のため加点なし → 76。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "LIVE Done Deals Tracker: Latest Serie A transfer agreements for summer 2026",
+          "url": "https://football-italia.net/live-done-deal-tracker-latest-serie-a-transfer/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "leao-ac-milan-galatasaray",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Rafael Leao",
+        "nameJa": "ラファエル・レオン",
+        "position": "FW",
+        "nationality": "ポルトガル"
+      },
+      "from": {
+        "club": "AC Milan",
+        "clubJa": "ACミラン",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Galatasaray",
+        "clubJa": "ガラタサライ",
+        "league": "Super Lig"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 30,
+      "trend": "up",
+      "status": "代理人と会談",
+      "summaryJa": "ガラタサライが8月5日に選手の代理人と会談し、年俸最大11MEURのオファーを提示したと報じられた。ミラン側は50〜60MEURの移籍金を要求し、レンタルは認めない構えとされる。選手本人は検討の時間を求めている。",
+      "reasoning": "ベース: 打診・代理人接触が報じられた（20-35帯）の上位で35、ミランが売却条件を明示している点は前進材料 → ただしソースがTier4のまとめ系中心で-15、複数媒体が一致している点で+10 → 30。クラブ間の金額合意はまだない。",
+      "sources": [
+        {
+          "outlet": "MilanReports",
+          "tier": 4,
+          "title": "Turkish club Galatasaray met with Leao's representatives – The latest",
+          "url": "https://milanreports.com/2026/08/05/turkish-club-galatasaray-met-with-leaos-representatives-the-latest/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Türkiye Today",
+          "tier": 4,
+          "title": "Galatasaray steps up Rafael Leao pursuit with reported €11M salary offer",
+          "url": "https://www.turkiyetoday.com/sports/galatasaray-steps-up-rafael-leao-pursuit-with-reported-11m-salary-offer-3224404",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football Italia",
+          "tier": 2,
+          "title": "Rafael Leao awaits fresh Galatasaray and Fenerbahce proposals as AC Milan set sale terms",
+          "url": "https://football-italia.net/rafael-leao-awaits-galatasaray-fenerbahce/",
+          "publishedAt": "2026-07-24"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "endrick-real-madrid-roma",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Endrick",
+        "nameJa": "エンドリック"
+      },
+      "from": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Roma",
+        "clubJa": "ローマ",
+        "league": "Serie A"
+      },
+      "fee": "非公表",
+      "type": "loan-to-buy",
+      "probability": 38,
+      "trend": "flat",
+      "status": "クラブ間協議中",
+      "summaryJa": "ローマがレアル・マドリードのブラジル人FWの獲得に関心を示し、買い取りオプション付きレンタルの形が協議されていると報じられた。合意には至っていない。",
+      "reasoning": "ベース: クラブ間で交渉中（35-55帯）の中下位で43 → ソースがTier3のまとめ系単独で-5 → 38。8月2日以降の続報を確認できていないためトレンドはflat。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "zirkzee-manchester-united-juventus",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Joshua Zirkzee",
+        "nameJa": "ヨシュア・ジルクゼー",
+        "position": "FW",
+        "nationality": "オランダ"
+      },
+      "from": {
+        "club": "Manchester United",
+        "clubJa": "マンチェスター・ユナイテッド",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Juventus",
+        "clubJa": "ユヴェントス",
+        "league": "Serie A"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 30,
+      "trend": "down",
+      "status": "交渉中",
+      "summaryJa": "マンチェスター・ユナイテッドからユヴェントスへのレンタル移籍について交渉が進展していると報じられた。ただしその後の続報が確認できていない。",
+      "reasoning": "ベース: クラブ間で交渉中（35-55帯）の中位で45 → ソースがTier3のまとめ系単独で-5 → 40 → 7月30日以降5日以上更新がなく-10 → 30。停滞を反映しトレンドはdown。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-07-30"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "brown-eintracht-frankfurt-bayern-munich",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Nathaniel Brown",
+        "nameJa": "ナサニエル・ブラウン",
+        "position": "DF",
+        "nationality": "イングランド"
+      },
+      "from": {
+        "club": "Eintracht Frankfurt",
+        "clubJa": "アイントラハト・フランクフルト",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Bayern Munich",
+        "clubJa": "バイエルン・ミュンヘン",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "フランクフルトからバイエルン・ミュンヘンへの移籍がブンデスリーガ公式の移籍センターに掲載された。移籍金は公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "moreira-lyon-bayer-leverkusen",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Afonso Moreira",
+        "nameJa": "アフォンソ・モレイラ",
+        "position": "FW",
+        "nationality": "ポルトガル"
+      },
+      "from": {
+        "club": "Lyon",
+        "clubJa": "リヨン",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Bayer Leverkusen",
+        "clubJa": "バイエル・レバークーゼン",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "リヨンからレバークーゼンへの完全移籍がブンデスリーガ公式の移籍センターに掲載された。移籍金は約32MEUR規模と報じられているが、公式には公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "reitz-borussia-monchengladbach-rb-leipzig",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Rocco Reitz",
+        "nameJa": "ロッコ・ライツ",
+        "position": "MF",
+        "nationality": "ドイツ"
+      },
+      "from": {
+        "club": "Borussia Monchengladbach",
+        "clubJa": "ボルシア・メンヒェングラートバッハ",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "RB Leipzig",
+        "clubJa": "RBライプツィヒ",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "メンヒェングラートバッハからライプツィヒへの完全移籍がブンデスリーガ公式の移籍センターに掲載された。移籍金は公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "onyedika-club-brugge-eintracht-frankfurt",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Raphael Onyedika",
+        "nameJa": "ラファエル・オニェディカ",
+        "position": "MF",
+        "nationality": "ナイジェリア"
+      },
+      "from": {
+        "club": "Club Brugge",
+        "clubJa": "クラブ・ブルッヘ",
+        "league": "Belgian Pro League"
+      },
+      "to": {
+        "club": "Eintracht Frankfurt",
+        "clubJa": "アイントラハト・フランクフルト",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "クラブ・ブルッヘからフランクフルトへの完全移籍がブンデスリーガ公式の移籍センターに掲載された。移籍金は公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "brandt-borussia-dortmund-ajax",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Julian Brandt",
+        "nameJa": "ユリアン・ブラント",
+        "position": "MF",
+        "nationality": "ドイツ"
+      },
+      "from": {
+        "club": "Borussia Dortmund",
+        "clubJa": "ボルシア・ドルトムント",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "fee": "非公表",
+      "type": "free",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ドルトムントとの契約が満了したドイツ代表MFがアヤックスへ加入した。ブンデスリーガ公式は契約満了による退団と記載しており、移籍金は発生していない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Official Bundesliga transfer centre: Summer 2026",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/official-bundesliga-transfer-centre-summer-2026-37051",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "akliouche-monaco-psg",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Maghnes Akliouche",
+        "nameJa": "マゲネス・アクリウシュ",
+        "position": "MF",
+        "nationality": "フランス"
+      },
+      "from": {
+        "club": "Monaco",
+        "clubJa": "モナコ",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "PSG",
+        "clubJa": "パリ・サンジェルマン",
+        "league": "Ligue 1"
+      },
+      "fee": "€50m",
+      "type": "permanent",
+      "probability": 94,
+      "trend": "up",
+      "status": "メディカル待ち",
+      "summaryJa": "PSGとモナコが約50MEURで最終合意に達したと報じられた。選手は来週メディカルを受け、5年契約を結ぶ見込み。PSGは複数回のオファーを拒否された末に交渉を決着させた。",
+      "reasoning": "ベース: メディカル実施／発表待ち（85-99帯）の中位で93 → Fabrizio Romanoの「Here We Go」を含む複数媒体が一致で+5 → 98 → 一次ソースとして参照したのはTier3のGet French Football Newsで-5、正式発表前である点も考慮 → 94。",
+      "sources": [
+        {
+          "outlet": "Get French Football News",
+          "tier": 3,
+          "title": "Monaco agree €50m offer with PSG for Maghnes Akliouche",
+          "url": "https://www.getfootballnewsfrance.com/2026/monaco-agree-e50m-deal-with-psg-for-maghnes-akliouche/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "openda-juventus-lyon",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Loïs Openda",
+        "nameJa": "ロイス・オペンダ",
+        "position": "FW",
+        "nationality": "ベルギー"
+      },
+      "from": {
+        "club": "Juventus",
+        "clubJa": "ユヴェントス",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Lyon",
+        "clubJa": "リヨン",
+        "league": "Ligue 1"
+      },
+      "fee": "€3.5m",
+      "type": "loan",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ユヴェントスからリヨンへのレンタル移籍が7月28日に成立した。レンタル料は3.5MEURと報じられている。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-07-28"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "godts-ajax-psg",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Mika Godts",
+        "nameJa": "ミカ・ホーツ",
+        "position": "FW",
+        "nationality": "ベルギー"
+      },
+      "from": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "PSG",
+        "clubJa": "パリ・サンジェルマン",
+        "league": "Ligue 1"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 40,
+      "trend": "up",
+      "status": "オファー提出済み",
+      "summaryJa": "PSGが40MEURのオファーを提出したが、アヤックスに拒否されたと報じられた。交渉は継続しているとみられる。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出（35-55帯）の中位で45 → ソースがTier3のまとめ系単独で-5 → 40。オファーが拒否された段階で金額合意には至っていない。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "duranville-borussia-dortmund-lyon",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Julien Duranville",
+        "nameJa": "ジュリアン・デュランヴィル",
+        "position": "FW"
+      },
+      "from": {
+        "club": "Borussia Dortmund",
+        "clubJa": "ボルシア・ドルトムント",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Lyon",
+        "clubJa": "リヨン",
+        "league": "Ligue 1"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ドルトムントからリヨンへの移籍が2026年夏のフランス移籍リストに掲載されている。移籍金は公表されていない。",
+      "reasoning": "成立済みの取引として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Wikipedia",
+          "tier": 4,
+          "title": "List of French football transfers summer 2026",
+          "url": "https://en.wikipedia.org/wiki/List_of_French_football_transfers_summer_2026",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "greenwood-marseille-fenerbahce",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Mason Greenwood",
+        "nameJa": "メイソン・グリーンウッド",
+        "position": "FW"
+      },
+      "from": {
+        "club": "Marseille",
+        "clubJa": "マルセイユ",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Fenerbahce",
+        "clubJa": "フェネルバフチェ",
+        "league": "Super Lig"
+      },
+      "fee": "€40m + €2m",
+      "type": "permanent",
+      "probability": 88,
+      "trend": "up",
+      "status": "クラブ間合意",
+      "summaryJa": "フェネルバフチェがマルセイユと総額42MEURのパッケージで合意したと報じられた。固定40MEURに出来高2MEURという内訳で、選手は4年契約を結ぶ見込み。アトレティコ・マドリードとアル・アハリがより高額を提示したが、本人がトルコ行きを希望した。",
+      "reasoning": "ベース: 移籍金でクラブ間が合意（70-85帯）の上限85、選手本人が移籍先を選択済みで個人条件も固まっている点から発表待ち帯（85-99）の下位93と評価 → ソースがTier3の追随報道中心で-5 → 88。正式発表前のため100は付けない。",
+      "sources": [
+        {
+          "outlet": "FOX Sports",
+          "tier": 3,
+          "title": "Fenerbahce agree €42m Mason Greenwood transfer with Marseille as ex-Man Utd forward snubs Saudi Arabia move",
+          "url": "https://www.foxsports.com/articles/soccer/fenerbahce-agree-42m-mason-greenwood-transfer-with-marseille-as-ex-man-utd-forward-snubs-saudi-arabia-move",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "schjelderup-benfica-tottenham",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Andreas Schjelderup",
+        "nameJa": "アンドレアス・シェルデルップ"
+      },
+      "from": {
+        "club": "Benfica",
+        "clubJa": "ベンフィカ",
+        "league": "Primeira Liga"
+      },
+      "to": {
+        "club": "Tottenham",
+        "clubJa": "トッテナム",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 10,
+      "trend": "flat",
+      "status": "関心報道のみ",
+      "summaryJa": "トッテナムがベンフィカの選手に関心を示していると報じられた。オファー提出や交渉入りの報道は確認されていない。",
+      "reasoning": "ベース: 興味・リストアップの報道のみ（5-20帯）の中位で15 → ソースがTier3のまとめ系単独で-5 → 10。具体的な交渉の裏付けがない。",
+      "sources": [
+        {
+          "outlet": "BeSoccer",
+          "tier": 3,
+          "title": "Latest transfer news, football rumours and confirmed deals",
+          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "sano-nec-psv",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Kodai Sano",
+        "nameJa": "佐野航大",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "NEC Nijmegen",
+        "clubJa": "NECナイメヘン",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "PSV",
+        "clubJa": "PSVアイントホーフェン",
+        "league": "Eredivisie"
+      },
+      "fee": "最大約31億円と報道",
+      "type": "permanent",
+      "probability": 83,
+      "trend": "up",
+      "status": "発表待ち",
+      "summaryJa": "NECナイメヘンの佐野航大がオランダ王者PSVへ移籍することで合意に達したと報じられた。移籍金は最大31億円、契約は5年とされる。ナイメヘン関係者も「間もなく移籍が正式決定する」と語っている。",
+      "reasoning": "クラブ間で移籍金・契約年数まで合意し正式発表が近いとの報道のため、メディカル／発表待ちの帯（85-99）の下限寄りとしてベース88。Tier3のため−5で83。今夏に二度の移籍破談を経験している経緯があるため上振れさせず83で確定。",
+      "sources": [
+        {
+          "outlet": "サッカーダイジェストWeb",
+          "tier": 3,
+          "title": "佐野航大のPSV移籍合意",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=195328",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "佐野航大は「間もなく移籍が正式決定」「必要不可欠な戦力になる」ナイメヘン関係者明かす",
+          "url": "https://football-tribe.com/japan/2026/08/03/357696/",
+          "publishedAt": "2026-08-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "ueda-feyenoord-everton",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Ayase Ueda",
+        "nameJa": "上田綺世",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Feyenoord",
+        "clubJa": "フェイエノールト",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Everton",
+        "clubJa": "エバートン",
+        "league": "Premier League"
+      },
+      "fee": "エバートンが約2100万〜2300万ユーロを提示（フェイエノールトが拒否）",
+      "type": "permanent",
+      "probability": 35,
+      "trend": "down",
+      "status": "交渉中",
+      "summaryJa": "エールディビジ得点王の上田綺世に対し、エバートンが2100万〜2300万ユーロの移籍金を提示したが、フェイエノールトはこれを拒否した。ロッテルダムのクラブは3000万〜3500万ユーロを要求しており、金額差が埋まっていない。一方で「オファーがない」「移籍は困難」とする報道も並んでいる。",
+      "reasoning": "オファー提出済みだがクラブ間で金額が折り合っていないため「クラブ間で交渉中／オファー提出」帯（35-55）の中位でベース45。Tier3のため−5で40。「オファーなし」「移籍困難」という相反する報道が同時期に出ているため帯の上限以下に留め−5し35、trendはdown。",
+      "sources": [
+        {
+          "outlet": "サッカーダイジェストWeb",
+          "tier": 3,
+          "title": "「43億円のオファーを拒否」優勝９回のイングランド古豪が日本代表エースへ高額入札も…“拒絶”と現地報道",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=194946"
+        },
+        {
+          "outlet": "東スポWEB",
+          "tier": 3,
+          "title": "上田綺世にオファーなし？移籍金65億円の高額設定が〝障害〟 今季残留の可能性も",
+          "url": "https://www.tokyo-sports.co.jp/articles/-/397094"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世の獲得にプレミアリーグのエバートンが金額を提示！「売却を拒否した」",
+          "url": "https://football-tribe.com/japan/2026/07/26/357400/",
+          "publishedAt": "2026-07-26"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世の移籍困難！得点王も「魅力的ではない」その理由とは？",
+          "url": "https://football-tribe.com/japan/2026/08/05/357763/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "ueda-feyenoord-leeds",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Ayase Ueda",
+        "nameJa": "上田綺世",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Feyenoord",
+        "clubJa": "フェイエノールト",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Leeds United",
+        "clubJa": "リーズ・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "フェイエノールトが75億円超を要求と報道",
+      "type": "permanent",
+      "probability": 12,
+      "trend": "down",
+      "status": "噂",
+      "summaryJa": "リーズ・ユナイテッドは上田綺世の獲得レースから撤退したと報じられた。フェイエノールトが75億円超の移籍金を要求したことに対し、現地では「彼にその金額の価値はない」との見方が出ている。",
+      "reasoning": "一度は候補だったが撤退が報じられているため「興味・リストアップの報道のみ」帯（5-20）の中位でベース17。Tier3のため−5で12。撤退報道が最新の状況であるためtrendはdown。",
+      "sources": [
+        {
+          "outlet": "東スポWEB",
+          "tier": 3,
+          "title": "上田綺世 リーズが争奪戦から撤退か、移籍金75億円超要求も「彼にその金額の価値はない」",
+          "url": "https://www.tokyo-sports.co.jp/articles/-/395623"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "ueda-feyenoord-real-madrid",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ayase Ueda",
+        "nameJa": "上田綺世",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Feyenoord",
+        "clubJa": "フェイエノールト",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "スペインメディアの報道として、レアル・マドリードが上田綺世を獲得候補にリストアップしたと伝えられた。ただし具体的な交渉や打診は報じられておらず、フェイエノールト側の要求額は3000万〜3500万ユーロとされる。「W杯でのプレーでは不十分」として残留論も出ている。",
+      "reasoning": "リストアップ報道のみで打診も交渉も確認できないため「興味・リストアップの報道のみ」帯（5-20）でベース15。出典がまとめ系Tier4のため−15、下限として5に据え置き。複数クラブが候補に挙がる状況も割引要因。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世にレアル関心報道も！フェイエ、移籍金65億円要求も「W杯のプレーでは不十分」残留論も浮上",
+          "url": "https://football-tribe.com/japan/2026/07/24/357292/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世の移籍金65億円は「妥当なコスト」レアル移籍報道も！",
+          "url": "https://football-tribe.com/japan/2026/08/02/357670/",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "nakamura-reims-marseille",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Keito Nakamura",
+        "nameJa": "中村敬斗",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Reims",
+        "clubJa": "スタッド・ランス",
+        "league": "Ligue 2"
+      },
+      "to": {
+        "club": "Marseille",
+        "clubJa": "オリンピック・マルセイユ",
+        "league": "Ligue 1"
+      },
+      "fee": "ランスが最低2500万ユーロを要求",
+      "type": "permanent",
+      "probability": 26,
+      "trend": "flat",
+      "status": "交渉中",
+      "summaryJa": "フランス2部ランスの中村敬斗について、マルセイユが関心を示し、オファー提示も報じられている。ランスのCEOは選手との口頭合意があり退団を認める方針としつつ、獲得クラブには最低2500万ユーロを要求している。エバートン、リーズ、ベシクタシュなども関心を示している。",
+      "reasoning": "オファー提示の報道がある一方、最新記事では関心段階と整理されているため「クラブ間で交渉中／オファー提出」帯（35-55）の下限でベース38。Tier3のため−5で33。移籍先候補が5クラブ以上に分散しているため「移籍する確率×マルセイユを選ぶ確率」で割り引き26。報道が食い違うため上振れさせない。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "中村敬斗に新たな移籍先候補が！「逆足のWG好んでいる」「そう簡単には見つからない選手」",
+          "url": "https://football-tribe.com/japan/2026/08/03/357694/",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "outlet": "東スポWEB",
+          "tier": 3,
+          "title": "中村敬斗、移籍金46億円に「正気の沙汰ではない」と英メディア、エバートンに撤退を提言",
+          "url": "https://www.tokyo-sports.co.jp/articles/-/397519"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "中村敬斗の移籍巡り動きが！「ランスと合意」「代理人に接触」移籍金45億円超",
+          "url": "https://football-tribe.com/japan/2026/07/03/356435/",
+          "publishedAt": "2026-07-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "nakamura-reims-inter",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Keito Nakamura",
+        "nameJa": "中村敬斗",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Reims",
+        "clubJa": "スタッド・ランス",
+        "league": "Ligue 2"
+      },
+      "to": {
+        "club": "Inter Milan",
+        "clubJa": "インテル",
+        "league": "Serie A"
+      },
+      "fee": "ランスが最低2500万ユーロを要求",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "中村敬斗の移籍先候補としてインテルの名前が挙がっている。ランス側は退団を容認する方針だが、最低2500万ユーロの移籍金を求めている。現時点では関心段階にとどまる。",
+      "reasoning": "関心段階のみの報道のため「興味・リストアップの報道のみ」帯（5-20）でベース15。まとめ系Tier4のため−15し下限の5。候補クラブが多数競合していることも割引要因。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "中村敬斗に新たな移籍先候補が！「逆足のWG好んでいる」「そう簡単には見つからない選手」",
+          "url": "https://football-tribe.com/japan/2026/08/03/357694/",
+          "publishedAt": "2026-08-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "nakamura-reims-monaco",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Keito Nakamura",
+        "nameJa": "中村敬斗",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Reims",
+        "clubJa": "スタッド・ランス",
+        "league": "Ligue 2"
+      },
+      "to": {
+        "club": "Monaco",
+        "clubJa": "ASモナコ",
+        "league": "Ligue 1"
+      },
+      "fee": "ランスが最低2500万ユーロを要求",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "中村敬斗の移籍先候補としてASモナコが報じられている。ランスは口頭で選手との合意に達し退団を認める方針だが、最低2500万ユーロを要求している。交渉やオファーの段階には至っていない。",
+      "reasoning": "関心段階のみのため「興味・リストアップの報道のみ」帯（5-20）でベース15。まとめ系Tier4で−15し下限の5。多数のクラブが候補として並列に報じられている点も割引要因。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "中村敬斗に新たな移籍先候補が！「逆足のWG好んでいる」「そう簡単には見つからない選手」",
+          "url": "https://football-tribe.com/japan/2026/08/03/357694/",
+          "publishedAt": "2026-08-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "nakamura-reims-galatasaray",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Keito Nakamura",
+        "nameJa": "中村敬斗",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Reims",
+        "clubJa": "スタッド・ランス",
+        "league": "Ligue 2"
+      },
+      "to": {
+        "club": "Galatasaray",
+        "clubJa": "ガラタサライ",
+        "league": "Süper Lig"
+      },
+      "fee": "ランスが最低2500万ユーロを要求",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "中村敬斗の移籍先候補の一つとしてガラタサライが挙げられている。ランス側は最低2500万ユーロの移籍金を要求しており、現段階では関心報道にとどまる。",
+      "reasoning": "関心段階のみのため「興味・リストアップの報道のみ」帯（5-20）でベース15。まとめ系Tier4で−15し下限の5。競合クラブが多いため上振れさせない。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "中村敬斗に新たな移籍先候補が！「逆足のWG好んでいる」「そう簡単には見つからない選手」",
+          "url": "https://football-tribe.com/japan/2026/08/03/357694/",
+          "publishedAt": "2026-08-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "itakura-ajax-fulham",
+      "tags": [
+        "japanese",
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ko Itakura",
+        "nameJa": "板倉滉",
+        "position": "DF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Fulham",
+        "clubJa": "フラム",
+        "league": "Premier League"
+      },
+      "fee": "アヤックスの評価額は約950万ユーロ",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "up",
+      "status": "噂",
+      "summaryJa": "アヤックスは出場機会を求める板倉滉の今夏の退団を容認しており、移籍先候補としてフラムが最有力と報じられた。プレミアリーグ挑戦が最も現実的とされるが、正式オファーが提出されるかは不明のままだ。アヤックスは昨夏の獲得金1050万ユーロの回収を望んでいる。",
+      "reasoning": "クラブは放出を容認しているが正式オファーは未提出と明記されているため「興味・リストアップの報道のみ」帯（5-20）の上限20をベースとした。出典がまとめ系Tier4のみのため−15で5。最有力候補という位置づけのためtrendはup。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "板倉滉に3つの移籍先候補浮上！「CL出場」「資金力ある」「18億円回収可能」プレミア挑戦が最有力",
+          "url": "https://football-tribe.com/japan/2026/08/05/357765/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "板倉滉が退団へ！「認められている」「アヤックスは板倉の売却によって得た資金を…」",
+          "url": "https://football-tribe.com/japan/2026/08/03/357711/",
+          "publishedAt": "2026-08-03"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "itakura-ajax-club-brugge",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ko Itakura",
+        "nameJa": "板倉滉",
+        "position": "DF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Club Brugge",
+        "clubJa": "クラブ・ブルッヘ",
+        "league": "Belgian Pro League"
+      },
+      "fee": "アヤックスの評価額は約950万ユーロ",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "板倉滉の移籍先候補としてクラブ・ブルッヘが挙がっている。チャンピオンズリーグ出場が見込め、他の候補より出場機会を得やすい点が利点として指摘された。正式オファーの段階には至っていない。",
+      "reasoning": "候補としての言及のみで正式オファーは未提出のため「興味・リストアップの報道のみ」帯（5-20）でベース15。まとめ系Tier4のみで−15し下限の5。3クラブ競合のため割引も適用。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "板倉滉に3つの移籍先候補浮上！「CL出場」「資金力ある」「18億円回収可能」プレミア挑戦が最有力",
+          "url": "https://football-tribe.com/japan/2026/08/05/357765/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "itakura-ajax-lyon",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ko Itakura",
+        "nameJa": "板倉滉",
+        "position": "DF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Lyon",
+        "clubJa": "オリンピック・リヨン",
+        "league": "Ligue 1"
+      },
+      "fee": "アヤックスの評価額は約950万ユーロ",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "板倉滉の移籍先候補としてオリンピック・リヨンの名前が報じられた。プレースタイルの相性とクラブの資金力が理由として挙げられている。正式オファーが出るかは不明とされる。",
+      "reasoning": "候補としての言及のみで正式オファーは未提出のため「興味・リストアップの報道のみ」帯（5-20）でベース15。まとめ系Tier4のみで−15し下限の5。3クラブ競合の割引も加味。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "板倉滉に3つの移籍先候補浮上！「CL出場」「資金力ある」「18億円回収可能」プレミア挑戦が最有力",
+          "url": "https://football-tribe.com/japan/2026/08/05/357765/",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "sugawara-southampton-psv",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Yukinari Sugawara",
+        "nameJa": "菅原由勢",
+        "position": "DF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Southampton",
+        "clubJa": "サウサンプトン",
+        "league": "Championship"
+      },
+      "to": {
+        "club": "PSV",
+        "clubJa": "PSVアイントホーフェン",
+        "league": "Eredivisie"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "ブレーメンへの期限付き移籍が満了した菅原由勢について、サウサンプトン復帰は微妙とされ、かつて所属したPSVアイントホーフェンへの移籍が急浮上したと報じられた。PSVは右サイドバックの補強が急務とされている。",
+      "reasoning": "候補として浮上したとの報道のみで打診やオファーは確認できないため「興味・リストアップの報道のみ」帯（5-20）の上限20をベース。まとめ系Tier4のみで−15、さらに報道が7月29日で5日以上更新がないため−10となるが、下限として5に据え置いた。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "菅原由勢の去就で新展開！「アメリカ代表DFの後釜に…」堂安律の古巣急浮上！サウサンプトン復帰微妙か",
+          "url": "https://football-tribe.com/japan/2026/07/29/357528/",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "菅原由勢の去就で新情報！「見限られている」「日本代表W杯ベスト32敗退でメリット」",
+          "url": "https://football-tribe.com/japan/2026/07/07/356622/",
+          "publishedAt": "2026-07-07"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "hatate-celtic-west-ham",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Reo Hatate",
+        "nameJa": "旗手怜央",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Celtic",
+        "clubJa": "セルティック",
+        "league": "Scottish Premiership"
+      },
+      "to": {
+        "club": "West Ham",
+        "clubJa": "ウェストハム・ユナイテッド",
+        "league": "EFL Championship"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 8,
+      "trend": "up",
+      "status": "噂",
+      "summaryJa": "旗手怜央は自ら退団の意向を公にし、セルティック側も引き止めない見通しと報じられている。移籍先としてウェストハム・ユナイテッドの関心が伝えられ、MLSクラブを含め最低4クラブによる争奪戦になっているとされる。",
+      "reasoning": "選手が退団意向を明言しクラブも容認、「ウェストハムへ向かう」という報道があるため「打診・代理人接触が報じられた」帯（20-35）の下限でベース23。まとめ系Tier4のみで−15し8。MLSを含む4クラブ以上が競合しているため上振れさせず、動きが継続しているためtrendはup。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "旗手怜央が退団へ！「クラブが引き止める可能性は低い」「ウエストハムへ向かう…」",
+          "url": "https://football-tribe.com/japan/2026/07/24/357324/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "古橋亨梧につづき…旗手怜央にMLS移籍浮上！「すでにオファー提示」ウェストハム含めて最低4クラブ争奪戦",
+          "url": "https://football-tribe.com/japan/2026/07/31/357613/",
+          "publishedAt": "2026-07-31"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "sano-mainz-brighton",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Kaishu Sano",
+        "nameJa": "佐野海舟",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Mainz",
+        "clubJa": "マインツ",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Brighton",
+        "clubJa": "ブライトン",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "up",
+      "status": "噂",
+      "summaryJa": "佐野海舟の去就について、英メディアはリバプールよりも三笘薫が所属するブライトンなどの方が現実的な移籍先だと報じた。セリエAへの移籍が「避けられない」との見方も同時に伝えられている。マインツ幹部は他クラブからの関心にも言及している。",
+      "reasoning": "具体的なオファーや交渉は報じられておらず「現実的な移籍先」としての言及のみのため「興味・リストアップの報道のみ」帯（5-20）の上限20をベース。まとめ系Tier4のみで−15し5。セリエA移籍説と並立しているため割引を維持、英メディアが有力視した点を踏まえtrendはup。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "佐野海舟の去就で「三笘薫所属ブライトン等の方が現実的」と英報道！「避けられない」セリエA移籍も浮上",
+          "url": "https://football-tribe.com/japan/2026/07/30/357564/",
+          "publishedAt": "2026-07-30"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "endo-liverpool-al-nassr",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Wataru Endo",
+        "nameJa": "遠藤航",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Liverpool",
+        "clubJa": "リバプール",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Al-Nassr",
+        "clubJa": "アル・ナスル",
+        "league": "Saudi Pro League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "down",
+      "status": "噂",
+      "summaryJa": "日本代表を引退した遠藤航に対し、サウジアラビアのアル・ナスルが獲得オファーを用意していると報じられた。しかしその後、遠藤の獲得を狙っていた中東クラブに補強禁止処分が下り資金不足も指摘され、交渉は難しい状況になっている。遠藤はリバプールに早期合流して新シーズンの準備を進めている。",
+      "reasoning": "「オファー用意」の段階のため「打診・代理人接触が報じられた」帯（20-35）の中位でベース28。まとめ系Tier4のみで−15し13。初報が6月29日で5日以上更新がなく−10。さらに中東クラブへの補強禁止処分・資金不足という否定的な最新報道があるため下限の5に据え、trendはdown。to.clubがアル・ナスルであるとの特定は6月の報道に基づくもので、その後の否定的報道が同一クラブを指すかは未確認。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "日本代表引退の遠藤航、中東移籍か！「オファー用意」リバプールで「絶好の機会」到来も…",
+          "url": "https://football-tribe.com/japan/2026/06/29/356232/",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "日本代表引退・遠藤航の獲得狙っていた！中東クラブに補強禁止処分「資金不足」元J指揮官招へいも問題山積",
+          "url": "https://football-tribe.com/japan/2026/07/29/357539/",
+          "publishedAt": "2026-07-29"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "goto-anderlecht-freiburg",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Keisuke Goto",
+        "nameJa": "後藤啓介",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Anderlecht",
+        "clubJa": "アンデルレヒト",
+        "league": "Belgian Pro League"
+      },
+      "to": {
+        "club": "Freiburg",
+        "clubJa": "フライブルク",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アンデルレヒトの後藤啓介がブンデスリーガのフライブルクへ移籍した。2026年夏に決定した日本人選手の海外移籍一覧に掲載されている。",
+      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Goal.com 日本",
+          "tier": 3,
+          "title": "今夏の海外日本人選手の決定した移籍は？",
+          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/japanese-summer-2026-transfer-all-list/blt67b80c567faafb7e",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "sato-fc-tokyo-valencia",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Ryunosuke Sato",
+        "nameJa": "佐藤龍之介",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "FC Tokyo",
+        "clubJa": "FC東京",
+        "league": "J1 League"
+      },
+      "to": {
+        "club": "Valencia",
+        "clubJa": "バレンシア",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "FC東京の佐藤龍之介がスペイン1部バレンシアへ移籍した。2026年夏に決定した日本人選手の海外移籍として一覧に掲載されている。",
+      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Goal.com 日本",
+          "tier": 3,
+          "title": "今夏の海外日本人選手の決定した移籍は？",
+          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/japanese-summer-2026-transfer-all-list/blt67b80c567faafb7e",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "ogiwara-urawa-leuven",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Takuya Ogiwara",
+        "nameJa": "荻原拓也",
+        "position": "DF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Urawa Reds",
+        "clubJa": "浦和レッズ",
+        "league": "J1 League"
+      },
+      "to": {
+        "club": "OH Leuven",
+        "clubJa": "ルーヴェン",
+        "league": "Belgian Pro League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "浦和レッズの荻原拓也がベルギー1部のルーヴェンへ移籍した。2026年夏に決定した日本人選手の海外移籍一覧に掲載されている。",
+      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Goal.com 日本",
+          "tier": 3,
+          "title": "今夏の海外日本人選手の決定した移籍は？",
+          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/japanese-summer-2026-transfer-all-list/blt67b80c567faafb7e",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "tanaka-dusseldorf-schalke",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Satoshi Tanaka",
+        "nameJa": "田中聡",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Fortuna Düsseldorf",
+        "clubJa": "フォルトゥナ・デュッセルドルフ",
+        "league": "2. Bundesliga"
+      },
+      "to": {
+        "club": "Schalke",
+        "clubJa": "シャルケ",
+        "league": "2. Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "フォルトゥナ・デュッセルドルフの田中聡がドイツの名門シャルケへ移籍した。2026年夏に決定した日本人選手の海外移籍としてGoal.comの一覧に掲載されている。",
+      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Goal.com 日本",
+          "tier": 3,
+          "title": "今夏の海外日本人選手の決定した移籍は？",
+          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/japanese-summer-2026-transfer-all-list/blt67b80c567faafb7e",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:22:58Z"
     }
   ]
 }
