@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T02:22:58Z",
-  "nextUpdateAt": "2026-08-06T02:52:58Z",
+  "generatedAt": "2026-08-06T23:43:06Z",
+  "nextUpdateAt": "2026-08-07T00:13:06Z",
   "updateSchedule": {
     "intervalMinutes": 30,
     "timezone": "Asia/Tokyo",
@@ -355,6 +355,53 @@
       "updatedAt": "2026-08-05T18:58:00Z"
     },
     {
+      "id": "badiashile-chelsea-napoli",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Benoît Badiashile",
+        "nameJa": "バンジャマン・バディアシル",
+        "position": "DF",
+        "nationality": "フランス"
+      },
+      "from": {
+        "club": "Chelsea",
+        "clubJa": "チェルシー",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Napoli",
+        "clubJa": "ナポリ",
+        "league": "Serie A"
+      },
+      "fee": "ローン料約€3m+買取OPで最大€20-23m",
+      "type": "loan-to-buy",
+      "probability": 75,
+      "trend": "up",
+      "status": "クラブ間合意",
+      "summaryJa": "アレグリ新監督のナポリがチェルシーと交渉し、季了ローン+買取オプション付きで合意に近づいていると複数のイタリア/英メディアが報じた。チェルシーは今夏の構想外としており、9月1日の期限までの放出を目指している。",
+      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Get French Football News・FootballTransfersなど複数のTier3が同時期に「合意間近」「合意に近づいている」と独立して報じている点で+。一方で一部報道は「€30mでの合意は難しい」とも触れており上限までは上げず75%。",
+      "sources": [
+        {
+          "outlet": "Get French Football News",
+          "tier": 3,
+          "title": "Chelsea and Napoli nearing agreement over Benoît Badiashile",
+          "url": "https://www.getfootballnewsfrance.com/2026/chelsea-and-napoli-nearing-agreement-over-benoit-badiashile/",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "outlet": "FootballTransfers",
+          "tier": 3,
+          "title": "Chelsea transfer news: Benoit Badiashile reaches contract agreement with Napoli",
+          "url": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/08/chelsea-transfer-news-benoit-badiashile-napoli-contract-agreement-summer-2026",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-06T23:43:06Z"
+    },
+    {
       "id": "bouaddi-lille-mancity",
       "tags": [
         "premier"
@@ -495,28 +542,74 @@
       },
       "fee": "最大 £51m",
       "type": "permanent",
-      "probability": 58,
-      "trend": "up",
-      "status": "交渉開始",
-      "summaryJa": "レアル・マドリードがシティと交渉を開始し、£51m 超の支出も想定しているとされる。選手側はバルセロナ移籍を検討しておらず、マドリード一択との報道も出ている。",
-      "reasoning": "ベース: クラブ間で交渉中 = 35–55%。選手の意向が移籍先を1クラブに絞っていると報じられている点が大きく+(競合クラブによる価格つり上げ・翻意のリスクが小さい)。一方でシティが主力の放出に応じる保証はなく、合意の報道もないため58%。",
+      "probability": 42,
+      "trend": "down",
+      "status": "バルセロナが競合",
+      "summaryJa": "レアル・マドリードは交渉を続けているが、バルセロナがロドリと個人条件で合意したとの報道が新たに出て「マドリード一択」の構図が崩れた。Sky Sports や Goal はなおマドリード優位とも報じており、報道が対立している。",
+      "reasoning": "ベース: クラブ間で交渉中 = 35–55%。前回は選手の意向がマドリード一択との報道で加点していたが、今回バルセロナが個人条件合意との報道(Managing Madrid経由でMARCA/The Athletic発)が出て前提が崩れた。ただしSky Sports(Tier2)・Goal(Tier3)は依然マドリードが本命との報道を続けており、行き先が競合している状態。「移籍する確率×マドリードを選ぶ確率」で割り引き42%、トレンドは下降。",
       "sources": [
         {
-          "outlet": "Football365",
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Rodri transfer latest: Real Madrid expected to make bid for Manchester City midfielder after prolonged interest",
+          "url": "https://www.skysports.com/football/news/11095/13568453/rodri-transfer-latest-real-madrid-expected-to-make-bid-for-manchester-city-midfielder-after-prolonged-interest",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "outlet": "Goal.com",
           "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "title": "Rodri gives the final word to Real Madrid and moves to facilitate the deal",
+          "url": "https://www.goal.com/en/news/rodri-gives-real-madrid-the-final-word-and-moves-to-facilitate-the-deal/blt1f6c14af66669cb1",
+          "publishedAt": "2026-08-06"
         },
         {
           "outlet": "Managing Madrid",
           "tier": 4,
-          "title": "Rodri not even considering Barcelona move",
-          "url": "https://www.managingmadrid.com/110946/rodri-barcelona-real-madrid-news-rumors-2026",
-          "publishedAt": "2026-08-05"
+          "title": "BREAKING: Rodri snubs Real Madrid, agrees to terms with Barcelona -report",
+          "url": "https://www.managingmadrid.com/111026/rodri-barcelona-real-madrid-2026-news-rumors",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-06T23:43:06Z"
+    },
+    {
+      "id": "rodri-mancity-barcelona",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Rodri",
+        "nameJa": "ロドリ",
+        "position": "MF",
+        "nationality": "スペイン"
+      },
+      "from": {
+        "club": "Manchester City",
+        "clubJa": "マンチェスター・シティ",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 38,
+      "trend": "flat",
+      "status": "個人条件合意(報道)",
+      "summaryJa": "Managing MadridがMARCAやThe Athleticの報道を引いて、ロドリがバルセロナと個人条件で合意し、シティとの交渉に入ったと伝えた。ただしSky SportsやGoalは依然レアル・マドリードが本命との見方を示しており、報道は割れている。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%。ただし報道の中心がManaging Madrid(Tier4のまとめブログ)であり、同時期のTier2/3(Sky Sports・Goal)は逆にレアル優位を報じている食い違いが大きいため-20程度の大幅減点。シティ側の合意も未報道。新規カードとして38%、トレンドは基準なしのためflat。",
+      "sources": [
+        {
+          "outlet": "Managing Madrid",
+          "tier": 4,
+          "title": "BREAKING: Rodri snubs Real Madrid, agrees to terms with Barcelona -report",
+          "url": "https://www.managingmadrid.com/111026/rodri-barcelona-real-madrid-2026-news-rumors",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-06T23:43:06Z"
     },
     {
       "id": "rulli-marseille-mancity",
@@ -578,14 +671,21 @@
         "clubJa": "レアル・マドリード",
         "league": "LaLiga"
       },
-      "fee": "非公表",
+      "fee": "約€140m(報道)",
       "type": "permanent",
-      "probability": 54,
+      "probability": 78,
       "trend": "up",
-      "status": "交渉中",
-      "summaryJa": "レアル・マドリードはライプツィヒのプレシーズンツアー出発前の合意を目指していると報じられた。時間的な区切りが設けられている。",
-      "reasoning": "ベース: クラブ間で交渉中 = 35–55%。買い手が自らデッドラインを設けている(=本気度が高い)ぶんを+して帯の上限54%。ライプツィヒが売却に応じる合意はまだ報じられていないため、それ以上は上げない。",
+      "status": "メディカル(単独ソース)",
+      "summaryJa": "レアル・マドリードとライプツィヒが約€140mで合意に達し、ヤン・ディオマンデがメディカルへ向かう見通しと報じられた。現時点では単独ソースでの報道。",
+      "reasoning": "ベース: メディカル実施済み = 85–99%の帯だが、報じているのがBavarian Football Works(Tier4のSBNation系ブログ)単独で他の大手による裏付けが確認できないため-15程度の減点をして78%。前回の「交渉中」段階からは大きく前進しているためトレンドは上昇。",
       "sources": [
+        {
+          "outlet": "Bavarian Football Works",
+          "tier": 4,
+          "title": "RB Leipzig, Real Madrid on verge of deal that could be worth €140M",
+          "url": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/239728/rb-leipzig-real-madrid-on-verge-of-blockbuster-deal-that-could-be-worth-e140-million",
+          "publishedAt": "2026-08-06"
+        },
         {
           "outlet": "BeSoccer",
           "tier": 3,
@@ -594,7 +694,7 @@
           "publishedAt": "2026-08-05"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-06T23:43:06Z"
     },
     {
       "id": "asencio-realmadrid-liverpool",
