@@ -119,11 +119,15 @@ const state = {
   photos: {},
   meta: {},
   cat: 'all',
+  clubs: new Set(), // Big 6 の絞り込み。空なら絞り込まない
   q: '',
   sort: 'prob-desc',
   minProb: 0,
   hideDone: false,
 };
+
+/** その案件が指定クラブに関係するか（移籍元・移籍先のどちらでも該当とする） */
+const involvesClub = (item, club) => item.from.club === club || item.to.club === club;
 
 /* ---------- rendering ---------- */
 
@@ -275,6 +279,8 @@ function visibleItems() {
   const q = state.q.trim().toLowerCase();
   let list = state.items.filter((it) => {
     if (!inCategory(it, state.cat)) return false;
+    // 複数クラブを選んだ場合は OR（アーセナル または チェルシー）
+    if (state.clubs.size && ![...state.clubs].some((c) => involvesClub(it, c))) return false;
     if (it.probability < state.minProb) return false;
     if (state.hideDone && isDone(it)) return false;
     if (!q) return true;
@@ -302,6 +308,19 @@ function render() {
   document.querySelectorAll('[data-count]').forEach((el) => {
     el.textContent = state.items.filter((i) => inCategory(i, el.dataset.count)).length;
   });
+
+  // クラブごとの件数は「今開いているカテゴリタブの中で」数える
+  const inTab = state.items.filter((i) => inCategory(i, state.cat));
+  document.querySelectorAll('.clubchip').forEach((btn) => {
+    const club = btn.dataset.club;
+    const n = inTab.filter((i) => involvesClub(i, club)).length;
+    btn.querySelector('.clubchip__n').textContent = n;
+    btn.classList.toggle('is-on', state.clubs.has(club));
+    btn.setAttribute('aria-pressed', state.clubs.has(club) ? 'true' : 'false');
+    btn.disabled = n === 0 && !state.clubs.has(club);
+    btn.style.opacity = btn.disabled ? '.45' : '';
+  });
+  $('#clubClear').hidden = state.clubs.size === 0;
 }
 
 /** 現在時刻の「時」を更新スケジュールのタイムゾーンで取る。 */
@@ -393,6 +412,21 @@ function initControls() {
     if (!btn) return;
     document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('is-active', t === btn));
     state.cat = btn.dataset.cat;
+    render();
+  });
+
+  // Big 6 のクラブ絞り込み。同じチップをもう一度押すと解除（複数選択可）
+  $('#clubChips').addEventListener('click', (e) => {
+    const btn = e.target.closest('.clubchip');
+    if (!btn || btn.disabled) return;
+    const club = btn.dataset.club;
+    if (state.clubs.has(club)) state.clubs.delete(club);
+    else state.clubs.add(club);
+    render();
+  });
+
+  $('#clubClear').addEventListener('click', () => {
+    state.clubs.clear();
     render();
   });
 

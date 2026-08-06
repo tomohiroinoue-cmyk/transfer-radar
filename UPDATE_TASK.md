@@ -160,6 +160,36 @@
 `club`（英語名）で行うので、**`club` は `assets/app.js` の `CLUB_COLORS` に
 あるキーと綴りを揃える**。未登録クラブは名前から自動生成した色になる。
 
+### ⚠ クラブ名の表記は正規名で固定する（Big 6 フィルターが壊れる）
+
+画面上部の Big 6 フィルターは `from.club` / `to.club` の**英語名の完全一致**で
+判定している。表記が揺れるとそのクラブのボタンで絞り込めなくなる。
+
+**必ずこの綴りを使う（左が正、右は使ってはいけない例）:**
+
+| 正 | ✗ 使わない |
+| --- | --- |
+| `Arsenal` | Arsenal FC |
+| `Chelsea` | Chelsea FC |
+| `Liverpool` | Liverpool FC |
+| `Manchester City` | Man City / Man. City |
+| `Manchester United` | Man United / Man Utd |
+| `Tottenham` | Tottenham Hotspur / Spurs |
+| `Newcastle United` | Newcastle |
+| `Brighton` | Brighton & Hove Albion |
+| `Wolves` | Wolverhampton Wanderers |
+| `Inter Milan` | Inter / Internazionale |
+| `AC Milan` | Milan |
+| `PSG` | Paris Saint-Germain / Paris SG |
+| `Bayern Munich` | Bayern / FC Bayern |
+| `Borussia Dortmund` | Dortmund / BVB |
+| `Sporting CP` | Sporting / Sporting Lisbon |
+| `Atletico Madrid` | Atlético Madrid |
+| `RB Leipzig` | Leipzig |
+| `Marseille` | Olympique Marseille |
+
+`clubJa`（日本語表記）は表示専用なので自由に付けてよい。
+
 ## 5. 禁止事項
 
 - **報道されていない情報を書かない。** 移籍金・年齢・ポジションを推測で埋めない。

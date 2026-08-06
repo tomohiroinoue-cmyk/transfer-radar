@@ -36,6 +36,19 @@
     <button class="tab" role="tab" data-cat="japanese">日本人選手<span class="tab__n" data-count="japanese"></span></button>
   </nav>
 
+  <section class="clubfilter" aria-label="クラブで絞り込む">
+    <span class="clubfilter__label">BIG 6</span>
+    <div class="clubfilter__chips" id="clubChips">
+      <button class="clubchip" data-club="Arsenal" style="--c:#EF0107">アーセナル<span class="clubchip__n"></span></button>
+      <button class="clubchip" data-club="Chelsea" style="--c:#034694">チェルシー<span class="clubchip__n"></span></button>
+      <button class="clubchip" data-club="Liverpool" style="--c:#C8102E">リバプール<span class="clubchip__n"></span></button>
+      <button class="clubchip" data-club="Manchester City" style="--c:#6CABDD">マンC<span class="clubchip__n"></span></button>
+      <button class="clubchip" data-club="Manchester United" style="--c:#DA291C">マンU<span class="clubchip__n"></span></button>
+      <button class="clubchip" data-club="Tottenham" style="--c:#132257">トッテナム<span class="clubchip__n"></span></button>
+    </div>
+    <button class="clubfilter__clear" id="clubClear" hidden>クラブ絞り込みを解除</button>
+  </section>
+
   <section class="controls">
     <label class="search">
       <span class="search__icon" aria-hidden="true">⌕</span>
