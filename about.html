@@ -1,0 +1,156 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>このサイトについて — Transfer Radar</title>
+<meta name="description" content="Transfer Radar の運営方針、確度スコアの算出基準、広告の扱い、著作権とライセンスについて。">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">
+        <strong>TRANSFER RADAR</strong>
+        <small>このサイトについて</small>
+      </span>
+    </div>
+    <button class="iconbtn" id="themeToggle" type="button" title="テーマ切替" aria-label="テーマ切替">◐</button>
+  </div>
+</header>
+
+<main class="doc">
+  <a class="doc__back" href="./">← 移籍情報一覧に戻る</a>
+
+  <h1>このサイトについて</h1>
+  <p class="doc__lead">
+    海外サッカーの移籍の噂を、独自の確度スコア付きで一覧できるようにした個人サイトです。
+  </p>
+
+  <h2>運営者</h2>
+  <table>
+    <tr><th>サイト名</th><td>Transfer Radar</td></tr>
+    <tr><th>運営者</th><td>tomohiroinoue-cmyk（個人）</td></tr>
+    <tr><th>連絡先</th><td><a href="https://github.com/tomohiroinoue-cmyk/transfer-radar/issues" target="_blank" rel="noopener">GitHub Issues</a></td></tr>
+    <tr><th>ソースコード</th><td><a href="https://github.com/tomohiroinoue-cmyk/transfer-radar" target="_blank" rel="noopener">GitHub で公開しています</a></td></tr>
+  </table>
+  <p>
+    <b>個人が趣味で運営しているファンサイトです。</b>
+    いかなるクラブ・リーグ・選手・報道機関とも提携しておらず、公式サイトではありません。
+  </p>
+
+  <h2>広告について</h2>
+  <div class="doc__callout">
+    <b>当サイトはアフィリエイト広告を利用しています。</b>
+    広告を掲載している箇所には「広告」と明示しています。
+  </div>
+  <p>
+    当サイトのリンクを経由して商品やサービスが購入された場合、当サイトが報酬を得ることがあります。
+    利用者が支払う金額が、これによって上乗せされることはありません。
+  </p>
+  <h3>広告の掲載ルール（自主的に定めているもの）</h3>
+  <ul>
+    <li><b>広告は、選手の写真や移籍情報のカードとは分離した専用の枠にのみ掲載します。</b></li>
+    <li><b>特定の選手の写真と商品リンクを組み合わせて表示しません。</b>
+      選手の肖像を商品の広告として使うことはしない、という方針です。</li>
+    <li>移籍情報の内容や確度スコアが、広告主の意向によって左右されることはありません。</li>
+    <li>記事の体裁をとった広告（記事広告）は掲載しません。</li>
+  </ul>
+  <p>
+    Cookieの取り扱いについては<a href="privacy.html">プライバシーポリシー</a>をご覧ください。
+  </p>
+
+  <h2>確度スコア（0〜100%）について</h2>
+  <div class="doc__callout">
+    <b>表示している確度は、このサイト独自の推定値です。</b>
+    公式情報ではなく、予測の的中を保証するものでもありません。
+  </div>
+  <p>
+    移籍が成立する確率を示す公的な指標は存在しません。当サイトの数字は、
+    <b>報道の段階</b>と<b>ソースの信頼度</b>を次の基準で機械的に組み立てたものです。
+  </p>
+
+  <h3>1. 交渉段階でベースを決める</h3>
+  <table>
+    <tr><th>段階</th><th>ベース</th></tr>
+    <tr><td>クラブが公式発表（＝推定ではなく事実）</td><td><b>100%</b></td></tr>
+    <tr><td>メディカル実施／発表待ち</td><td>85〜99%</td></tr>
+    <tr><td>移籍金でクラブ間が合意</td><td>70〜85%</td></tr>
+    <tr><td>個人条件で合意、クラブ間は未合意</td><td>55〜70%</td></tr>
+    <tr><td>クラブ間で交渉中／オファー提出</td><td>35〜55%</td></tr>
+    <tr><td>打診・代理人接触が報じられた</td><td>20〜35%</td></tr>
+    <tr><td>興味・リストアップの報道のみ</td><td>5〜20%</td></tr>
+  </table>
+
+  <h3>2. ソースの信頼度で補正</h3>
+  <table>
+    <tr><th>Tier</th><th>該当</th><th>補正</th></tr>
+    <tr><td>1</td><td>クラブ公式・リーグ公式</td><td>そのまま採用</td></tr>
+    <tr><td>2</td><td>BBC / Sky Sports / Fabrizio Romano / L'Équipe / Bild など一次取材メディア</td><td>±0</td></tr>
+    <tr><td>3</td><td>全国紙・大手スポーツ紙の追随報道</td><td>−5</td></tr>
+    <tr><td>4</td><td>まとめ系・アグリゲーター</td><td>−15</td></tr>
+  </table>
+
+  <h3>3. さらに加減算</h3>
+  <ul>
+    <li>独立した複数の Tier2 が一致 … <b>+5〜10</b></li>
+    <li>クラブ／選手側が公式に否定 … <b>−20</b></li>
+    <li>報道が5日以上更新されていない … <b>−10</b></li>
+    <li>移籍市場の閉幕まで7日未満で未合意 … <b>−10</b></li>
+    <li>行き先が複数クラブで競合 … 「移籍する確率 × そのクラブを選ぶ確率」で割り引く</li>
+  </ul>
+
+  <p>
+    <b>推定値の上限は99%です。</b>まだ噂である限り100%にはなりません。
+    <b>100%はクラブが公式発表した案件のみ</b>で、この場合は「成立」バッジが付き、確度の推定対象から外れます。
+    各カードの「この確度の根拠」を開くと、どの帯から何を加減算したのかが確認できます。
+  </p>
+
+  <h2>データの更新</h2>
+  <p>
+    日本時間の16時から翌9時まで、1時間ごとに自動で更新しています。
+    休止している時間帯は、欧州の報道が動かない深夜〜早朝にあたります。
+  </p>
+
+  <h2>選手写真の出典とライセンス</h2>
+  <p>
+    選手写真は <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a>
+    上の自由ライセンス画像のみを使用しています（CC BY 4.0 / CC BY-SA 4.0 / CC BY-SA 3.0 /
+    CC BY-SA 2.0 / CC BY 3.0 / CC BY 2.0 / CC0 / パブリックドメイン）。
+    撮影者名・ライセンス名・Commons のファイルページへのリンクを、各カードの下部に個別に表示しています。
+  </p>
+  <p>
+    フェアユース画像および出所不明の画像は使用していません。
+    写真が存在しない選手は、イニシャルのアバターで表示します。
+  </p>
+  <p>
+    <b>クラブのエンブレム・ロゴは一切使用していません。</b>
+    これらは著作権および商標の対象であり自由ライセンスではないためです。
+    クラブの識別はクラブカラーの色チップで行っています。
+  </p>
+
+  <h2>移籍情報の出典</h2>
+  <p>
+    各カードに出典元の報道機関と記事へのリンクを表示しています。
+    記事本文は転載しておらず、要旨のみを独自の日本語文にまとめています。
+    リンク先記事の著作権は各報道機関に帰属します。
+  </p>
+
+  <h2>権利者の方へ</h2>
+  <p>
+    掲載内容について権利上のご懸念がある場合、当該箇所を速やかに削除します。
+    <a href="https://github.com/tomohiroinoue-cmyk/transfer-radar/issues" target="_blank" rel="noopener">GitHub Issues</a>
+    からご連絡ください。
+  </p>
+
+  <p class="doc__updated">最終更新: 2026年8月7日</p>
+</main>
+
+<footer class="foot">
+  <div class="foot__nav">
+    <a href="./">移籍情報一覧</a>
+    <a href="about.html">このサイトについて</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </div>
+  <p>Transfer Radar — 個人が趣味で運営している非営利のファンサイトです。公式サイトではありません。</p>
+</footer>
+
+<script src="assets/page.js"></script>

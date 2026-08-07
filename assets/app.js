@@ -528,10 +528,33 @@ async function load() {
   renderClock();
 }
 
+/* ---------- 広告枠 ----------
+   広告タグが実際に貼られている枠だけを表示し、1つも無ければ
+   ステマ規制の常設表示も出さない。広告が無いのに「広告を利用しています」と
+   書くのは事実に反するため。 */
+
+function initAds() {
+  const zones = [...document.querySelectorAll('.adzone')];
+  let anyActive = false;
+
+  for (const zone of zones) {
+    const body = zone.querySelector('.adzone__body');
+    // 要素の子があるか、コメント以外の文字が入っていれば「広告あり」とみなす
+    const hasContent = !!body
+      && (body.children.length > 0 || body.textContent.trim().length > 0);
+    zone.hidden = !hasContent;
+    if (hasContent) anyActive = true;
+  }
+
+  const notice = $('#adNotice');
+  if (notice) notice.hidden = !anyActive;
+}
+
 /* ---------- boot ---------- */
 
 initTheme();
 initControls();
+initAds();
 load();
 setInterval(renderClock, 1000);
 

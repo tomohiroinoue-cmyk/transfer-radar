@@ -26,6 +26,11 @@
     </div>
   </div>
   <div class="staleflag" id="staleFlag" hidden></div>
+  <!-- ステマ規制対応の常設表示。広告が1件も入っていないときは自動で隠れる -->
+  <div class="adnotice" id="adNotice" hidden>
+    当サイトは<b>アフィリエイト広告</b>を利用しています。
+    <a href="about.html">詳細</a>
+  </div>
 </header>
 
 <main class="wrap">
@@ -90,6 +95,17 @@
   <div class="grid" id="grid" aria-live="polite"></div>
   <p class="empty" id="empty" hidden>条件に合う移籍情報がありません。</p>
 
+  <!-- ===== 広告枠1 =====
+       カード一覧の「外」に置いている。選手写真の隣に広告を出さないため。
+       広告タグは下の .adzone__body の中だけに貼ること。
+       中身が空なら枠ごと自動で非表示になる（空の箱を見せない）。 -->
+  <section class="adzone" id="adMain" hidden>
+    <span class="adzone__label">この先はスポンサーによる広告です</span>
+    <div class="adzone__body">
+      <!-- ここに広告タグを貼る -->
+    </div>
+  </section>
+
   <section class="rubric" id="rubric">
     <h2>この確度（0–99%）はどう決めているか</h2>
     <p class="rubric__lead">
@@ -135,7 +151,21 @@
   </section>
 </main>
 
+<!-- ===== 広告枠2 ===== フッター直前。ここもカード一覧の外側。 -->
+<section class="adzone" id="adFooter" style="max-width:1320px;margin:28px auto;padding-left:20px;padding-right:20px" hidden>
+  <span class="adzone__label">この先はスポンサーによる広告です</span>
+  <div class="adzone__body">
+    <!-- ここに広告タグを貼る -->
+  </div>
+</section>
+
 <footer class="foot">
+  <div class="foot__nav">
+    <a href="./">移籍情報一覧</a>
+    <a href="about.html">このサイトについて</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </div>
+
   <h2 class="foot__h">このサイトについて</h2>
   <p>
     <b>個人が趣味で運営している非営利のファンサイトです。</b>広告掲載・課金・物販は一切行っていません。
