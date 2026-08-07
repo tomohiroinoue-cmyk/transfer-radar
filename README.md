@@ -154,12 +154,16 @@ transfer-hub/UPDATE_TASK.md の手順で data/transfers.json を更新して
 
 ### なぜ GitHub Pages か
 
-1日36回更新するため、デプロイ回数の上限が選定基準になりました。
+デプロイ回数の上限が選定基準になりました。
 
 | | Cloudflare Pages 無料 | **GitHub Pages** |
 | --- | --- | --- |
 | 上限 | 500ビルド/月 | 10ビルド/時（ソフト上限） |
-| 1日36更新だと | 約1,100回/月 → 超過 | 2回/時 → 余裕 |
+| 1日18更新だと | 約540回/月 → 超過 | 1回/時 → 余裕 |
+
+当初は30分ごと（1日36回・約1,100回/月）で設計したため Cloudflare の
+500ビルド/月を大きく超えていました。1時間ごとに落とした現在でも約540回/月で
+超過するため、GitHub Pages のままが適切です。
 
 出典: [Cloudflare Pages limits](https://developers.cloudflare.com/pages/platform/limits/) /
 [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)
