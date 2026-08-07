@@ -7,8 +7,9 @@
 
 'use strict';
 
-const UPDATE_INTERVAL_MIN = 30;
-const STALE_AFTER_MIN = 95; // 30分間隔なので3周期ぶん落ちたら警告
+const UPDATE_INTERVAL_MIN = 60;
+// 1時間間隔 + 実行のばらつき(数分)なので、2周期半ぶん落ちたら警告する
+const STALE_AFTER_MIN = 150;
 
 /* ---------- club colours ----------
    エンブレムは著作権物なので使わず、識別用の色だけを持つ。
@@ -352,14 +353,32 @@ function scheduleState() {
   }
   const tz = sched.timezone || 'Asia/Tokyo';
   const hour = hourInZone(tz);
-  if (sched.activeHours.includes(hour)) return { active: true };
 
-  // 休止中 — 次に更新が始まる時刻を求める
-  for (let i = 1; i <= 24; i++) {
-    const h = (hour + i) % 24;
-    if (sched.activeHours.includes(h)) {
-      return { active: false, resumesAtHour: h, tz };
+  /** hour から数えて次に更新が走る「時」を返す */
+  const nextActiveHour = (from) => {
+    for (let i = 1; i <= 24; i++) {
+      const h = (from + i) % 24;
+      if (sched.activeHours.includes(h)) return h;
     }
+    return null;
+  };
+
+  if (!sched.activeHours.includes(hour)) {
+    return { active: false, resumesAtHour: nextActiveHour(hour), tz };
+  }
+
+  // 稼働中。ただし「次の更新時刻」が休止帯に落ちるなら、その回は来ない。
+  // 例: 1時間間隔で稼働が9時まで、今が9時台 → 10時の更新は走らないので
+  //     カウントダウンではなく再開時刻を出す。
+  const interval = Number(sched.intervalMinutes) || UPDATE_INTERVAL_MIN;
+  const minutesLeftInHour = 60 - Number(new Intl.DateTimeFormat('en-GB', {
+    timeZone: tz, minute: '2-digit',
+  }).format(new Date()));
+  const nextRunFallsInHour = (hour + Math.ceil((interval - minutesLeftInHour) / 60) + 1) % 24;
+  const lastOfWindow = interval >= 60 && !sched.activeHours.includes(nextRunFallsInHour);
+
+  if (lastOfWindow) {
+    return { active: true, endingSoon: true, resumesAtHour: nextActiveHour(hour), tz };
   }
   return { active: true };
 }
@@ -374,10 +393,11 @@ function renderClock() {
   const sched = scheduleState();
   const flag = $('#staleFlag');
 
-  if (!sched.active) {
+  // 休止中、または「次の更新が休止帯に落ちる」場合は再開時刻を出す。
+  // 来ない時刻へカウントダウンさせないため。
+  if (!sched.active || sched.endingSoon) {
     $('#nextUpdate').textContent = `${String(sched.resumesAtHour).padStart(2, '0')}:00〜`;
-    flag.hidden = true;
-    return;
+    if (!sched.active) { flag.hidden = true; return; }
   }
 
   const next = state.meta.nextUpdateAt
@@ -385,11 +405,13 @@ function renderClock() {
     : new Date(new Date(gen).getTime() + UPDATE_INTERVAL_MIN * 60000);
   const leftMs = next - Date.now();
 
-  if (leftMs > 0) {
-    const m = Math.floor(leftMs / 60000), s = Math.floor((leftMs % 60000) / 1000);
-    $('#nextUpdate').textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
-  } else {
-    $('#nextUpdate').textContent = '取得中…';
+  if (!sched.endingSoon) {
+    if (leftMs > 0) {
+      const m = Math.floor(leftMs / 60000), s = Math.floor((leftMs % 60000) / 1000);
+      $('#nextUpdate').textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    } else {
+      $('#nextUpdate').textContent = '取得中…';
+    }
   }
 
   const ageMin = (Date.now() - new Date(gen)) / 60000;

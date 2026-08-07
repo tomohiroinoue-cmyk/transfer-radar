@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-07T00:11:20Z",
-  "nextUpdateAt": "2026-08-07T00:41:20Z",
+  "nextUpdateAt": "2026-08-07T01:11:20Z",
   "updateSchedule": {
-    "intervalMinutes": 30,
+    "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
-    "note": "欧州の報道が動く時間帯(CET日中〜深夜)に合わせ、JST 16時〜翌9時のみ30分ごとに更新する",
+    "note": "欧州の報道が動く時間帯(CET日中〜深夜)に合わせ、JST 16時〜翌9時のみ1時間ごとに更新する",
     "activeHours": [
       16,
       17,

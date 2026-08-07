@@ -1,4 +1,4 @@
-# 更新タスク指示書（30分ごとに実行される内容）
+# 更新タスク指示書（1時間ごとに実行される内容）
 
 このファイルは Claude の定期タスクがそのまま読み込んで実行する手順書です。
 `transfer-hub/data/transfers.json` を書き換えることだけが仕事です。
@@ -10,7 +10,7 @@
 - **Web検索は1回の実行で最大 12 クエリまで。** それ以上は次の実行に回す。
 - **WebFetch は1回の実行で最大 6 ページまで。**
 - 上限に達したら、そこまでで得た情報だけで `transfers.json` を更新して終了する。
-  「情報が足りないからもっと調べる」は禁止。次の実行が30分後にある。
+  「情報が足りないからもっと調べる」は禁止。次の実行が1時間後にある。
 - 1回の実行が5分を超えたら、その時点の内容で保存して終了する。
 
 ## 1. やること
@@ -116,7 +116,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "<今のUTC時刻 ISO8601>",
-  "nextUpdateAt": "<generatedAt + 30分>",
+  "nextUpdateAt": "<generatedAt + 60分>",
   "updateSchedule": { /* 既存の値をそのままコピーする。書き換えない */ },
   "window": { "name": "...", "closesAt": "...", "note": "..." },
   "items": [
@@ -233,7 +233,7 @@
 
 - [ ] `node -e "JSON.parse(require('fs').readFileSync('data/transfers.json','utf8'))"` が通る
 - [ ] `generatedAt` を現在時刻に更新した
-- [ ] `nextUpdateAt` = `generatedAt` + 30分
+- [ ] `nextUpdateAt` = `generatedAt` + 60分
 - [ ] `updateSchedule` を前の値からそのまま引き継いだ（消すとサイトが誤警告を出す）
 - [ ] すべての `probability` が整数で、100 なのは `status: "成立"` の案件だけ
 - [ ] すべての item に `sources` が1件以上あり、URLが実在する
