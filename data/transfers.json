@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T23:43:06Z",
-  "nextUpdateAt": "2026-08-07T00:13:06Z",
+  "generatedAt": "2026-08-07T00:11:20Z",
+  "nextUpdateAt": "2026-08-07T00:41:20Z",
   "updateSchedule": {
     "intervalMinutes": 30,
     "timezone": "Asia/Tokyo",
@@ -134,11 +134,11 @@
       },
       "fee": "€36m + アドオン",
       "type": "permanent",
-      "probability": 91,
+      "probability": 94,
       "trend": "up",
       "status": "クラブ間合意",
       "summaryJa": "€36m + アドオンでチェルシーとコモの合意がまとまったと報じられた。近年のコモの積極補強を象徴する取引。",
-      "reasoning": "ベース: クラブ間合意 = 70–85%。「合意が固まった(sealed)」という強い表現と金額の具体性で+。ただし公式発表・メディカルの報道は未確認のため95%までは上げず91%。",
+      "reasoning": "ベース: クラブ間合意 = 70–85%。「合意が固まった(sealed)」という強い表現と金額の具体性で+。ただし公式発表・メディカルの報道は未確認のため95%までは上げず91%。 追記: Football365(8/6)が「約3600万€でシール済み」と報道、独立ソース一致で+3。",
       "sources": [
         {
           "outlet": "Football365",
@@ -146,9 +146,16 @@
           "title": "Transfer rumour ranking: summer 2026",
           "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Transfer rumour ranking (summer 2026)",
+          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "guimaraes-newcastle-arsenal",
@@ -173,11 +180,11 @@
       },
       "fee": "£75m",
       "type": "permanent",
-      "probability": 90,
+      "probability": 94,
       "trend": "up",
-      "status": "クラブ間合意",
+      "status": "合意・数日内完了見込み",
       "summaryJa": "£75m でアーセナルへの移籍が合意に達したとFabrizio Romanoが報じた。ニューカッスルは後任候補のリストアップに入っているとされる。",
-      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Romano(Tier2相当)が金額付きで合意を報じている点、かつニューカッスル側が後任探しを始めているという裏付け的な動きがある点で+10して90%。",
+      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Romano(Tier2相当)が金額付きで合意を報じている点、かつニューカッスル側が後任探しを始めているという裏付け的な動きがある点で+10して90%。 追記: Football365(8/6)が「£75mで合意、数日内に完了」と独立して報じ、複数Tier2の一致により+4。",
       "sources": [
         {
           "outlet": "Football365",
@@ -192,9 +199,16 @@
           "title": "Premier League transfer news",
           "url": "https://www.caughtoffside.com/tags/premier-league/",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Transfer rumour ranking (summer 2026)",
+          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "digne-villa-psg",
@@ -299,11 +313,11 @@
       },
       "fee": "€20m",
       "type": "permanent",
-      "probability": 86,
+      "probability": 89,
       "trend": "up",
       "status": "クラブ間合意",
       "summaryJa": "€20m でハル・シティへの移籍が合意に達したと報じられた。チャンピオンシップのクラブとしては大型の投資になる。",
-      "reasoning": "ベース: クラブ間合意 = 70–85%。金額の具体性で+。ただしチャンピオンシップのクラブによる€20m級の支出は資金確認や規定(PSR)で崩れる例があるため、上振れは抑えて86%。",
+      "reasoning": "ベース: クラブ間合意 = 70–85%。金額の具体性で+。ただしチャンピオンシップのクラブによる€20m級の支出は資金確認や規定(PSR)で崩れる例があるため、上振れは抑えて86%。 追記: Football365(8/6)が約€20mで合意と報道、独立ソース一致で+3。",
       "sources": [
         {
           "outlet": "Football365",
@@ -311,9 +325,16 @@
           "title": "Transfer rumour ranking: summer 2026",
           "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Transfer rumour ranking (summer 2026)",
+          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "chavarria-rayo-chelsea",
@@ -338,11 +359,11 @@
       },
       "fee": "約£22m + アドオン",
       "type": "permanent",
-      "probability": 84,
+      "probability": 88,
       "trend": "up",
       "status": "クラブ間合意",
       "summaryJa": "チェルシーがラージョと約£22m + アドオンで移籍金に合意したとRomanoが報じた。左サイドバックの補強。",
-      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Romanoが金額付きで報じている点で帯の上限84%。個人条件やメディカルの報道はまだ出ていないため、それ以上は上げない。",
+      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Romanoが金額付きで報じている点で帯の上限84%。個人条件やメディカルの報道はまだ出ていないため、それ以上は上げない。 追記: Football365(8/6)が個人条件合意・約£22m合意と報道、独立ソース一致で+4。",
       "sources": [
         {
           "outlet": "Football365",
@@ -350,9 +371,16 @@
           "title": "Transfer rumour ranking: summer 2026",
           "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Transfer rumour ranking (summer 2026)",
+          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "badiashile-chelsea-napoli",
@@ -1041,21 +1069,21 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 12,
-      "trend": "flat",
-      "status": "関心のみ",
-      "summaryJa": "アーセナルが今夏も強い関心を持ち続けていると報じられている。レアル・マドリード側が放出を検討している情報はない。",
-      "reasoning": "ベース: 興味・リストアップ段階 = 5–20%。売り手が主力級を手放す動機がなく、必要な移籍金の規模も現実的でないため帯の下限寄り12%。この種の「ビッグネーム × ビッグクラブ」の噂は毎夏繰り返され成立率が著しく低い。",
+      "probability": 6,
+      "trend": "down",
+      "status": "契約更新優先で沈静化",
+      "summaryJa": "レアル・マドリードが契約更新を最優先とする姿勢を崩しておらず、Football365は「アーセナルにとって悪いニュース」としてヴィニシウス残留を予想。アーセナルはマドリードの更新方針と本人のシグナル待ちで様子見。",
+      "reasoning": "ベース: 興味・リストアップ段階(5-20%)。ステップ3: Football365(Tier3, 8/6)が残留予想を明言し、複数報道でクラブ側が更新優先の姿勢を継続していることを反映して下限側の6%まで引き下げ。",
       "sources": [
         {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Premier League transfer news",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Transfer rumour ranking: Man Utd, Arsenal deals OFF as Liverpool eye England sensation",
+          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "olise-bayern-realmadrid",
@@ -1520,35 +1548,28 @@
       },
       "fee": "フリー",
       "type": "free",
-      "probability": 100,
-      "trend": "flat",
-      "status": "成立",
-      "summaryJa": "アヤックスを退団した冨安健洋のクリスタル・パレス加入が決定したと報じられた。移籍市場に精通する記者が「HERE WE GO」で伝えている。以前報じられていたフリー移籍の噂から、正式加入という段階へ進んだ。",
-      "reasoning": "確定情報として報じられているため確度の推定対象外。表示上は100%に固定。",
+      "probability": 96,
+      "trend": "down",
+      "status": "メディカル合格・契約待ち",
+      "summaryJa": "アヤックスを退団した冨安がクリスタル・パレス加入へ。ロンドンでメディカル検査に合格し、48時間以内の契約サインが見込まれると報じられた。鎌田大地とチームメイトになる見通し。",
+      "reasoning": "メディカル実施/発表待ち帯(85-99%)。Fabrizio Romano(Tier2)が契約サイン待ちと報道、Sky Sports公式まとめ(8/6時点)にはまだ加入完了として掲載されておらず、クラブ公式発表は未確認。前回の更新でクラブ公式発表なしに100%/成立としていたのはルーブリック違反のため訂正し、実態に即した96%に修正。",
       "sources": [
         {
-          "outlet": "サカノワ",
+          "outlet": "SOCCER DIGEST Web",
           "tier": 3,
-          "title": "間もなく決定…冨安健洋がクリスタル・パレスと正式契約へ「前進している」",
-          "url": "https://sakanowa.jp/topics/111355",
-          "publishedAt": "2026-08-05"
-        },
-        {
-          "outlet": "東スポWEB",
-          "tier": 3,
-          "title": "冨安健洋がＣパレスの練習に参加",
-          "url": "https://www.tokyo-sports.co.jp/articles/-/397501",
-          "publishedAt": "2026-08-05"
-        },
-        {
-          "outlet": "サッカーダイジェストWeb",
-          "tier": 3,
-          "title": "冨安健洋のクリスタル・パレス移籍決定",
+          "title": "ついに「HERE WE GO！」冨安健洋が鎌田所属クリスタル・パレスに正式加入へ！「48時間以内に契約」",
           "url": "https://www.soccerdigestweb.com/news/detail/id=195362",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
           "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "sano-mainz-liverpool",
@@ -1574,28 +1595,21 @@
       },
       "fee": "マインツは €60m（約111億円）を要求",
       "type": "permanent",
-      "probability": 58,
-      "trend": "up",
-      "status": "個人条件を協議",
-      "summaryJa": "リバプールが代理人と交渉し個人条件についても協議したと英メディアが報じた。マインツは移籍金 €60m（約111億円）を要求。マンチェスター・ユナイテッド、アーセナル、ドルトムントも争奪戦に加わっており、マインツ幹部は好条件のオファーなら「検討せざるを得ない」と移籍の可能性を認めている。",
-      "reasoning": "ベース: 個人条件で合意しクラブ間は未合意 = 55–70%。売り手が売却の可能性を公に認めている点で+。一方で①要求額 €60m は高額で折り合いの保証がない ②行き先がリバプール以外に3クラブ競合している、の2点で減点。「移籍する確率」と「リバプールを選ぶ確率」の掛け算として58%。",
+      "probability": 60,
+      "trend": "flat",
+      "status": "個人条件を協議・移籍金さらに高騰",
+      "summaryJa": "マインツ幹部が佐野を「ワールドクラス」と評価し、移籍金がさらに高騰していると報道。リバプールが最有力とされるが、アーセナルとの争奪戦の構図も報じられている。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)。ステップ2: Football Tribe Japan(Tier3)-5。ステップ3: 移籍金高騰と競合クラブの存在で帯の中間に据え置き60%。",
       "sources": [
         {
-          "outlet": "ライブドアニュース",
-          "tier": 3,
-          "title": "リバプールとアーセナルが争奪戦か 佐野海舟の移籍金は108億円超えの急騰",
-          "url": "https://news.livedoor.com/article/detail/31968871/",
-          "publishedAt": "2026-08-01"
-        },
-        {
           "outlet": "Football Tribe Japan",
-          "tier": 4,
-          "title": "佐野海舟、リバプール移籍で個人合意と英報道",
-          "url": "https://football-tribe.com/japan/2026/07/07/356600/",
-          "publishedAt": "2026-07-07"
+          "tier": 3,
+          "title": "佐野海舟を111億円以上で売却へ！マインツ幹部「ワールドクラスの選手だと確信」リバプール優位か「どちらかだ」",
+          "url": "https://football-tribe.com/japan/2026/08/06/357806/",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T20:07:13Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "zionsuzuki-parma-psg",
@@ -1621,21 +1635,21 @@
       },
       "fee": "€33m（約60億円）",
       "type": "permanent",
-      "probability": 80,
+      "probability": 87,
       "trend": "up",
-      "status": "オファー受諾へ前進",
-      "summaryJa": "PSGが €33m（約60億円）の公式オファーを提出し、パルマは受け入れる準備ができているとFabrizio Romanoが報じた。競合していたユベントスに対しPSGがリードしている。PSGは第2GKリュカ・シュバリエ放出を前提としたプランを提示しているとされる。",
-      "reasoning": "ベース: 移籍金でクラブ間が合意 = 70–85%。Romano（Tier2相当）が金額付きで報じ、かつ売り手が「進める準備ができている」段階にある点で帯の上限寄り。競合のユベントスが後退しているのも+。ただし合意成立・メディカルの報道はまだ出ていないため85%は超えさせず80%。",
+      "status": "オファー提示・合意間近",
+      "summaryJa": "PSGがパルマに3300万ユーロ(約60億円)の公式オファーを提示。パルマの希望額(3000万ユーロ以上)を上回っており、受諾の可能性が高いとロマーノ氏が報道。",
+      "reasoning": "ステップ1: 移籍金でクラブ間合意に近い水準(70-85%)からスタートし、「交渉成立間近」という表現と提示額が要求を上回る点を加味して上振れ。ステップ2: Fabrizio Romano(Tier2)ソースで±0。ステップ3: 追加情報(パルマの最低希望額を上回るオファー)で+2。最終87%。",
       "sources": [
         {
-          "outlet": "サッカーダイジェストWeb",
-          "tier": 3,
-          "title": "「交渉成立間近」23歳日本代表GK、欧州王者への移籍に前進",
-          "url": "https://www.soccerdigestweb.com/news/detail/id=195258",
-          "publishedAt": "2026-08-01"
+          "outlet": "SOCCER DIGEST Web (Yahoo!ニュース)",
+          "tier": 2,
+          "title": "「交渉成立間近」23歳日本代表GK、欧州王者への移籍に前進！ついに\"60億円\"の公式オファーが届く！",
+          "url": "https://news.yahoo.co.jp/articles/d863d08e1f77be4ad4c2bf5322b9cd3a8bd9a29d",
+          "publishedAt": "2026-08-03"
         }
       ],
-      "updatedAt": "2026-08-05T20:07:13Z"
+      "updatedAt": "2026-08-07T00:11:20Z"
     },
     {
       "id": "mitoma-brighton-bayern",
@@ -5666,6 +5680,124 @@
         }
       ],
       "updatedAt": "2026-08-06T02:22:58Z"
+    },
+    {
+      "id": "vinicius-realmadrid-alahli",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Vinícius Júnior",
+        "nameJa": "ヴィニシウス・ジュニオール",
+        "position": "FW",
+        "nationality": "ブラジル"
+      },
+      "from": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Al-Ahli",
+        "clubJa": "アル・アハリ",
+        "league": "Saudi Pro League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 20,
+      "trend": "flat",
+      "status": "巨額オファー・本人回答待ち",
+      "summaryJa": "サウジのアル・アハリが約10億ユーロとされる巨額オファーを提示済みと報じられている。クラブは本人からの前向きなシグナルを待っている段階で、本人はまだ意思表示していない。",
+      "reasoning": "ベース: 打診・代理人接触段階(20-35%)。ステップ2: Ben Jacobs経由の報道(Tier2相当)だが単独ソースのため上振れなし。ステップ3: 本人の意思表示が出ていないため帯の下限寄り20%。",
+      "sources": [
+        {
+          "outlet": "Goal.com",
+          "tier": 2,
+          "title": "Transfer news | Real Madrid pin down Michael Olise deal, and Liverpool reject Vinicius offer",
+          "url": "https://www.goal.com/en/lists/transfer-news-or-real-madrid-make-michael-olise-deal-conditional-and-liverpool-reject-vinicius-offer/blt499cb5ee9d1824be",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-07T00:11:20Z"
+    },
+    {
+      "id": "sano-mainz-arsenal",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Kaishu Sano",
+        "nameJa": "佐野海舟",
+        "position": "MF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Mainz",
+        "clubJa": "マインツ",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Arsenal",
+        "clubJa": "アーセナル",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 25,
+      "trend": "flat",
+      "status": "代理人と直接交渉",
+      "summaryJa": "独メディアFussball Datenが、アーセナルが佐野の代理人と直接交渉していると報道。マインツは移籍金6000万ユーロ程度を要求しているとみられ、リバプールやトッテナムも動向を注視している。",
+      "reasoning": "ベース: 打診・代理人接触段階(20-35%)。ステップ2: 独メディア経由の単独報道(Tier3相当)で-5。ステップ3: 他クラブ(リバプール等)との競合状態のため下限寄りの25%。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 3,
+          "title": "佐野海舟の去就巡り動きが！「代理人と直接交渉」プレミア・CL制覇目指す上で「必要不可欠な戦力」と高評価も",
+          "url": "https://football-tribe.com/japan/2026/08/02/357664/",
+          "publishedAt": "2026-08-02"
+        }
+      ],
+      "updatedAt": "2026-08-07T00:11:20Z"
+    },
+    {
+      "id": "couto-dortmund-como",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Yan Couto",
+        "nameJa": "ヤン・コウト",
+        "position": "DF",
+        "nationality": "ブラジル"
+      },
+      "from": {
+        "club": "Borussia Dortmund",
+        "clubJa": "ボルシア・ドルトムント",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Como",
+        "clubJa": "コモ",
+        "league": "Serie A"
+      },
+      "fee": "loan fee 200万€ + buy option 約2000万€",
+      "type": "loan-to-buy",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ボルシア・ドルトムントが公式にヤン・コウトのコモへの2026-27シーズン完全レンタル移籍を発表。買取オプション付きで、コウトはドルトムントとの契約(2030年まで)を残したまま新天地でプレーする。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "Bundesliga.com",
+          "tier": 1,
+          "title": "Yan Couto leaves Borussia Dortmund for Como",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/yan-couto-leaves-borussia-dortmund-como-loan-transfer-38156",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "updatedAt": "2026-08-07T00:11:20Z"
     }
   ]
 }

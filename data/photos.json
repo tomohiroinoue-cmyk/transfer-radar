@@ -1199,5 +1199,22 @@
     "birthDate": "2002-01-01",
     "noPhoto": true,
     "reason": "記事に代表画像がない"
+  },
+  "Benoît Badiashile": {
+    "checkedAt": "2026-08-07T00:12:38.732Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Beno%C3%AEt_Badiashile",
+    "birthDate": "2001-03-26",
+    "file": "benoi-t-badiashile.jpg",
+    "artist": "The White House",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Beno%C3%AEt_Badiashile_FIFA_Club_World_Cup_final_extraction.jpg"
+  },
+  "Yan Couto": {
+    "checkedAt": "2026-08-07T00:12:42.284Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Yan_Couto",
+    "birthDate": "2002-06-03",
+    "noPhoto": true,
+    "reason": "記事に代表画像がない"
   }
 }
