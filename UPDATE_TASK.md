@@ -15,10 +15,20 @@
 
 ## 1. やること
 
-1. `data/transfers.json` を読み、既存の `items` を把握する。
+> ⚠ **`data/transfers.json` を直接 Read してはいけない。** 200KB超（≒7万トークン）あり、
+> 毎回読むとそれだけでコンテキストを食い潰す。下の手順のコマンドを使うこと。
+
+1. `node scripts/index.mjs` を実行し、既存の案件を1行1件の一覧で把握する（約6千トークン）。
+   - 特定タグだけ見たいとき: `node scripts/index.mjs --tag japanese`
+   - **1件の全文を確認したいとき**: `node scripts/index.mjs --id <id>`
 2. 下の情報源を巡回し、**新しい噂**と**既存の噂の進展**を集める。
 3. 各案件の確度を §3 のルーブリックで算出する。
-4. `data/transfers.json` を丸ごと書き直す。
+4. **新規・変更する案件だけ**を JSON 配列にして一時ファイルに書き、
+   `node scripts/upsert.mjs <そのファイルのパス>` で反映する。
+   - 動きのなかった案件は**触らない**（配列に入れない）。
+   - このスクリプトが検証・クラブ名の正規化・重複判定・`generatedAt` の更新を行う。
+   - 弾かれた案件が報告されたら、直して再実行する。**検証を迂回してはいけない。**
+   - 案件を消したいときだけ `{"id": "...", "_delete": true}` を配列に入れる。
 5. 新しい選手が追加された場合のみ `node scripts/fetch-photos.mjs` を実行する
    （既存選手だけなら実行不要。Wikimedia への無駄なアクセスを避ける）。
 
@@ -109,17 +119,13 @@
 
 ## 4. 出力フォーマット
 
-`data/transfers.json` を次の形で丸ごと書き直す。**キー名を変えてはいけない**
-（`assets/app.js` が直接参照している）。
+`upsert.mjs` に渡すのは **items の配列だけ**。ファイル全体を書くのではない。
+`generatedAt` / `nextUpdateAt` / `updateSchedule` / `window` はスクリプトが面倒を見る。
+
+**キー名を変えてはいけない**（`assets/app.js` が直接参照している）。
 
 ```jsonc
-{
-  "schemaVersion": 1,
-  "generatedAt": "<今のUTC時刻 ISO8601>",
-  "nextUpdateAt": "<generatedAt + 60分>",
-  "updateSchedule": { /* 既存の値をそのままコピーする。書き換えない */ },
-  "window": { "name": "...", "closesAt": "...", "note": "..." },
-  "items": [
+[
     {
       "id": "player-from-to",            // 半角小文字ケバブ。既存案件は変えない
       "tags": ["premier"],               // "premier" | "bigclub" | "japanese" から1つ以上
@@ -140,11 +146,10 @@
       "reasoning": "確度の根拠。ベースの帯 → 加減算 → 最終値の順で書く。",
       "sources": [
         { "outlet": "Sky Sports", "tier": 2, "title": "記事見出し", "url": "https://...", "publishedAt": "2026-08-06" }
-      ],
-      "updatedAt": "<この案件を確認したUTC時刻>"
+      ]
+      // updatedAt は書かなくてよい（upsert.mjs が付ける）
     }
-  ]
-}
+]
 ```
 
 ### `tags` の付け方
@@ -231,10 +236,10 @@
 
 ## 6. 終了時の自己チェック
 
-- [ ] `node -e "JSON.parse(require('fs').readFileSync('data/transfers.json','utf8'))"` が通る
-- [ ] `generatedAt` を現在時刻に更新した
-- [ ] `nextUpdateAt` = `generatedAt` + 60分
-- [ ] `updateSchedule` を前の値からそのまま引き継いだ（消すとサイトが誤警告を出す）
-- [ ] すべての `probability` が整数で、100 なのは `status: "成立"` の案件だけ
-- [ ] すべての item に `sources` が1件以上あり、URLが実在する
-- [ ] `tags` が空の item がない
+`upsert.mjs` と `deploy.mjs` が機械的に検証するので、人手のチェックは次だけでよい。
+
+- [ ] `upsert.mjs` が「ルール違反で取り込まなかった」と報告した案件がゼロ
+      （残っているなら直して再実行する。迂回禁止）
+- [ ] `deploy.mjs` が「データ検証OK」を出して push まで完了した
+- [ ] **`data/transfers.json` を直接 Read しなかった**（7万トークンの無駄）
+- [ ] 検索クエリが12以内、WebFetch が6ページ以内に収まった

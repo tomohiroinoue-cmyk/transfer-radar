@@ -114,9 +114,37 @@ cron を変えたら `updateSchedule.activeHours` も合わせて直してくだ
 | `assets/app.js` | `UPDATE_INTERVAL_MIN` と `STALE_AFTER_MIN`（間隔の2.5倍が目安） |
 | `UPDATE_TASK.md` | §0 の「次の実行が◯後にある」と、`nextUpdateAt` の計算式 |
 
+### 使用モデルとトークン節約
+
+定期タスクの `SKILL.md`（`~/.claude/scheduled-tasks/transfer-radar-update/SKILL.md`）の
+frontmatter で指定しています。
+
+```yaml
+model: sonnet
+effort: medium
+```
+
+ルーブリックに沿った確度の判定と日本語要約という定型作業なので Sonnet で足ります。
+判断の質が落ちたと感じたら `opus` に、もっと安くしたい場合は `haiku` に変えられます。
+ただし Haiku は「相反する報道が並んでいるときに上振れさせない」といった判断が
+弱くなる可能性があります。
+
+**さらに効くのがデータの読み方です。** `data/transfers.json` は200KB超
+（≒7万トークン）あり、これを毎回読むと1日18回で130万トークンが読み込みだけで消えます。
+そのため定期タスクには**このファイルを直接読ませていません**。
+
+| コマンド | 用途 | サイズ |
+| --- | --- | --- |
+| `node scripts/index.mjs` | 1行1件の一覧。既存案件の把握はこれで足りる | 約18KB（≒6千トークン） |
+| `node scripts/index.mjs --id <id>` | 1件だけ全文で確認 | 数百バイト |
+| `node scripts/upsert.mjs <配列.json>` | **変更した案件だけ**を反映 | — |
+
+`upsert.mjs` が検証・クラブ名の正規化・重複判定・`generatedAt` の更新をまとめて行うので、
+タスク側はファイル全体を組み立てる必要がありません。
+
 ### 実行の上限
 
-1回の実行あたり Web検索8件 / WebFetch 6ページ / 最大5分を上限にしています。
+1回の実行あたり Web検索12件 / WebFetch 6ページ / 最大5分を上限にしています。
 これは `UPDATE_TASK.md` の §0 で指示されており、定期実行が無制限に
 コストを膨らませないための歯止めです。1日18回動くので、上限を緩めると
 その分そのまま利用量に跳ね返ります。
