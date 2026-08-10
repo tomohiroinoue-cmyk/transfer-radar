@@ -1216,5 +1216,25 @@
     "birthDate": "2002-06-03",
     "noPhoto": true,
     "reason": "記事に代表画像がない"
+  },
+  "Romelu Lukaku": {
+    "checkedAt": "2026-08-10T00:41:17.972Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Romelu_Lukaku",
+    "birthDate": "1993-05-13",
+    "file": "romelu-lukaku.jpg",
+    "artist": "Vyacheslav Evdokimov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Romelu_Lukaku_2021.jpg"
+  },
+  "Iliman Ndiaye": {
+    "checkedAt": "2026-08-10T00:41:21.775Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Iliman_Ndiaye",
+    "birthDate": "2000-03-06",
+    "file": "iliman-ndiaye.jpg",
+    "artist": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Iliman_Ndiaye_France_v_Senegal_16_June_2026-243.jpg"
   }
 }

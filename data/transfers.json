@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T00:17:43Z",
-  "nextUpdateAt": "2026-08-10T01:17:43Z",
+  "generatedAt": "2026-08-10T00:41:12Z",
+  "nextUpdateAt": "2026-08-10T01:41:12Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -54,23 +54,23 @@
         "clubJa": "エバートン",
         "league": "Premier League"
       },
-      "fee": "非公表",
+      "fee": "€8m",
       "type": "permanent",
-      "probability": 95,
+      "probability": 100,
       "trend": "up",
-      "status": "メディカル",
-      "summaryJa": "アーセナルからエバートンへの移籍でメディカルチェックが始まったと報じられた。残るは正式発表の手続きのみとみられる段階。",
-      "reasoning": "ベース: メディカル実施済み = 85–99% の帯。Football365 が段階を「メディカル開始」と明示しており、この段階からの破談は経験的に少ないため上限寄りの95%。公式発表が出た時点で「成立」に切り替わる。",
+      "status": "成立",
+      "summaryJa": "アーセナルからエバートンへの移籍が正式に完了した。2年契約に合意し、出場機会を求めての決断とコメントしている。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Everton sign midfielder Christian Nørgaard from Arsenal",
+          "url": "https://www.espn.com/soccer/story/_/id/49540382/everton-christian-norgaard-arsenal-transfer",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-10T00:41:12Z"
     },
     {
       "id": "trafford-mancity-leeds",
@@ -93,23 +93,23 @@
         "clubJa": "リーズ・ユナイテッド",
         "league": "Premier League"
       },
-      "fee": "£40m + ボーナス",
+      "fee": "£40m（最大£45m）",
       "type": "permanent",
-      "probability": 92,
+      "probability": 100,
       "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "£40m + ボーナスでシティとリーズが合意に達したと報じられた。出場機会を求めるGKの移籍で、条件面はほぼ固まっている。",
-      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85% の帯。移籍金の具体額まで一致して報じられている点と、選手側に移籍を拒む動機が薄い点で+。ランキング記事で最有力(1位)扱いのため上振れさせ92%。",
+      "status": "成立",
+      "summaryJa": "マンチェスター・シティからリーズへの移籍が正式に完了。クラブ史上最高額での加入となり、5年契約とシティ側の売却時追加条項が付帯する。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Leeds United transfer news: James Trafford completes move for club-record £40m deal from Man City",
+          "url": "https://www.skysports.com/football/news/11095/13567585/leeds-united-transfer-news-james-trafford-agrees-deal-for-club-record-move-from-man-city",
+          "publishedAt": "2026-08-08"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-10T00:41:12Z"
     },
     {
       "id": "chalobah-chelsea-como",
@@ -1610,21 +1610,21 @@
       },
       "fee": "マインツは €60m（約111億円）を要求",
       "type": "permanent",
-      "probability": 60,
-      "trend": "flat",
-      "status": "個人条件を協議・移籍金さらに高騰",
-      "summaryJa": "マインツ幹部が佐野を「ワールドクラス」と評価し、移籍金がさらに高騰していると報道。リバプールが最有力とされるが、アーセナルとの争奪戦の構図も報じられている。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)。ステップ2: Football Tribe Japan(Tier3)-5。ステップ3: 移籍金高騰と競合クラブの存在で帯の中間に据え置き60%。",
+      "probability": 62,
+      "trend": "up",
+      "status": "リバプールが正式オファー準備中",
+      "summaryJa": "佐野の市場価値が€40mから€50mへ上昇したと報じられる中、リバプールが最大€60mの正式オファー準備を進めていると伝えられている。アーセナル、トッテナム、ドルトムントも代理人と接触を続けている。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)の範囲内。ステップ2: Football Tribe Japan(Tier3)-5。ステップ3: 正式オファー準備という具体的進展で前回60から62へ小幅上方修正。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
           "tier": 3,
-          "title": "佐野海舟を111億円以上で売却へ！マインツ幹部「ワールドクラスの選手だと確信」リバプール優位か「どちらかだ」",
-          "url": "https://football-tribe.com/japan/2026/08/06/357806/",
-          "publishedAt": "2026-08-06"
+          "title": "佐野海舟の獲得に向けリバプールが正式オファー準備か！",
+          "url": "https://football-tribe.com/japan/2026/07/18/357032/",
+          "publishedAt": "2026-07-18"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-10T00:41:12Z"
     },
     {
       "id": "zionsuzuki-parma-psg",
@@ -4859,23 +4859,30 @@
         "clubJa": "トッテナム",
         "league": "Premier League"
       },
-      "fee": "非公表",
+      "fee": "€45m＋ボーナス最大€55m",
       "type": "permanent",
-      "probability": 10,
-      "trend": "flat",
-      "status": "関心報道のみ",
-      "summaryJa": "トッテナムがベンフィカの選手に関心を示していると報じられた。オファー提出や交渉入りの報道は確認されていない。",
-      "reasoning": "ベース: 興味・リストアップの報道のみ（5-20帯）の中位で15 → ソースがTier3のまとめ系単独で-5 → 10。具体的な交渉の裏付けがない。",
+      "probability": 45,
+      "trend": "up",
+      "status": "オファー提出・支払い構造で協議中",
+      "summaryJa": "トッテナムがベンフィカに固定額€45m＋ボーナス最大€55mのオファーを提出。ベンフィカは拒否せず、固定額をより多く求める構造変更を要求しており、金額自体の隔たりは小さいと報じられている。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出(35-55%)の中位45。ソースはTier3〜4の複数(Football365, Spurs Web, Sport Witness等)だが独立した複数媒体が同内容で一致しており-5/+5で相殺。前回10%から大幅進展のためtrend up。",
       "sources": [
         {
-          "outlet": "BeSoccer",
+          "outlet": "Football365",
           "tier": 3,
-          "title": "Latest transfer news, football rumours and confirmed deals",
-          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
-          "publishedAt": "2026-08-04"
+          "title": "Tottenham submit 'offer' for winger as Euro giants reach decision on accepting transfer",
+          "url": "https://www.football365.com/news/tottenham-submit-offer-schjelderup-benfica-reach-decision-accepting",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "outlet": "Sport Witness",
+          "tier": 3,
+          "title": "Tottenham finally make €55m offer - Club want one change in structure",
+          "url": "https://sportwitness.co.uk/tottenham-finally-make-e55m-offer-club-want-one-change-in-structure/",
+          "publishedAt": "2026-08-03"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-10T00:41:12Z"
     },
     {
       "id": "sano-nec-psv",
@@ -5866,6 +5873,45 @@
         }
       ],
       "updatedAt": "2026-08-10T00:17:43Z"
+    },
+    {
+      "id": "ndiaye-everton-arsenal",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Iliman Ndiaye",
+        "nameJa": "イリマン・ンディアイエ",
+        "position": "FW",
+        "nationality": "セネガル"
+      },
+      "from": {
+        "club": "Everton",
+        "clubJa": "エバートン",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Arsenal",
+        "clubJa": "アーセナル",
+        "league": "Premier League"
+      },
+      "fee": "非公表（エバートン希望£75m）",
+      "type": "permanent",
+      "probability": 10,
+      "trend": "flat",
+      "status": "問い合わせ段階",
+      "summaryJa": "アーセナルがビニシウス獲得の代替候補としてエバートンのンディアイエに問い合わせを行ったと報じられた。本人はエバートンの契約延長提案を保留中で、サウジのアル・ヒラルが本命視されている。",
+      "reasoning": "ベース: 興味・リストアップの報道のみ(5-20%)の中位15 → ソースがTier4中心のまとめ系複数で-5 → 10。アル・ヒラルが優勢でアーセナルは正式オファー未提出のため上振れさせない。",
+      "sources": [
+        {
+          "outlet": "GiveMeSport",
+          "tier": 4,
+          "title": "Arsenal Have \"Made An Enquiry\" For £70M Rated PL Ace",
+          "url": "https://goonernews.com/blog/arsenal-transfer-news-iliman-ndiaye/",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-10T00:41:12Z"
     }
   ]
 }
