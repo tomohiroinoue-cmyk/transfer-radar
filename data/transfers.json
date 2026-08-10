@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T00:11:20Z",
-  "nextUpdateAt": "2026-08-07T01:11:20Z",
+  "generatedAt": "2026-08-10T00:17:43Z",
+  "nextUpdateAt": "2026-08-10T01:17:43Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -180,35 +180,28 @@
       },
       "fee": "£75m",
       "type": "permanent",
-      "probability": 94,
+      "probability": 100,
       "trend": "up",
-      "status": "合意・数日内完了見込み",
-      "summaryJa": "£75m でアーセナルへの移籍が合意に達したとFabrizio Romanoが報じた。ニューカッスルは後任候補のリストアップに入っているとされる。",
-      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Romano(Tier2相当)が金額付きで合意を報じている点、かつニューカッスル側が後任探しを始めているという裏付け的な動きがある点で+10して90%。 追記: Football365(8/6)が「£75mで合意、数日内に完了」と独立して報じ、複数Tier2の一致により+4。",
+      "status": "成立",
+      "summaryJa": "アーセナルがニューカッスルからブルーノ・ギマランイスを£75mで完全移籍加入させたと発表。4年契約(+1年オプション)にサイン。ニューカッスルは今夏の選手売却額が2億4000万ポンドを超えた。",
+      "reasoning": "クラブが公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Arsenal sign Bruno Guimarães from Newcastle",
+          "url": "https://www.espn.com/soccer/story/_/id/49511174/arsenal-sign-bruno-guimaraes-newcastle",
+          "publishedAt": "2026-08-08"
         },
         {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Premier League transfer news",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
-        },
-        {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking (summer 2026)",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-06"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Bruno Guimaraes: Arsenal sign midfielder in £75m transfer as Newcastle surpass £240m in player sales this summer",
+          "url": "https://www.skysports.com/football/news/11095/13570096/bruno-guimaraes-arsenal-sign-midfielder-in-lb75m-transfer-as-newcastle-surpass-lb240m-in-player-sales-this-summer",
+          "publishedAt": "2026-08-08"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "digne-villa-psg",
@@ -489,23 +482,23 @@
         "clubJa": "ノッティンガム・フォレスト",
         "league": "Premier League"
       },
-      "fee": "£30m",
+      "fee": "£34m",
       "type": "permanent",
-      "probability": 68,
+      "probability": 72,
       "trend": "up",
       "status": "交渉が進展",
-      "summaryJa": "£30m 規模でフォレストとの交渉が進展していると報じられた。合意には至っていない。",
-      "reasoning": "ベース: クラブ間で交渉中 = 35–55%。「advanced talks」で帯の上限に寄せ、さらに金額の具体化ぶんを+して68%。スポルティングは高額な解除条項を盾に粘る傾向があるため70%は超えさせない。",
+      "summaryJa": "£34m規模でノッティンガム・フォレストとの交渉が進展していると報じられた。金額が前回報道の£30mから上積みされている。",
+      "reasoning": "ベース: クラブ間で交渉中(35-55%)からadvanced talksで上限寄りに設定。金額が£30m→£34mへ上積みされ交渉が進んでいる様子がうかがえるため前回68%から+4。",
       "sources": [
         {
           "outlet": "Football365",
           "tier": 3,
           "title": "Transfer rumour ranking: summer 2026",
           "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "publishedAt": "2026-08-08"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "savinho-mancity-tottenham",
@@ -570,11 +563,11 @@
       },
       "fee": "最大 £51m",
       "type": "permanent",
-      "probability": 42,
+      "probability": 4,
       "trend": "down",
-      "status": "バルセロナが競合",
-      "summaryJa": "レアル・マドリードは交渉を続けているが、バルセロナがロドリと個人条件で合意したとの報道が新たに出て「マドリード一択」の構図が崩れた。Sky Sports や Goal はなおマドリード優位とも報じており、報道が対立している。",
-      "reasoning": "ベース: クラブ間で交渉中 = 35–55%。前回は選手の意向がマドリード一択との報道で加点していたが、今回バルセロナが個人条件合意との報道(Managing Madrid経由でMARCA/The Athletic発)が出て前提が崩れた。ただしSky Sports(Tier2)・Goal(Tier3)は依然マドリードが本命との報道を続けており、行き先が競合している状態。「移籍する確率×マドリードを選ぶ確率」で割り引き42%、トレンドは下降。",
+      "status": "バルセロナ合意で事実上消滅",
+      "summaryJa": "ロドリの代理人がレアル・マドリードではなくバルセロナへの移籍を選んだと表明。シティとバルセロナが約5000万ユーロで合意し、8月12日にバルセロナ入りする見通しと複数媒体が報道。マドリード行きの可能性は事実上消えた。",
+      "reasoning": "ベース: 興味・リストアップ段階へ格下げ(5-20%)。バルセロナとの合意・入国日報道が複数(Forbes経由SER, Yahoo Sports, Goal)出たことで-15し下限の4%。",
       "sources": [
         {
           "outlet": "Sky Sports",
@@ -584,26 +577,27 @@
           "publishedAt": "2026-08-06"
         },
         {
-          "outlet": "Goal.com",
-          "tier": 3,
-          "title": "Rodri gives the final word to Real Madrid and moves to facilitate the deal",
-          "url": "https://www.goal.com/en/news/rodri-gives-real-madrid-the-final-word-and-moves-to-facilitate-the-deal/blt1f6c14af66669cb1",
-          "publishedAt": "2026-08-06"
-        },
-        {
           "outlet": "Managing Madrid",
           "tier": 4,
           "title": "BREAKING: Rodri snubs Real Madrid, agrees to terms with Barcelona -report",
           "url": "https://www.managingmadrid.com/111026/rodri-barcelona-real-madrid-2026-news-rumors",
           "publishedAt": "2026-08-06"
+        },
+        {
+          "outlet": "Forbes",
+          "tier": 3,
+          "title": "Manchester City Rejects FC Barcelona Offer After Rodri Agrees Terms, Reports SER",
+          "url": "https://www.forbes.com/sites/tomsanderson/2026/08/07/manchester-city-to-reject-fc-barcelona-offer-after-rodri-agrees-terms/",
+          "publishedAt": "2026-08-07"
         }
       ],
-      "updatedAt": "2026-08-06T23:43:06Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "rodri-mancity-barcelona",
       "tags": [
-        "bigclub"
+        "bigclub",
+        "premier"
       ],
       "player": {
         "name": "Rodri",
@@ -621,23 +615,37 @@
         "clubJa": "バルセロナ",
         "league": "LaLiga"
       },
-      "fee": "非公表",
+      "fee": "約€50m",
       "type": "permanent",
-      "probability": 38,
-      "trend": "flat",
-      "status": "個人条件合意(報道)",
-      "summaryJa": "Managing MadridがMARCAやThe Athleticの報道を引いて、ロドリがバルセロナと個人条件で合意し、シティとの交渉に入ったと伝えた。ただしSky SportsやGoalは依然レアル・マドリードが本命との見方を示しており、報道は割れている。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%。ただし報道の中心がManaging Madrid(Tier4のまとめブログ)であり、同時期のTier2/3(Sky Sports・Goal)は逆にレアル優位を報じている食い違いが大きいため-20程度の大幅減点。シティ側の合意も未報道。新規カードとして38%、トレンドは基準なしのためflat。",
+      "probability": 84,
+      "trend": "up",
+      "status": "クラブ間合意・8月12日入国予定",
+      "summaryJa": "バルセロナとマンチェスター・シティが約5000万ユーロで移籍合意に達したと複数メディアが報道。ロドリの代理人はレアル・マドリードではなくバルセロナを選んだと明言し、8月12日にバルセロナ入りする見通し。",
+      "reasoning": "ベース: 移籍金でクラブ間合意(70-85%)。ステップ2: Sky Sports・Goal(Tier2/3)に加えForbes(SER経由)・Yahoo Sportsが独立して合意・入国日を報道し複数一致で+9し84%。契約書のやり取りが完了していないため上限85%は超えさせない。",
       "sources": [
         {
-          "outlet": "Managing Madrid",
-          "tier": 4,
-          "title": "BREAKING: Rodri snubs Real Madrid, agrees to terms with Barcelona -report",
-          "url": "https://www.managingmadrid.com/111026/rodri-barcelona-real-madrid-2026-news-rumors",
-          "publishedAt": "2026-08-06"
+          "outlet": "Yahoo Sports",
+          "tier": 3,
+          "title": "Just in: Barcelona and Man City reach €50 million agreement for the transfer of Rodri",
+          "url": "https://sports.yahoo.com/articles/just-barcelona-man-city-reach-142000902.html",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "outlet": "Forbes",
+          "tier": 3,
+          "title": "Manchester City Rejects FC Barcelona Offer After Rodri Agrees Terms, Reports SER",
+          "url": "https://www.forbes.com/sites/tomsanderson/2026/08/07/manchester-city-to-reject-fc-barcelona-offer-after-rodri-agrees-terms/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "outlet": "Goal.com",
+          "tier": 3,
+          "title": "Confirming his arrival date: Barcelona seal Rodri deal",
+          "url": "https://www.goal.com/en/news/setting-his-arrival-date-barcelona-seal-rodri-deal/bltb4b47bccbfab0a80",
+          "publishedAt": "2026-08-07"
         }
       ],
-      "updatedAt": "2026-08-06T23:43:06Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "rulli-marseille-mancity",
@@ -1069,11 +1077,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 6,
+      "probability": 3,
       "trend": "down",
-      "status": "契約更新優先で沈静化",
-      "summaryJa": "レアル・マドリードが契約更新を最優先とする姿勢を崩しておらず、Football365は「アーセナルにとって悪いニュース」としてヴィニシウス残留を予想。アーセナルはマドリードの更新方針と本人のシグナル待ちで様子見。",
-      "reasoning": "ベース: 興味・リストアップ段階(5-20%)。ステップ3: Football365(Tier3, 8/6)が残留予想を明言し、複数報道でクラブ側が更新優先の姿勢を継続していることを反映して下限側の6%まで引き下げ。",
+      "status": "契約延長で事実上消滅",
+      "summaryJa": "レアル・マドリードがヴィニシウスと2032年までの契約延長(違約金約10億ユーロ)を発表。アーセナル移籍の観測は事実上消滅した。",
+      "reasoning": "レアル・マドリードとの契約延長が公式発表(8/6)されたため、移籍観測は事実上消滅。前回6%からさらに-3し3%。",
       "sources": [
         {
           "outlet": "Football365",
@@ -1081,9 +1089,16 @@
           "title": "Transfer rumour ranking: Man Utd, Arsenal deals OFF as Liverpool eye England sensation",
           "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
           "publishedAt": "2026-08-06"
+        },
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Vinicius Junior: Arsenal target signs Real Madrid contract extension to end uncertainty over future",
+          "url": "https://www.skysports.com/football/news/11095/13570470/vinicius-junior-arsenal-target-signs-real-madrid-contract-extension-to-end-uncertainty-over-future",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "olise-bayern-realmadrid",
@@ -1548,18 +1563,18 @@
       },
       "fee": "フリー",
       "type": "free",
-      "probability": 96,
-      "trend": "down",
-      "status": "メディカル合格・契約待ち",
-      "summaryJa": "アヤックスを退団した冨安がクリスタル・パレス加入へ。ロンドンでメディカル検査に合格し、48時間以内の契約サインが見込まれると報じられた。鎌田大地とチームメイトになる見通し。",
-      "reasoning": "メディカル実施/発表待ち帯(85-99%)。Fabrizio Romano(Tier2)が契約サイン待ちと報道、Sky Sports公式まとめ(8/6時点)にはまだ加入完了として掲載されておらず、クラブ公式発表は未確認。前回の更新でクラブ公式発表なしに100%/成立としていたのはルーブリック違反のため訂正し、実態に即した96%に修正。",
+      "probability": 100,
+      "trend": "up",
+      "status": "成立",
+      "summaryJa": "クリスタル・パレスが冨安健洋の加入を正式発表(8/7)。フリー契約でプレミアリーグに復帰し、鎌田大地とチームメイトになる。本人は「まさに僕が求めていた場所」とコメント。",
+      "reasoning": "クラブが公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "SOCCER DIGEST Web",
+          "outlet": "サッカーキング",
           "tier": 3,
-          "title": "ついに「HERE WE GO！」冨安健洋が鎌田所属クリスタル・パレスに正式加入へ！「48時間以内に契約」",
-          "url": "https://www.soccerdigestweb.com/news/detail/id=195362",
-          "publishedAt": "2026-08-05"
+          "title": "冨安健洋のクリスタル・パレス加入が正式決定！プレミア復帰で鎌田大地と共闘",
+          "url": "https://www.soccer-king.jp/news/world/eng/20260808/2190629.html",
+          "publishedAt": "2026-08-08"
         },
         {
           "outlet": "Sky Sports",
@@ -1569,7 +1584,7 @@
           "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "sano-mainz-liverpool",
@@ -1633,13 +1648,13 @@
         "clubJa": "パリ・サンジェルマン",
         "league": "Ligue 1"
       },
-      "fee": "€33m（約60億円）",
+      "fee": "€35m（約64億円）",
       "type": "permanent",
-      "probability": 87,
-      "trend": "up",
-      "status": "オファー提示・合意間近",
-      "summaryJa": "PSGがパルマに3300万ユーロ(約60億円)の公式オファーを提示。パルマの希望額(3000万ユーロ以上)を上回っており、受諾の可能性が高いとロマーノ氏が報道。",
-      "reasoning": "ステップ1: 移籍金でクラブ間合意に近い水準(70-85%)からスタートし、「交渉成立間近」という表現と提示額が要求を上回る点を加味して上振れ。ステップ2: Fabrizio Romano(Tier2)ソースで±0。ステップ3: 追加情報(パルマの最低希望額を上回るオファー)で+2。最終87%。",
+      "probability": 85,
+      "trend": "flat",
+      "status": "オファー引き上げ・出場時間保証が課題",
+      "summaryJa": "PSGがパルマへの提示額を3300万ユーロから3500万ユーロに引き上げた。獲得後は即座にユベントスへ育成目的でレンタルする案も浮上しており、本人はPSG入りに前向きながら出場機会の保証を求めていると報じられている。",
+      "reasoning": "ベース: 移籍金でクラブ間合意に近い水準(70-85%)を維持。ステップ3: 提示額引き上げ(+)と出場保証・レンタル先未確定という新たな条件面の課題(-)が相殺し、前回87%から85%に小幅下方修正。",
       "sources": [
         {
           "outlet": "SOCCER DIGEST Web (Yahoo!ニュース)",
@@ -1647,9 +1662,16 @@
           "title": "「交渉成立間近」23歳日本代表GK、欧州王者への移籍に前進！ついに\"60億円\"の公式オファーが届く！",
           "url": "https://news.yahoo.co.jp/articles/d863d08e1f77be4ad4c2bf5322b9cd3a8bd9a29d",
           "publishedAt": "2026-08-03"
+        },
+        {
+          "outlet": "Goal.com",
+          "tier": 3,
+          "title": "PSG face complication in Zion Suzuki transfer as Japanese goalkeeper makes starting role demand",
+          "url": "https://www.goal.com/en-us/lists/psg-zion-suzuki-transfer-demand-parma/blt185899400e3518c7",
+          "publishedAt": "2026-08-08"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "mitoma-brighton-bayern",
@@ -5704,11 +5726,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 20,
-      "trend": "flat",
-      "status": "巨額オファー・本人回答待ち",
-      "summaryJa": "サウジのアル・アハリが約10億ユーロとされる巨額オファーを提示済みと報じられている。クラブは本人からの前向きなシグナルを待っている段階で、本人はまだ意思表示していない。",
-      "reasoning": "ベース: 打診・代理人接触段階(20-35%)。ステップ2: Ben Jacobs経由の報道(Tier2相当)だが単独ソースのため上振れなし。ステップ3: 本人の意思表示が出ていないため帯の下限寄り20%。",
+      "probability": 3,
+      "trend": "down",
+      "status": "契約延長で事実上消滅",
+      "summaryJa": "レアル・マドリードがヴィニシウスと2032年までの契約延長(違約金約10億ユーロ)を発表。クラブが移籍の可能性に終止符を打つ形となり、サウジからの移籍観測は事実上消滅したと報じられている。",
+      "reasoning": "レアル・マドリードとの契約延長が公式発表(8/6)されたため、移籍観測は事実上消滅。興味・リストアップ帯の下限からさらに-15し3%まで引き下げ。",
       "sources": [
         {
           "outlet": "Goal.com",
@@ -5716,9 +5738,16 @@
           "title": "Transfer news | Real Madrid pin down Michael Olise deal, and Liverpool reject Vinicius offer",
           "url": "https://www.goal.com/en/lists/transfer-news-or-real-madrid-make-michael-olise-deal-conditional-and-liverpool-reject-vinicius-offer/blt499cb5ee9d1824be",
           "publishedAt": "2026-08-06"
+        },
+        {
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Vinicius Junior: Arsenal target signs Real Madrid contract extension to end uncertainty over future",
+          "url": "https://www.skysports.com/football/news/11095/13570470/vinicius-junior-arsenal-target-signs-real-madrid-contract-extension-to-end-uncertainty-over-future",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-10T00:17:43Z"
     },
     {
       "id": "sano-mainz-arsenal",
@@ -5798,6 +5827,45 @@
         }
       ],
       "updatedAt": "2026-08-07T00:11:20Z"
+    },
+    {
+      "id": "lukaku-napoli-fenerbahce",
+      "tags": [
+        "bigclub"
+      ],
+      "player": {
+        "name": "Romelu Lukaku",
+        "nameJa": "ロメル・ルカク",
+        "position": "FW",
+        "nationality": "ベルギー"
+      },
+      "from": {
+        "club": "Napoli",
+        "clubJa": "ナポリ",
+        "league": "Serie A"
+      },
+      "to": {
+        "club": "Fenerbahce",
+        "clubJa": "フェネルバフチェ",
+        "league": "Süper Lig"
+      },
+      "fee": "€4m〜€12m(折衝中)",
+      "type": "permanent",
+      "probability": 58,
+      "trend": "flat",
+      "status": "個人条件合意・移籍金で折衝",
+      "summaryJa": "ルカクがフェネルバフチェと2028年までの個人条件で合意したと報じられた。ナポリとフェネルバフチェは48時間以内の全体合意に自信を見せているが、ナポリの希望額(€12m前後)とフェネルバフチェの提示額(€4〜6m)に差があり、移籍金交渉が続いている。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)。ステップ2: Football Italia(Tier3)-5。ステップ3: 移籍金の折衝が難航している点で帯の下限寄りの58%。",
+      "sources": [
+        {
+          "outlet": "Football Italia",
+          "tier": 3,
+          "title": "Lukaku, Fenerbahce and Napoli confident of agreement within 48 hours",
+          "url": "https://football-italia.net/lukaku-fenerbahce-napoli-confident-agreement/",
+          "publishedAt": "2026-08-08"
+        }
+      ],
+      "updatedAt": "2026-08-10T00:17:43Z"
     }
   ]
 }
