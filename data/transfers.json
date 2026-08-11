@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T00:41:12Z",
-  "nextUpdateAt": "2026-08-10T01:41:12Z",
+  "generatedAt": "2026-08-11T21:16:44Z",
+  "nextUpdateAt": "2026-08-11T22:16:44Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -1241,11 +1241,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 42,
+      "probability": 48,
       "trend": "up",
-      "status": "獲得に動く",
-      "summaryJa": "フランス2部ランス所属の日本代表FWに対し、エバートンが獲得に動いていると報じられた。ステップアップ移籍の最有力候補として名前が挙がっている。",
-      "reasoning": "ベース: 打診・接触段階 = 20–35%。売り手が2部クラブで放出に応じる動機が強く、選手側にもステップアップの意思があるとみられる点で+して42%。移籍金の交渉段階は未報道のため五分には届かせない。",
+      "status": "上田綺世の代替候補として獲得検討",
+      "summaryJa": "エバートンが上田綺世(フェイエノールト)の獲得を目指していたが、要求移籍金(3500万ユーロ)が高すぎると判断し、代替候補として中村敬斗への関心を強めていると報じられた。",
+      "reasoning": "ベース: 打診・接触段階(20-35%)。ステップ3: 上田の移籍金が障害となりエバートンが中村に照準を移しているとの報道が加わり、複数媒体で一致しているため+して48%。移籍金交渉の具体的進展はまだ未報道のため五分(50%)には届かせない。trendはup。",
       "sources": [
         {
           "outlet": "超WORLDサッカー",
@@ -1253,9 +1253,16 @@
           "title": "2026-27シーズン日本人選手・海外移籍情報まとめ",
           "url": "https://web.ultra-soccer.jp/news/all/28454/",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "フェイエ上田綺世は65億円で獲得断念？ランス中村敬斗に照準か！「本人が条件に満足して…」",
+          "url": "https://football-tribe.com/japan/2026/07/28/357482/",
+          "publishedAt": "2026-07-28"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-11T21:16:44Z"
     },
     {
       "id": "yokota-hannover-rangers",
@@ -1650,11 +1657,11 @@
       },
       "fee": "€35m（約64億円）",
       "type": "permanent",
-      "probability": 85,
-      "trend": "flat",
-      "status": "オファー引き上げ・出場時間保証が課題",
-      "summaryJa": "PSGがパルマへの提示額を3300万ユーロから3500万ユーロに引き上げた。獲得後は即座にユベントスへ育成目的でレンタルする案も浮上しており、本人はPSG入りに前向きながら出場機会の保証を求めていると報じられている。",
-      "reasoning": "ベース: 移籍金でクラブ間合意に近い水準(70-85%)を維持。ステップ3: 提示額引き上げ(+)と出場保証・レンタル先未確定という新たな条件面の課題(-)が相殺し、前回87%から85%に小幅下方修正。",
+      "probability": 90,
+      "trend": "up",
+      "status": "移籍金3500万ユーロで合意・発表待ち",
+      "summaryJa": "PSGとパルマの間で移籍金3500万ユーロ規模の合意に達したと複数の海外メディアが報道。5年契約でPSG入りする見込みだが、出場時間確保のため加入後にユベントスへ育成目的でレンタルされる案も浮上している。",
+      "reasoning": "ベース: 移籍金でクラブ間合意(70-85%)の上限。ステップ3: OneFootball・Yardbarkerなど独立した複数のTier2〜3ソースが「合意に達した」と一致して報じているため+5〜10。ただし公式発表・本人のプレー保証の確定はまだのため90に据えた。",
       "sources": [
         {
           "outlet": "SOCCER DIGEST Web (Yahoo!ニュース)",
@@ -1669,9 +1676,23 @@
           "title": "PSG face complication in Zion Suzuki transfer as Japanese goalkeeper makes starting role demand",
           "url": "https://www.goal.com/en-us/lists/psg-zion-suzuki-transfer-demand-parma/blt185899400e3518c7",
           "publishedAt": "2026-08-08"
+        },
+        {
+          "outlet": "OneFootball",
+          "tier": 2,
+          "title": "PSG ready renewed bid for Zion Suzuki, talks with Parma next week",
+          "url": "https://onefootball.com/en/news/psg-ready-renewed-bid-for-zion-suzuki-talks-with-parma-next-week-43246492",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "Yardbarker",
+          "tier": 3,
+          "title": "PSG reach Suzuki agreement with Parma and could involve Juventus",
+          "url": "https://www.yardbarker.com/soccer/articles/psg_reach_suzuki_agreement_with_parma_and_could_involve_juventus/s1_17344_44162298",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-10T00:17:43Z"
+      "updatedAt": "2026-08-11T21:16:44Z"
     },
     {
       "id": "mitoma-brighton-bayern",
@@ -4955,11 +4976,11 @@
       },
       "fee": "エバートンが約2100万〜2300万ユーロを提示（フェイエノールトが拒否）",
       "type": "permanent",
-      "probability": 35,
+      "probability": 28,
       "trend": "down",
-      "status": "交渉中",
-      "summaryJa": "エールディビジ得点王の上田綺世に対し、エバートンが2100万〜2300万ユーロの移籍金を提示したが、フェイエノールトはこれを拒否した。ロッテルダムのクラブは3000万〜3500万ユーロを要求しており、金額差が埋まっていない。一方で「オファーがない」「移籍は困難」とする報道も並んでいる。",
-      "reasoning": "オファー提出済みだがクラブ間で金額が折り合っていないため「クラブ間で交渉中／オファー提出」帯（35-55）の中位でベース45。Tier3のため−5で40。「オファーなし」「移籍困難」という相反する報道が同時期に出ているため帯の上限以下に留め−5し35、trendはdown。",
+      "status": "金額で折り合わず停滞",
+      "summaryJa": "エバートンが提示した2100万〜2300万ユーロをフェイエノールトが拒否し交渉が停滞。エバートンは要求額(3000万〜3500万ユーロ)を高すぎると判断し代替候補(中村敬斗)に目を向けているとも報じられ、他クラブ(フェネルバフチェ、イプスウィッチ、フラム)への関心も浮上している。",
+      "reasoning": "オファーは拒否されたまま進展がなく、エバートン自身が代替候補探しに動いているとの新報道が出たため「打診・交渉中」帯の中でも下方修正し28%とした。trendはdown。",
       "sources": [
         {
           "outlet": "サッカーダイジェストWeb",
@@ -4976,19 +4997,19 @@
         {
           "outlet": "Football Tribe Japan",
           "tier": 4,
-          "title": "上田綺世の獲得にプレミアリーグのエバートンが金額を提示！「売却を拒否した」",
-          "url": "https://football-tribe.com/japan/2026/07/26/357400/",
-          "publishedAt": "2026-07-26"
+          "title": "フェイエ上田綺世は65億円で獲得断念？ランス中村敬斗に照準か！「本人が条件に満足して…」",
+          "url": "https://football-tribe.com/japan/2026/07/28/357482/",
+          "publishedAt": "2026-07-28"
         },
         {
           "outlet": "Football Tribe Japan",
           "tier": 4,
-          "title": "上田綺世の移籍困難！得点王も「魅力的ではない」その理由とは？",
-          "url": "https://football-tribe.com/japan/2026/08/05/357763/",
-          "publishedAt": "2026-08-05"
+          "title": "上田綺世が退団へ！「放出する可能性が高まっており」「残留する可能性は低い」",
+          "url": "https://football-tribe.com/japan/2026/08/11/357967/",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-11T21:16:44Z"
     },
     {
       "id": "ueda-feyenoord-leeds",
@@ -5014,11 +5035,11 @@
       },
       "fee": "フェイエノールトが75億円超を要求と報道",
       "type": "permanent",
-      "probability": 12,
+      "probability": 2,
       "trend": "down",
       "status": "噂",
-      "summaryJa": "リーズ・ユナイテッドは上田綺世の獲得レースから撤退したと報じられた。フェイエノールトが75億円超の移籍金を要求したことに対し、現地では「彼にその金額の価値はない」との見方が出ている。",
-      "reasoning": "一度は候補だったが撤退が報じられているため「興味・リストアップの報道のみ」帯（5-20）の中位でベース17。Tier3のため−5で12。撤退報道が最新の状況であるためtrendはdown。",
+      "summaryJa": "リーズ・ユナイテッドは上田綺世の獲得レースから撤退したと報じられた。以降続報はなく、フェネルバフチェやイプスウィッチなど他クラブの関心が優先的に報じられている。",
+      "reasoning": "撤退報道から5日以上動きがないため「−10」を適用し12%から2%に引き下げ。trendはdown。",
       "sources": [
         {
           "outlet": "東スポWEB",
@@ -5027,7 +5048,7 @@
           "url": "https://www.tokyo-sports.co.jp/articles/-/395623"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-11T21:16:44Z"
     },
     {
       "id": "ueda-feyenoord-real-madrid",
@@ -5271,11 +5292,11 @@
       },
       "fee": "アヤックスの評価額は約950万ユーロ",
       "type": "permanent",
-      "probability": 5,
+      "probability": 15,
       "trend": "up",
       "status": "噂",
-      "summaryJa": "アヤックスは出場機会を求める板倉滉の今夏の退団を容認しており、移籍先候補としてフラムが最有力と報じられた。プレミアリーグ挑戦が最も現実的とされるが、正式オファーが提出されるかは不明のままだ。アヤックスは昨夏の獲得金1050万ユーロの回収を望んでいる。",
-      "reasoning": "クラブは放出を容認しているが正式オファーは未提出と明記されているため「興味・リストアップの報道のみ」帯（5-20）の上限20をベースとした。出典がまとめ系Tier4のみのため−15で5。最有力候補という位置づけのためtrendはup。",
+      "summaryJa": "アヤックスは板倉滉の今夏の退団を容認しており、移籍先候補としてフラムが最有力と改めて報じられた。フラムが上田綺世(フェイエノールト)を獲得した場合はチームメイトになる可能性も指摘されている。正式オファー提出はまだ報じられていない。",
+      "reasoning": "クラブは放出を容認し、フラムが候補の中で最有力とする報道が複数回続いているため「興味・リストアップの報道のみ」帯（5-20）の上限20をベースとした。出典がまとめ系Tier4中心のため−5で15。最有力候補という位置づけの継続報道のためtrendはup。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
@@ -5290,9 +5311,16 @@
           "title": "板倉滉が退団へ！「認められている」「アヤックスは板倉の売却によって得た資金を…」",
           "url": "https://football-tribe.com/japan/2026/08/03/357711/",
           "publishedAt": "2026-08-03"
+        },
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世の去就で動きが！「フェイエに獲得打診」プレミア移籍で板倉滉と共闘説も",
+          "url": "https://football-tribe.com/japan/2026/08/06/357798/",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-11T21:16:44Z"
     },
     {
       "id": "itakura-ajax-club-brugge",
@@ -5531,11 +5559,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 5,
+      "probability": 2,
       "trend": "down",
-      "status": "噂",
-      "summaryJa": "日本代表を引退した遠藤航に対し、サウジアラビアのアル・ナスルが獲得オファーを用意していると報じられた。しかしその後、遠藤の獲得を狙っていた中東クラブに補強禁止処分が下り資金不足も指摘され、交渉は難しい状況になっている。遠藤はリバプールに早期合流して新シーズンの準備を進めている。",
-      "reasoning": "「オファー用意」の段階のため「打診・代理人接触が報じられた」帯（20-35）の中位でベース28。まとめ系Tier4のみで−15し13。初報が6月29日で5日以上更新がなく−10。さらに中東クラブへの補強禁止処分・資金不足という否定的な最新報道があるため下限の5に据え、trendはdown。to.clubがアル・ナスルであるとの特定は6月の報道に基づくもので、その後の否定的報道が同一クラブを指すかは未確認。",
+      "status": "事実上消滅",
+      "summaryJa": "サウジのアル・ナスルが遠藤航の獲得を検討していたと報じられたが、同クラブは深刻な財政危機と補強禁止処分に直面しており、獲得の可能性は事実上消滅したと改めて報じられた。遠藤はリバプールで新シーズンの準備を続けている。",
+      "reasoning": "アル・ナスルの財政危機・補強禁止処分が改めて報じられ、移籍の可能性は事実上消滅と判断。前回5%からさらに-3し2%、trendはdown。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
@@ -5550,9 +5578,15 @@
           "title": "日本代表引退・遠藤航の獲得狙っていた！中東クラブに補強禁止処分「資金不足」元J指揮官招へいも問題山積",
           "url": "https://football-tribe.com/japan/2026/07/29/357539/",
           "publishedAt": "2026-07-29"
+        },
+        {
+          "outlet": "Goal.com 日本",
+          "tier": 3,
+          "title": "アル・ナスルが窮地に…深刻な財政危機が給与を食い尽くし、夏の移籍市場が停滞！",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E3%82%A2%E3%83%AB-%E3%83%8A%E3%82%B9%E3%83%AB%E3%81%8B%E3%82%99%E7%AA%AE%E5%9C%B0%E3%81%AB-%E6%B7%B1%E5%88%BB%E3%81%AA%E8%B2%A1%E6%94%BF%E5%8D%B1%E6%A9%9F%E3%81%8B%E3%82%99%E7%B5%A6%E4%B8%8E%E3%82%92%E9%A3%9F%E3%81%84%E5%B0%BD%E3%81%8F%E3%81%97-%E5%A4%8F%E3%81%AE%E7%A7%BB%E7%B1%8D%E5%B8%82%E5%A0%B4%E3%81%8B%E3%82%99%E5%81%9C%E6%BB%9E/blt3ee1c7eef6c9a52c"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-11T21:16:44Z"
     },
     {
       "id": "goto-anderlecht-freiburg",
@@ -5912,6 +5946,125 @@
         }
       ],
       "updatedAt": "2026-08-10T00:41:12Z"
+    },
+    {
+      "id": "ueda-feyenoord-fenerbahce",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Ayase Ueda",
+        "nameJa": "上田綺世",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Feyenoord",
+        "clubJa": "フェイエノールト",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Fenerbahce",
+        "clubJa": "フェネルバフチェ",
+        "league": "Super Lig"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 20,
+      "trend": "flat",
+      "status": "関心が本格化",
+      "summaryJa": "フェイエノールトが上田綺世を今月中にも放出する可能性が高まっており、残留の可能性は低いとオランダメディアが報道。獲得候補の筆頭としてフェネルバフチェの名前が挙がっている。",
+      "reasoning": "「関心が本格化し始めている段階」との報道のため打診段階帯(20-35%)の下限を採用。海外専門媒体の報道をまとめ系媒体経由で取得しているためTier3相当とみなし-5して20%とした。新規案件のためtrendはflat。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世が退団へ！「放出する可能性が高まっており」「残留する可能性は低い」",
+          "url": "https://football-tribe.com/japan/2026/08/11/357967/",
+          "publishedAt": "2026-08-11"
+        }
+      ],
+      "updatedAt": "2026-08-11T21:16:44Z"
+    },
+    {
+      "id": "ueda-feyenoord-ipswich",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Ayase Ueda",
+        "nameJa": "上田綺世",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Feyenoord",
+        "clubJa": "フェイエノールト",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Ipswich Town",
+        "clubJa": "イプスウィッチ・タウン",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 15,
+      "trend": "flat",
+      "status": "獲得を打診",
+      "summaryJa": "イプスウィッチ・タウンがフェイエノールトに上田綺世の獲得を打診したとオランダメディアが報道。フェイエノールトは今月中の放出に動いているとされる状況。",
+      "reasoning": "「打診」段階の報道のため打診・接触帯(20-35%)を採用しつつ、海外専門媒体経由のTier3相当報道のみのため-5〜-10して15%とした。新規案件のためtrendはflat。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世の去就で動きが！「フェイエに獲得打診」プレミア移籍で板倉滉と共闘説も",
+          "url": "https://football-tribe.com/japan/2026/08/06/357798/",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-11T21:16:44Z"
+    },
+    {
+      "id": "ueda-feyenoord-fulham",
+      "tags": [
+        "japanese",
+        "premier"
+      ],
+      "player": {
+        "name": "Ayase Ueda",
+        "nameJa": "上田綺世",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Feyenoord",
+        "clubJa": "フェイエノールト",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Fulham",
+        "clubJa": "フラム",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 10,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "フラムが上田綺世の移籍先候補として挙げられ、加入すればレギュラー定着の可能性もあるとオランダメディアが報じた。板倉滉(アヤックス)も同時にフラムの候補に挙がっており、両者がチームメイトになる可能性も指摘されている。",
+      "reasoning": "移籍先候補としてリストアップされている段階の報道のため「興味・リストアップ」帯(5-20%)の中位をベースに、海外専門媒体経由のまとめ報道のみのため-5して10%とした。新規案件のためtrendはflat。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "上田綺世の去就で動きが！「フェイエに獲得打診」プレミア移籍で板倉滉と共闘説も",
+          "url": "https://football-tribe.com/japan/2026/08/06/357798/",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "updatedAt": "2026-08-11T21:16:44Z"
     }
   ]
 }
