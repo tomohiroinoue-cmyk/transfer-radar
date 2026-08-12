@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T12:44:25Z",
-  "nextUpdateAt": "2026-08-12T13:44:25Z",
+  "generatedAt": "2026-08-12T20:24:04Z",
+  "nextUpdateAt": "2026-08-12T21:24:04Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -482,23 +482,30 @@
         "clubJa": "ノッティンガム・フォレスト",
         "league": "Premier League"
       },
-      "fee": "£34m",
+      "fee": "£34.3m",
       "type": "permanent",
-      "probability": 72,
+      "probability": 100,
       "trend": "up",
-      "status": "交渉が進展",
-      "summaryJa": "£34m規模でノッティンガム・フォレストとの交渉が進展していると報じられた。金額が前回報道の£30mから上積みされている。",
-      "reasoning": "ベース: クラブ間で交渉中(35-55%)からadvanced talksで上限寄りに設定。金額が£30m→£34mへ上積みされ交渉が進んでいる様子がうかがえるため前回68%から+4。",
+      "status": "成立",
+      "summaryJa": "ノッティンガム・フォレストがスポルティングDFディオマンデを£34.3mで獲得し、4年契約で正式発表。グラスナー監督がクリスタル・パレス時代から狙っていた補強が実現した。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-08"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Ousmane Diomande: Nottingham Forest sign Sporting defender for £34.3m on four-year deal",
+          "url": "https://www.skysports.com/football/news/11727/13571913/ousmane-diomande-nottingham-forest-sign-sporting-defender-for-lb34-3m-on-four-year-deal",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "Nottingham Forest",
+          "tier": 1,
+          "title": "Ousmane Diomande shares why he's signed for Nottingham Forest as announcement is made",
+          "url": "https://www.nottinghamforest.news/2026/08/11/ousmane-diomande-shares-why-hes-signed-for-nottingham-forest-as-announcement-is-made/",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-10T00:17:43Z"
+      "updatedAt": "2026-08-12T20:24:04Z"
     },
     {
       "id": "savinho-mancity-tottenham",
@@ -521,30 +528,23 @@
         "clubJa": "トッテナム",
         "league": "Premier League"
       },
-      "fee": "£60m",
+      "fee": "£70m前後(交渉中)",
       "type": "permanent",
-      "probability": 68,
+      "probability": 70,
       "trend": "up",
-      "status": "個人条件合意・移籍金交渉中",
-      "summaryJa": "トッテナムがサビーニョと個人条件で合意に達したと報じられた。本人も移籍を強く希望しシティに意思を伝えており、£60m規模のパッケージで決着を目指す段階。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%の上限寄り。ESPN・BBCなど独立した複数のTier2ソースが個人条件合意を報じ一致しているため上限68%とした。クラブ間の移籍金合意はまだのため70%未満に留める。",
+      "status": "個人条件合意・移籍金£70m前後で交渉",
+      "summaryJa": "サビーニョはシティに移籍要望を提出済みで個人条件はトッテナムと合意済み。両クラブの移籍金交渉は当初「かなり離れている」状態だったが、シティの要求上積みで£70m前後まで近づいていると報じられている。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)の上限。ステップ2: TeamTalk(Tier3)が移籍金の接近を報じ、既存のESPN・BBC(Tier2)報道と整合するため前回68%から+2し70%。クラブ間合意はまだのため70%を上限とした。",
       "sources": [
         {
-          "outlet": "ESPN",
-          "tier": 2,
-          "title": "Transfer rumors, news: Tottenham eye move for Man City's Savinho",
-          "url": "https://www.espn.com/soccer/story/_/id/49477597/transfer-rumors-news-liverpool-paris-saint-germain-bradley-barcola-personal-terms",
-          "publishedAt": "2026-08-11"
-        },
-        {
-          "outlet": "BBC Sport",
-          "tier": 2,
-          "title": "Spurs want Savinho in double deal - gossip",
-          "url": "https://feeds.bbci.co.uk/sport/football/articles/c0e9yweg58eo",
+          "outlet": "TeamTalk",
+          "tier": 3,
+          "title": "Tottenham: One in, one out for Spurs as £50m advanced talks confirmed",
+          "url": "https://www.teamtalk.com/tottenham-hotspur/spurs-transfer-news-savinho-signing-talks-cristian-romero-exit-inter-milan",
           "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-12T09:10:29Z"
+      "updatedAt": "2026-08-12T20:24:04Z"
     },
     {
       "id": "rodri-mancity-realmadrid",
@@ -570,35 +570,21 @@
       },
       "fee": "最大 £51m",
       "type": "permanent",
-      "probability": 4,
+      "probability": 2,
       "trend": "down",
-      "status": "バルセロナ合意で事実上消滅",
-      "summaryJa": "ロドリの代理人がレアル・マドリードではなくバルセロナへの移籍を選んだと表明。シティとバルセロナが約5000万ユーロで合意し、8月12日にバルセロナ入りする見通しと複数媒体が報道。マドリード行きの可能性は事実上消えた。",
-      "reasoning": "ベース: 興味・リストアップ段階へ格下げ(5-20%)。バルセロナとの合意・入国日報道が複数(Forbes経由SER, Yahoo Sports, Goal)出たことで-15し下限の4%。",
+      "status": "バルセロナがメディカル待ちで事実上消滅",
+      "summaryJa": "バルセロナとマンチェスター・シティが主要条件で合意し、ロドリがメディカル待ちの段階に進んだと複数メディアが報道。マドリード行きの可能性はほぼ消えた。",
+      "reasoning": "ベース: 興味・リストアップ段階(5-20%)の下限付近。バルセロナ側のメディカル待ち報道が続き5日以上動きがないため-10して前回4%からさらに2%まで下げた。",
       "sources": [
         {
-          "outlet": "Sky Sports",
+          "outlet": "ESPN",
           "tier": 2,
-          "title": "Rodri transfer latest: Real Madrid expected to make bid for Manchester City midfielder after prolonged interest",
-          "url": "https://www.skysports.com/football/news/11095/13568453/rodri-transfer-latest-real-madrid-expected-to-make-bid-for-manchester-city-midfielder-after-prolonged-interest",
-          "publishedAt": "2026-08-06"
-        },
-        {
-          "outlet": "Managing Madrid",
-          "tier": 4,
-          "title": "BREAKING: Rodri snubs Real Madrid, agrees to terms with Barcelona -report",
-          "url": "https://www.managingmadrid.com/111026/rodri-barcelona-real-madrid-2026-news-rumors",
-          "publishedAt": "2026-08-06"
-        },
-        {
-          "outlet": "Forbes",
-          "tier": 3,
-          "title": "Manchester City Rejects FC Barcelona Offer After Rodri Agrees Terms, Reports SER",
-          "url": "https://www.forbes.com/sites/tomsanderson/2026/08/07/manchester-city-to-reject-fc-barcelona-offer-after-rodri-agrees-terms/",
-          "publishedAt": "2026-08-07"
+          "title": "Transfer rumors, news: Barcelona ratchet up efforts to sign Man City's Rodri",
+          "url": "https://www.espn.com/soccer/story/_/id/49566333/transfer-rumors-news-barcelona-step-rodri-chase-man-city",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-10T00:17:43Z"
+      "updatedAt": "2026-08-12T20:24:04Z"
     },
     {
       "id": "rodri-mancity-barcelona",
@@ -622,37 +608,30 @@
         "clubJa": "バルセロナ",
         "league": "LaLiga"
       },
-      "fee": "約€50m",
+      "fee": "約€65m+ボーナス€5m",
       "type": "permanent",
-      "probability": 84,
+      "probability": 92,
       "trend": "up",
-      "status": "クラブ間合意・8月12日入国予定",
-      "summaryJa": "バルセロナとマンチェスター・シティが約5000万ユーロで移籍合意に達したと複数メディアが報道。ロドリの代理人はレアル・マドリードではなくバルセロナを選んだと明言し、8月12日にバルセロナ入りする見通し。",
-      "reasoning": "ベース: 移籍金でクラブ間合意(70-85%)。ステップ2: Sky Sports・Goal(Tier2/3)に加えForbes(SER経由)・Yahoo Sportsが独立して合意・入国日を報道し複数一致で+9し84%。契約書のやり取りが完了していないため上限85%は超えさせない。",
+      "status": "メディカル待ち",
+      "summaryJa": "バルセロナとマンチェスター・シティが移籍の主要条件で合意し、書類手続きが最終段階。ロドリは休暇を切り上げてメディカル実施のためバルセロナ入りを待つ状態と複数メディアが報道。",
+      "reasoning": "ベース: メディカル実施／発表待ち(85-99%)。ステップ2: ESPN・Goal(Tier2/3)が独立して主要条件合意・メディカル待ちを一致して報道。前回84%から+8し92%。契約書の正式署名・クラブ公式発表がまだのため100%にはしない。",
       "sources": [
         {
-          "outlet": "Yahoo Sports",
-          "tier": 3,
-          "title": "Just in: Barcelona and Man City reach €50 million agreement for the transfer of Rodri",
-          "url": "https://sports.yahoo.com/articles/just-barcelona-man-city-reach-142000902.html",
-          "publishedAt": "2026-08-07"
-        },
-        {
-          "outlet": "Forbes",
-          "tier": 3,
-          "title": "Manchester City Rejects FC Barcelona Offer After Rodri Agrees Terms, Reports SER",
-          "url": "https://www.forbes.com/sites/tomsanderson/2026/08/07/manchester-city-to-reject-fc-barcelona-offer-after-rodri-agrees-terms/",
-          "publishedAt": "2026-08-07"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Transfer rumors, news: Barcelona ratchet up efforts to sign Man City's Rodri",
+          "url": "https://www.espn.com/soccer/story/_/id/49566333/transfer-rumors-news-barcelona-step-rodri-chase-man-city",
+          "publishedAt": "2026-08-11"
         },
         {
           "outlet": "Goal.com",
           "tier": 3,
           "title": "Confirming his arrival date: Barcelona seal Rodri deal",
           "url": "https://www.goal.com/en/news/setting-his-arrival-date-barcelona-seal-rodri-deal/bltb4b47bccbfab0a80",
-          "publishedAt": "2026-08-07"
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-10T00:17:43Z"
+      "updatedAt": "2026-08-12T20:24:04Z"
     },
     {
       "id": "rulli-marseille-mancity",
@@ -6053,6 +6032,99 @@
         }
       ],
       "updatedAt": "2026-08-11T21:16:44Z"
+    },
+    {
+      "id": "araujo-barcelona-liverpool",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Ronald Araujo",
+        "nameJa": "ロナルド・アラウホ",
+        "position": "DF",
+        "nationality": "ウルグアイ"
+      },
+      "from": {
+        "club": "Barcelona",
+        "clubJa": "バルセロナ",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Liverpool",
+        "clubJa": "リバプール",
+        "league": "Premier League"
+      },
+      "fee": "ローン+買取OP約€55m",
+      "type": "loan-to-buy",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "バルセロナの元主将アラウホがリバプールへ1年ローンで加入。来夏に完全移籍となる買取オプション（約€55m）付きで、ローン料は発生せず給与はリバプールが負担する契約。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Liverpool sign Barcelona defender Ronald Araujo on loan with €55m permanent option",
+          "url": "https://www.espn.com/soccer/story/_/id/49567137/liverpool-sign-barcelona-defender-ronald-araujo-loan-55m-permanent-option",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "Liverpool FC",
+          "tier": 1,
+          "title": "Liverpool agree deal to sign Ronald Araujo on loan",
+          "url": "https://www.liverpoolfc.com/news/liverpool-agree-deal-sign-ronald-araujo-loan",
+          "publishedAt": "2026-08-11"
+        }
+      ],
+      "updatedAt": "2026-08-12T20:24:04Z"
+    },
+    {
+      "id": "charles-southampton-fulham",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Shea Charles",
+        "nameJa": "シェイ・チャールズ",
+        "position": "MF",
+        "nationality": "北アイルランド"
+      },
+      "from": {
+        "club": "Southampton",
+        "clubJa": "サウサンプトン",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Fulham",
+        "clubJa": "フラム",
+        "league": "Premier League"
+      },
+      "fee": "£26m+ボーナス最大£6m",
+      "type": "permanent",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "サウサンプトンMFシェイ・チャールズがフラムへ完全移籍。5年契約で、北アイルランド選手史上最高額の移籍金になったと報じられている。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
+      "sources": [
+        {
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Fulham sign Shea Charles from Southampton on five-year contract",
+          "url": "https://www.espn.com/soccer/story/_/id/49580789/fulham-sign-shea-charles-southampton-five-year-contract-premier-league",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "Southampton FC",
+          "tier": 1,
+          "title": "Charles completes Fulham move",
+          "url": "https://www.southamptonfc.com/en/news/article/charles-completes-fulham-move",
+          "publishedAt": "2026-08-11"
+        }
+      ],
+      "updatedAt": "2026-08-12T20:24:04Z"
     }
   ]
 }

@@ -1236,5 +1236,22 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Iliman_Ndiaye_France_v_Senegal_16_June_2026-243.jpg"
+  },
+  "Ronald Araujo": {
+    "checkedAt": "2026-08-12T20:24:08.837Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Ronald_Ara%C3%BAjo",
+    "birthDate": "1999-03-07",
+    "file": "ronald-araujo.jpg",
+    "artist": "Werner100359",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:FC_Red_Bull_Salzburg_gegen_CF_Barcelona_(Testspiel_4._August_2021)_45_(cropped).jpg"
+  },
+  "Shea Charles": {
+    "checkedAt": "2026-08-12T20:24:12.762Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Shea_Charles",
+    "birthDate": "2003-11-05",
+    "noPhoto": true,
+    "reason": "記事に代表画像がない"
   }
 }
