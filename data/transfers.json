@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T21:16:44Z",
-  "nextUpdateAt": "2026-08-11T22:16:44Z",
+  "generatedAt": "2026-08-12T09:10:29Z",
+  "nextUpdateAt": "2026-08-12T10:10:29Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -132,30 +132,23 @@
         "clubJa": "コモ",
         "league": "Serie A"
       },
-      "fee": "€36m + アドオン",
+      "fee": "£30.8m",
       "type": "permanent",
-      "probability": 94,
-      "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "€36m + アドオンでチェルシーとコモの合意がまとまったと報じられた。近年のコモの積極補強を象徴する取引。",
-      "reasoning": "ベース: クラブ間合意 = 70–85%。「合意が固まった(sealed)」という強い表現と金額の具体性で+。ただし公式発表・メディカルの報道は未確認のため95%までは上げず91%。 追記: Football365(8/6)が「約3600万€でシール済み」と報道、独立ソース一致で+3。",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "チェルシーからコモへの完全移籍が正式に成立。Sky Sportsの公式移籍トラッカーにも£30.8mの移籍として掲載された。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
-        },
-        {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking (summer 2026)",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-06"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "guimaraes-newcastle-arsenal",
@@ -225,23 +218,23 @@
         "clubJa": "パリ・サンジェルマン",
         "league": "Ligue 1"
       },
-      "fee": "£8.5m (解除条項)",
+      "fee": "£8.5m（解除条項）",
       "type": "permanent",
-      "probability": 88,
-      "trend": "up",
-      "status": "解除条項発動",
-      "summaryJa": "PSGが契約内の解除条項(£8.5m)を発動したと報じられた。条項が有効ならヴィラ側に交渉を止める手段は乏しい。",
-      "reasoning": "解除条項の発動はクラブ間交渉を飛ばせるため、通常の「合意」より確度が高い。ベースを85–99%の帯に置き、公式発表待ちの段階として88%。条項の存在自体が誤報だった場合のリスクぶんだけ上限からは引いている。",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "アストン・ヴィラからPSGへの完全移籍が正式に成立。Sky Sportsの公式移籍トラッカーで£8.5mの移籍として確認された。PSG復帰は2013-15年以来2度目。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs",
+          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "romero-tottenham-inter",
@@ -265,23 +258,23 @@
         "clubJa": "インテル",
         "league": "Serie A"
       },
-      "fee": "非公表",
+      "fee": "トッテナムは約€50mを要求",
       "type": "permanent",
-      "probability": 87,
-      "trend": "up",
-      "status": "最終合意間近",
-      "summaryJa": "インテル移籍が「実質的に決まった(practically done)」とRomanoが伝えた。移籍金の詳細は明らかになっていない。",
-      "reasoning": "「practically done」はRomanoの語彙では合意済みかつ発表待ちに近い。ベース85–99%の下限寄りに置いて87%。移籍金が明かされていない=書類段階の不確実性が残るぶんを減点。",
+      "probability": 75,
+      "trend": "down",
+      "status": "アトレティコが競合・インテルは選手売却が先",
+      "summaryJa": "インテルはロメロの代理人と接触し獲得を検討しているが、まず選手を売却して資金を作る必要があると報じられた。さらにアトレティコ・マドリードもトッテナムと金額面で協議しており、行き先が競合する状況に。",
+      "reasoning": "前回は「practically done」報道で87%としたが、その後Sky Sportsがアトレティコとの並行協議・インテル側の資金事情（選手売却が先）という複雑化要因を報じたため一段階引き下げ。ベース85–99%からアトレティコとの競合（確率の按分）と資金面の障害で−12して75%、trendはdown。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Cristian Romero transfer news: Atletico Madrid in talks to sign Tottenham captain amid Inter Milan interest",
+          "url": "https://www.skysports.com/football/news/11095/13570615/cristian-romero-transfer-news-atletico-madrid-in-talks-to-sign-tottenham-captain-amid-inter-milan-interest",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "mendy-rayo-hull",
@@ -443,23 +436,30 @@
         "clubJa": "マンチェスター・シティ",
         "league": "Premier League"
       },
-      "fee": "非公表",
+      "fee": "シティ提示 約€90m保証 vs リール要求 約€100m",
       "type": "permanent",
-      "probability": 72,
+      "probability": 78,
       "trend": "up",
-      "status": "個人条件合意",
-      "summaryJa": "シティとの個人条件で合意に達したとTEAMtalkが報じた。リールとの移籍金交渉が残っている。",
-      "reasoning": "ベース: 個人条件で合意しクラブ間は未合意 = 55–70%。若手有望株でリール側が高値を狙う構図だが、シティの資金力で成立しやすいため+して72%。ソースがTEAMtalk単独(Tier3)のため大きくは上げない。",
+      "status": "個人条件で完全合意・移籍金交渉大詰め",
+      "summaryJa": "マンチェスター・シティがブアディと2031年6月までの契約で個人条件に完全合意したと複数メディアが報道。選手はグリーンライトを出しており、残るはシティが提示する約€90m保証とリールが求める約€100mの差を埋める交渉のみとされる。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%だが、独立した複数のTier2ソース(moroccoworldnews, Goal.com, Yahoo Sports経由のSky Sport報道)が個人条件の完全合意で一致し、かつ提示額と要求額の差が€10m程度まで縮まっているため+して78%とした。",
       "sources": [
         {
-          "outlet": "Football365",
+          "outlet": "Goal.com",
+          "tier": 2,
+          "title": "Manchester City agrees personal terms with Lille star Ayyoub Bouaddi",
+          "url": "https://www.goal.com/en/lists/manchester-city-lille-ayyoub-bouaddi-enzo-maresca-rodri/bltb444fd6d4dddbe06",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "outlet": "Morocco World News",
           "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "title": "Manchester City Reportedly Reaches Full Deal on Personal Terms with Ayyoub Bouaddi",
+          "url": "https://www.moroccoworldnews.com/2026/08/333918/manchester-city-reportedly-reaches-full-deal-on-personal-terms-with-ayyoub-bouaddi/",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "odiomande-sporting-forest",
@@ -523,21 +523,28 @@
       },
       "fee": "£60m",
       "type": "permanent",
-      "probability": 62,
+      "probability": 68,
       "trend": "up",
-      "status": "交渉中(期限設定)",
-      "summaryJa": "£60m でトッテナムが動いており、シティ側が週末を交渉の期限に設定したと報じられた。決着か決裂かが早い段階でつく可能性が高い。",
-      "reasoning": "ベース: クラブ間で交渉中/オファー提出 = 35–55%。売り手側が期限を切るのは通常「まとめる意思がある」サインなので+。金額感も両者の希望が近いとみられるため62%。合意の報道はまだないため70%未満に留める。",
+      "status": "個人条件合意・移籍金交渉中",
+      "summaryJa": "トッテナムがサビーニョと個人条件で合意に達したと報じられた。本人も移籍を強く希望しシティに意思を伝えており、£60m規模のパッケージで決着を目指す段階。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%の上限寄り。ESPN・BBCなど独立した複数のTier2ソースが個人条件合意を報じ一致しているため上限68%とした。クラブ間の移籍金合意はまだのため70%未満に留める。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Transfer rumors, news: Tottenham eye move for Man City's Savinho",
+          "url": "https://www.espn.com/soccer/story/_/id/49477597/transfer-rumors-news-liverpool-paris-saint-germain-bradley-barcola-personal-terms",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "BBC Sport",
+          "tier": 2,
+          "title": "Spurs want Savinho in double deal - gossip",
+          "url": "https://feeds.bbci.co.uk/sport/football/articles/c0e9yweg58eo",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "rodri-mancity-realmadrid",
@@ -793,30 +800,23 @@
         "clubJa": "トッテナム",
         "league": "Premier League"
       },
-      "fee": "非公表",
+      "fee": "£72m（リバプールの希望額）",
       "type": "permanent",
-      "probability": 38,
+      "probability": 42,
       "trend": "up",
-      "status": "打診を強化",
-      "summaryJa": "トッテナムが獲得に向けた働きかけを強めるとRomanoが報じた。得点源を探すトッテナムの候補の一人。",
-      "reasoning": "ベース: 打診・接触段階 = 20–35%。Romanoが「efforts を step up する」と報じた点で帯の上限を超えて38%。ただしリバプール側の売却意思、金額、選手の意向のいずれも未報道で、不確実性が3つ残る。",
+      "status": "接触・バルコラ移籍が鍵",
+      "summaryJa": "サビーニョ獲得を進めるトッテナムがガクポ獲得でもリバプールに接触したと報じられた。リバプールがPSGバルコラの獲得に成功するかどうかがガクポ放出の鍵になるとされる。",
+      "reasoning": "ベース: 打診・接触段階 = 20–35%。ESPNなどTier2が接触を報じ帯上限を超えて+。ただしリバプールの放出可否がバルコラ交渉という他条件に依存する構造上の不確実性があるため42%に留める。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
-        },
-        {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Premier League transfer news",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Transfer rumors, news: Tottenham eye move for Liverpool's Gakpo",
+          "url": "https://www.espn.com/soccer/story/_/id/49572938/transfer-rumors-news-manchester-united-turn-youth-chase-club-brugge-leicester-stars",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "barcola-psg-liverpool",
@@ -840,23 +840,23 @@
         "clubJa": "リバプール",
         "league": "Premier League"
       },
-      "fee": "£145m を提示し拒否",
+      "fee": "PSGは€100m超を要求（移籍金は未合意）",
       "type": "permanent",
-      "probability": 34,
-      "trend": "flat",
-      "status": "オファー却下",
-      "summaryJa": "リバプールが £145m のオファーを出したがPSGに却下されたと報じられた。サイドの補強を狙う動きの一環。",
-      "reasoning": "ベース: オファー提出 = 35–55% の帯だが、売り手が明確に拒否した時点で −20 相当の減点。すでに £145m という高額が動いており交渉自体は生きているとみて34%。PSGが金額を上げれば応じる余地があるかは不明。",
+      "probability": 55,
+      "trend": "up",
+      "status": "個人条件で合意・移籍金で難航",
+      "summaryJa": "リバプールとバルコラ本人の間で個人条件について原則合意に達し、本人も移籍に前向きとESPNが報道。ただしPSGは€100mを大きく超える移籍金を要求しており、クラブ間の金額交渉はこれから。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%の下限。PSGが提示額を大きく上回る要求をしており移籍金交渉が難航する見込みのため下限に据えて55%。前回の「オファー却下」段階から選手個人の合意まで進展したためtrendはup。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Transfer rumors, news: Liverpool, PSG, Bradley Barcola personal terms",
+          "url": "https://www.espn.com/soccer/story/_/id/49477597/transfer-rumors-news-liverpool-paris-saint-germain-bradley-barcola-personal-terms",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "oosterwolde-fenerbahce-palace",
@@ -1766,11 +1766,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 32,
-      "trend": "flat",
+      "probability": 22,
+      "trend": "down",
       "status": "関心・年俸が障害",
       "summaryJa": "北中米W杯での活躍を受けて争奪戦の様相となり、久保建英が所属するレアル・ソシエダへの移籍が浮上した。ただし年俸額が移籍実現の最大の障害と報じられている。ACミラン、ビリャレアル、フィオレンティーナも関心を示す。",
-      "reasoning": "ベース: 打診・接触段階 = 20–35%。退団自体の可能性は高いが、①行き先が4クラブ以上で競合 ②年俸が「最大の障害」と障害が具体的に指摘されている、の2点で減点。「退団する確率」と「ソシエダを選ぶ確率」の掛け算としてこのカードは32%。",
+      "reasoning": "前回32%から7日以上進展報道がないため §3「5日以上更新なし−10」を適用し22%、trendはdown。",
       "sources": [
         {
           "outlet": "東スポWEB",
@@ -1787,7 +1787,7 @@
           "publishedAt": "2026-07-08"
         }
       ],
-      "updatedAt": "2026-08-05T20:07:13Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "kubo-sociedad-liverpool",
@@ -1813,11 +1813,11 @@
       },
       "fee": "「115億円用意」との報道",
       "type": "permanent",
-      "probability": 18,
+      "probability": 8,
       "trend": "down",
-      "status": "報道が対立",
-      "summaryJa": "リバプール移籍が浮上し「115億円用意」と報じられた一方、同時期に「オファーはなく加入以来で最も静かな移籍市場」「残留へ」との報道も出ている。市場価値は €2,000万（約33億円）まで下落したとされる。",
-      "reasoning": "ベース: 興味・リストアップ段階 = 5–20%。同じ時期に「115億円用意」と「オファーなし・残留」という相反する報道が並んでおり、金額報道の裏付けが弱い。市場価値の下落は買い手が高値を出す動機を弱める要素。矛盾する報道を根拠に上振れさせるべきではないため帯の上限18%に留め、トレンドは下降。",
+      "status": "報道が対立・進展なし",
+      "summaryJa": "リバプール移籍が浮上し「115億円用意」と報じられた一方、同時期に「オファーはなく加入以来で最も静かな移籍市場」「残留へ」との報道も出ている。市場価値は€2,000万（約33億円）まで下落したとされる。",
+      "reasoning": "前回18%から7日以上新たな進展報道が確認できないため §3「5日以上更新なし−10」を適用し8%、trendはdown。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
@@ -1827,7 +1827,7 @@
           "publishedAt": "2026-07-24"
         }
       ],
-      "updatedAt": "2026-08-05T20:07:13Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "araki-kashima-sinttruiden",
@@ -3427,7 +3427,9 @@
       ],
       "player": {
         "name": "Cristian Romero",
-        "nameJa": "クリスティアン・ロメロ"
+        "nameJa": "クリスティアン・ロメロ",
+        "position": "DF",
+        "nationality": "アルゼンチン"
       },
       "from": {
         "club": "Tottenham",
@@ -3441,21 +3443,21 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 12,
+      "probability": 25,
       "trend": "up",
-      "status": "関心",
-      "summaryJa": "アトレティコ・マドリードが退団を望むとされるロメロの獲得に動く準備をしていると報じられている。移籍金や交渉状況の詳細は明らかになっていない。",
-      "reasoning": "「動く準備をしている」は打診・接触の前段階に近いためベース28（20〜35帯の中位）。出典がCaughtOffside（Tier4）のみで−15。さらに同選手にはインテル移籍の報道も並行しており行き先が競合するため割り引き、最終12。",
+      "status": "交渉が浮上",
+      "summaryJa": "Sky Sportsが、アトレティコ・マドリードがトッテナムとロメロ獲得について金額面を含め協議していると報じた。並行してインテルも関心を示しており行き先は未定。",
+      "reasoning": "ベース: クラブ間で交渉中 = 35–55%だが、Tier2(Sky Sports)ながらインテルとの競合で行き先が分散しているため「移籍する確率×アトレティコを選ぶ確率」で大きく割り引き25%とした。前回のTier4単独報道(12%)からTier2の裏付けが付いたためtrendはup。",
       "sources": [
         {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Atletico Madrid preparing move for wantaway Tottenham star",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
+          "outlet": "Sky Sports",
+          "tier": 2,
+          "title": "Cristian Romero transfer news: Atletico Madrid in talks to sign Tottenham captain amid Inter Milan interest",
+          "url": "https://www.skysports.com/football/news/11095/13570615/cristian-romero-transfer-news-atletico-madrid-in-talks-to-sign-tottenham-captain-amid-inter-milan-interest",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
       "id": "woltemade-newcastleunited-liverpool",
