@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T20:24:04Z",
-  "nextUpdateAt": "2026-08-12T21:24:04Z",
+  "generatedAt": "2026-08-12T22:13:58Z",
+  "nextUpdateAt": "2026-08-12T23:13:58Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -4355,7 +4355,9 @@
       ],
       "player": {
         "name": "Endrick",
-        "nameJa": "エンドリック"
+        "nameJa": "エンドリック",
+        "position": "FW",
+        "nationality": "ブラジル"
       },
       "from": {
         "club": "Real Madrid",
@@ -4368,22 +4370,29 @@
         "league": "Serie A"
       },
       "fee": "非公表",
-      "type": "loan-to-buy",
-      "probability": 38,
-      "trend": "flat",
-      "status": "クラブ間協議中",
-      "summaryJa": "ローマがレアル・マドリードのブラジル人FWの獲得に関心を示し、買い取りオプション付きレンタルの形が協議されていると報じられた。合意には至っていない。",
-      "reasoning": "ベース: クラブ間で交渉中（35-55帯）の中下位で43 → ソースがTier3のまとめ系単独で-5 → 38。8月2日以降の続報を確認できていないためトレンドはflat。",
+      "type": "loan",
+      "probability": 30,
+      "trend": "down",
+      "status": "アストン・ヴィラと争奪戦",
+      "summaryJa": "レアル・マドリードがエンドリックのレンタル放出を検討する中、ローマに続きアストン・ヴィラも獲得に名乗りを上げた。Fabrizio Romanoは「さらに他クラブが参戦する可能性もある」とし、選手本人もまだ残留か移籍か代理人と協議する段階と報道されている。",
+      "reasoning": "ベース: 打診・代理人接触が報じられた帯(20-35)の中位25。ステップ2: Football365経由のFabrizio Romano情報とYahoo Sports(いずれもTier2)が一致で+5。ステップ3: アストン・ヴィラの参戦で行き先が競合しているため『移籍する確率×ローマを選ぶ確率』で割り引き、前回38から30へ引き下げ。trendはdown。",
       "sources": [
         {
-          "outlet": "BeSoccer",
-          "tier": 3,
-          "title": "Latest transfer news, football rumours and confirmed deals",
-          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
-          "publishedAt": "2026-08-02"
+          "outlet": "Football365",
+          "tier": 2,
+          "title": "Aston Villa transfer news: Romano drops Endrick transfer update as Villans 'meet conditions' for Real Madrid striker",
+          "url": "https://www.football365.com/news/aston-villa-real-madrid-endrick-fabrizio-romano-transfer-update",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "outlet": "Yahoo Sports",
+          "tier": 2,
+          "title": "Roma, Aston Villa interested in Endrick loan deal -report",
+          "url": "https://sports.yahoo.com/articles/roma-aston-villa-interested-endrick-173529235.html",
+          "publishedAt": "2026-08-09"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-12T22:13:58Z"
     },
     {
       "id": "zirkzee-manchester-united-juventus",
@@ -6125,6 +6134,92 @@
         }
       ],
       "updatedAt": "2026-08-12T20:24:04Z"
+    },
+    {
+      "id": "endrick-real-madrid-astonvilla",
+      "tags": [
+        "bigclub",
+        "premier"
+      ],
+      "player": {
+        "name": "Endrick",
+        "nameJa": "エンドリック",
+        "position": "FW",
+        "nationality": "ブラジル"
+      },
+      "from": {
+        "club": "Real Madrid",
+        "clubJa": "レアル・マドリード",
+        "league": "LaLiga"
+      },
+      "to": {
+        "club": "Aston Villa",
+        "clubJa": "アストン・ヴィラ",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 28,
+      "trend": "flat",
+      "status": "獲得条件を満たすと現地報道",
+      "summaryJa": "アストン・ヴィラがレアル・マドリードのFWエンドリックのレンタル獲得を検討していると複数メディアが報道。スペイン紙ASは、エンドリックが移籍の条件とする『先発FWの座』と『欧州カップ戦出場』をヴィラが満たしていると指摘した。ローマとの争奪戦になっている。",
+      "reasoning": "ベース: 打診・代理人接触が報じられた帯(20-35)の中位25。ステップ2: Football365経由のFabrizio Romano情報とYahoo Sports(いずれもTier2)が一致で+5→30。ステップ3: ローマとの競合のため割り引き28。新規追加のためtrendはflat。",
+      "sources": [
+        {
+          "outlet": "Football365",
+          "tier": 2,
+          "title": "Aston Villa transfer news: Romano drops Endrick transfer update as Villans 'meet conditions' for Real Madrid striker",
+          "url": "https://www.football365.com/news/aston-villa-real-madrid-endrick-fabrizio-romano-transfer-update",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "outlet": "Yahoo Sports",
+          "tier": 2,
+          "title": "Aston Villa plot ambitious loan move for Real Madrid star Endrick",
+          "url": "https://sports.yahoo.com/articles/aston-villa-plot-ambitious-loan-043836392.html",
+          "publishedAt": "2026-08-09"
+        }
+      ],
+      "updatedAt": "2026-08-12T22:13:58Z"
+    },
+    {
+      "id": "nakamura-reims-besiktas",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Keito Nakamura",
+        "nameJa": "中村敬斗",
+        "position": "FW",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Reims",
+        "clubJa": "スタッド・ランス",
+        "league": "Ligue 2"
+      },
+      "to": {
+        "club": "Besiktas",
+        "clubJa": "ベシクタシュ",
+        "league": "Süper Lig"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 5,
+      "trend": "flat",
+      "status": "噂",
+      "summaryJa": "ランス退団が濃厚な中村敬斗について、エバートンやマルセイユに加えトルコ1部ベシクタシュも獲得候補に挙がっていると報じられた。具体的なオファー等の続報はまだない。",
+      "reasoning": "ベース: 興味・リストアップの報道のみ帯(05-20)の下限。ステップ2: まとめ系のライブドア追随報道(Tier4)で減点。移籍先候補が5クラブ以上に分散しているため下限の5に据えた。",
+      "sources": [
+        {
+          "outlet": "ライブドアニュース",
+          "tier": 4,
+          "title": "中村敬斗の移籍交渉が難航、エバートンとベジクタシュが獲得に名乗り",
+          "url": "https://news.livedoor.com/topics/detail/31912549/",
+          "publishedAt": "2026-07-26"
+        }
+      ],
+      "updatedAt": "2026-08-12T22:13:58Z"
     }
   ]
 }
