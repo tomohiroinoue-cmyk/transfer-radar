@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T09:10:29Z",
-  "nextUpdateAt": "2026-08-12T10:10:29Z",
+  "generatedAt": "2026-08-12T12:44:25Z",
+  "nextUpdateAt": "2026-08-12T13:44:25Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -390,30 +390,30 @@
         "clubJa": "ナポリ",
         "league": "Serie A"
       },
-      "fee": "ローン料約€3m+買取OPで最大€20-23m",
+      "fee": "ローン料約€3m+買取OP €18-20m",
       "type": "loan-to-buy",
-      "probability": 75,
+      "probability": 80,
       "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "アレグリ新監督のナポリがチェルシーと交渉し、季了ローン+買取オプション付きで合意に近づいていると複数のイタリア/英メディアが報じた。チェルシーは今夏の構想外としており、9月1日の期限までの放出を目指している。",
-      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Get French Football News・FootballTransfersなど複数のTier3が同時期に「合意間近」「合意に近づいている」と独立して報じている点で+。一方で一部報道は「€30mでの合意は難しい」とも触れており上限までは上げず75%。",
+      "status": "クラブ間合意・条件詰め",
+      "summaryJa": "チェルシーとナポリがローン+買取オプション付きで基本合意。買取オプションの金額をチェルシー側が1800万〜2000万ユーロまで引き上げて要求しており、給与条件など詳細を詰めている段階。事務手続きが済めばメディカル実施の見込みと報じられている。",
+      "reasoning": "ベース: クラブ間で移籍金合意(70-85%)の上位。前回確認時から買取オプション金額の具体化が進み、メディカル実施の見通しにも触れる報道が増えたため+5して80。ただし正式なメディカル実施の確定情報はまだのため85%帯には入れない。",
       "sources": [
         {
-          "outlet": "Get French Football News",
+          "outlet": "FootballPlace",
           "tier": 3,
-          "title": "Chelsea and Napoli nearing agreement over Benoît Badiashile",
-          "url": "https://www.getfootballnewsfrance.com/2026/chelsea-and-napoli-nearing-agreement-over-benoit-badiashile/",
-          "publishedAt": "2026-08-06"
+          "title": "Napoli close in on Benoît Badiashile as Juventus eye Chelsea defender",
+          "url": "https://footballplace.co.uk/benoit-badiashile-napoli-transfer-chelsea/",
+          "publishedAt": "2026-08-10"
         },
         {
-          "outlet": "FootballTransfers",
+          "outlet": "Goal.com",
           "tier": 3,
-          "title": "Chelsea transfer news: Benoit Badiashile reaches contract agreement with Napoli",
-          "url": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/08/chelsea-transfer-news-benoit-badiashile-napoli-contract-agreement-summer-2026",
-          "publishedAt": "2026-08-06"
+          "title": "Napoli confident of landing Chelsea defender despite the Blues raising asking price",
+          "url": "https://www.goal.com/en-za/lists/benoit-badiashile-chelsea-napoli-loan-transfer/blt81b4095540396e48",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-06T23:43:06Z"
+      "updatedAt": "2026-08-12T12:44:25Z"
     },
     {
       "id": "bouaddi-lille-mancity",
@@ -1657,42 +1657,28 @@
       },
       "fee": "€35m（約64億円）",
       "type": "permanent",
-      "probability": 90,
+      "probability": 96,
       "trend": "up",
-      "status": "移籍金3500万ユーロで合意・発表待ち",
-      "summaryJa": "PSGとパルマの間で移籍金3500万ユーロ規模の合意に達したと複数の海外メディアが報道。5年契約でPSG入りする見込みだが、出場時間確保のため加入後にユベントスへ育成目的でレンタルされる案も浮上している。",
-      "reasoning": "ベース: 移籍金でクラブ間合意(70-85%)の上限。ステップ3: OneFootball・Yardbarkerなど独立した複数のTier2〜3ソースが「合意に達した」と一致して報じているため+5〜10。ただし公式発表・本人のプレー保証の確定はまだのため90に据えた。",
+      "status": "合意・発表待ち(Here We Go)",
+      "summaryJa": "Fabrizio RomanoがPSGとパルマの間で移籍金3500万ユーロ規模の合意に達したと報道（「Here We Go」表現を使用）。5年契約が見込まれ、PSG入り後は出場機会確保のためユベントスへ1年間レンタルされる案も浮上している。正式なクラブ発表はまだ。",
+      "reasoning": "ベース: メディカル実施／発表待ち帯(85-99%)。Tier2のFabrizio Romanoが合意成立を報じ、複数の独立メディアが追随して一致しているため+。ただし正式発表・契約書サインの確認はまだのため上限の99ではなく96に据えた。",
       "sources": [
         {
-          "outlet": "SOCCER DIGEST Web (Yahoo!ニュース)",
+          "outlet": "Yahoo Sports",
           "tier": 2,
-          "title": "「交渉成立間近」23歳日本代表GK、欧州王者への移籍に前進！ついに\"60億円\"の公式オファーが届く！",
-          "url": "https://news.yahoo.co.jp/articles/d863d08e1f77be4ad4c2bf5322b9cd3a8bd9a29d",
-          "publishedAt": "2026-08-03"
-        },
-        {
-          "outlet": "Goal.com",
-          "tier": 3,
-          "title": "PSG face complication in Zion Suzuki transfer as Japanese goalkeeper makes starting role demand",
-          "url": "https://www.goal.com/en-us/lists/psg-zion-suzuki-transfer-demand-parma/blt185899400e3518c7",
-          "publishedAt": "2026-08-08"
-        },
-        {
-          "outlet": "OneFootball",
-          "tier": 2,
-          "title": "PSG ready renewed bid for Zion Suzuki, talks with Parma next week",
-          "url": "https://onefootball.com/en/news/psg-ready-renewed-bid-for-zion-suzuki-talks-with-parma-next-week-43246492",
-          "publishedAt": "2026-08-11"
-        },
-        {
-          "outlet": "Yardbarker",
-          "tier": 3,
-          "title": "PSG reach Suzuki agreement with Parma and could involve Juventus",
-          "url": "https://www.yardbarker.com/soccer/articles/psg_reach_suzuki_agreement_with_parma_and_could_involve_juventus/s1_17344_44162298",
+          "title": "\"Here we go\" – PSG €35m transfer confirmed by Fabrizio Romano; loan could follow",
+          "url": "https://sports.yahoo.com/articles/psg-35m-transfer-confirmed-fabrizio-111000218.html",
           "publishedAt": "2026-08-12"
+        },
+        {
+          "outlet": "KNEWS.MEDIA",
+          "tier": 3,
+          "title": "PSG Agrees to Sign Zion Suzuki from Parma for €35 Million",
+          "url": "https://knews.media/2026/08/11/psg-agrees-to-sign-zion-suzuki-from-parma-for-e35-million/",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-11T21:16:44Z"
+      "updatedAt": "2026-08-12T12:44:25Z"
     },
     {
       "id": "mitoma-brighton-bayern",
@@ -4358,37 +4344,30 @@
         "clubJa": "ガラタサライ",
         "league": "Super Lig"
       },
-      "fee": "非公表",
-      "type": "permanent",
-      "probability": 30,
+      "fee": "ローン+買取義務 総額€40m規模（交渉中）",
+      "type": "loan-to-buy",
+      "probability": 38,
       "trend": "up",
-      "status": "代理人と会談",
-      "summaryJa": "ガラタサライが8月5日に選手の代理人と会談し、年俸最大11MEURのオファーを提示したと報じられた。ミラン側は50〜60MEURの移籍金を要求し、レンタルは認めない構えとされる。選手本人は検討の時間を求めている。",
-      "reasoning": "ベース: 打診・代理人接触が報じられた（20-35帯）の上位で35、ミランが売却条件を明示している点は前進材料 → ただしソースがTier4のまとめ系中心で-15、複数媒体が一致している点で+10 → 30。クラブ間の金額合意はまだない。",
+      "status": "公式オファー提出→拒否、再提案準備中",
+      "summaryJa": "ガラタサライがミランに移籍金3500万ユーロの公式オファーを提示したが、ミランは金額不足として拒否。ガラタサライはローン+買取義務で総額4000万ユーロ規模に引き上げた再提案を準備している。年俸は現在の約2倍（1000万ユーロ）を提示する構えだが、選手本人はまだ移籍に本格的に前向きではない。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出(35-55%)の下限。公式オファーが実際に提出・拒否された事実が確認できたため前回の「代理人接触」帯から前進。ただし選手本人がまだ乗り気でない点と、ミランの要求額(5000万ユーロ)との差が大きい点で下限寄りの38に据えた。",
       "sources": [
-        {
-          "outlet": "MilanReports",
-          "tier": 4,
-          "title": "Turkish club Galatasaray met with Leao's representatives – The latest",
-          "url": "https://milanreports.com/2026/08/05/turkish-club-galatasaray-met-with-leaos-representatives-the-latest/",
-          "publishedAt": "2026-08-05"
-        },
         {
           "outlet": "Türkiye Today",
           "tier": 4,
-          "title": "Galatasaray steps up Rafael Leao pursuit with reported €11M salary offer",
-          "url": "https://www.turkiyetoday.com/sports/galatasaray-steps-up-rafael-leao-pursuit-with-reported-11m-salary-offer-3224404",
-          "publishedAt": "2026-08-05"
+          "title": "Galatasaray prepare new Rafael Leao bid after Milan reject €35M offer",
+          "url": "https://www.turkiyetoday.com/sports/galatasaray-prepare-new-rafael-leao-bid-after-milan-reject-35m-offer-3225537",
+          "publishedAt": "2026-08-11"
         },
         {
-          "outlet": "Football Italia",
-          "tier": 2,
-          "title": "Rafael Leao awaits fresh Galatasaray and Fenerbahce proposals as AC Milan set sale terms",
-          "url": "https://football-italia.net/rafael-leao-awaits-galatasaray-fenerbahce/",
-          "publishedAt": "2026-07-24"
+          "outlet": "MilanReports",
+          "tier": 4,
+          "title": "Di Marzio: AC Milan reject Galatasaray offer for Leão as bid considered too low",
+          "url": "https://milanreports.com/2026/08/06/milan-reject-galatasaray-offer-leao/",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-12T12:44:25Z"
     },
     {
       "id": "endrick-real-madrid-roma",
@@ -5970,23 +5949,30 @@
         "clubJa": "フェネルバフチェ",
         "league": "Super Lig"
       },
-      "fee": "非公表",
+      "fee": "非公表（フェネルバフチェ提示2000万ユーロ超、フェイエノールト要求2500万ユーロ）",
       "type": "permanent",
-      "probability": 20,
-      "trend": "flat",
-      "status": "関心が本格化",
-      "summaryJa": "フェイエノールトが上田綺世を今月中にも放出する可能性が高まっており、残留の可能性は低いとオランダメディアが報道。獲得候補の筆頭としてフェネルバフチェの名前が挙がっている。",
-      "reasoning": "「関心が本格化し始めている段階」との報道のため打診段階帯(20-35%)の下限を採用。海外専門媒体の報道をまとめ系媒体経由で取得しているためTier3相当とみなし-5して20%とした。新規案件のためtrendはflat。",
+      "probability": 40,
+      "trend": "up",
+      "status": "具体的オファー提示・金額交渉中",
+      "summaryJa": "フェネルバフチェがフェイエノールトに2000万ユーロ超の具体的オファーを提示したと報道。フェイエノールトは2500万ユーロを要求し交渉に応じる用意があるとされる一方、上田本人はプレミアリーグ移籍を第一希望としており本格的なイングランドからのオファーはまだ届いていない。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出(35-55%)の下限。前回確認時の「関心が本格化」段階から具体的な金額提示のある交渉段階に進んだため引き上げ。ただし選手本人の希望がプレミアリーグにある点を加味し下限の40に据えた。",
       "sources": [
         {
-          "outlet": "Football Tribe Japan",
-          "tier": 4,
-          "title": "上田綺世が退団へ！「放出する可能性が高まっており」「残留する可能性は低い」",
-          "url": "https://football-tribe.com/japan/2026/08/11/357967/",
-          "publishedAt": "2026-08-11"
+          "outlet": "フットボールチャンネル(Yahoo!ニュース)",
+          "tier": 3,
+          "title": "フェネルバフチェが上田綺世＆ルカク獲得へ本腰？ フェイエノールトも交渉に前向き「約46億円」を要求か",
+          "url": "https://news.yahoo.co.jp/articles/0e6cb0ea8d67d94724f155e7d1ffc88cd22fc002",
+          "publishedAt": "2026-08-09"
+        },
+        {
+          "outlet": "ライブドアニュース",
+          "tier": 3,
+          "title": "フェネルバフチェが上田綺世の獲得へ本格交渉、移籍金は約2500万ユーロか",
+          "url": "https://news.livedoor.com/topics/detail/32028381/",
+          "publishedAt": "2026-08-09"
         }
       ],
-      "updatedAt": "2026-08-11T21:16:44Z"
+      "updatedAt": "2026-08-12T12:44:25Z"
     },
     {
       "id": "ueda-feyenoord-ipswich",
