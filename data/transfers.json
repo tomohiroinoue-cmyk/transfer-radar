@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T22:13:58Z",
-  "nextUpdateAt": "2026-08-12T23:13:58Z",
+  "generatedAt": "2026-08-13T01:17:41Z",
+  "nextUpdateAt": "2026-08-13T02:17:41Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -297,30 +297,30 @@
         "clubJa": "ハル・シティ",
         "league": "Premier League"
       },
-      "fee": "€20m",
+      "fee": "€25m",
       "type": "permanent",
-      "probability": 89,
+      "probability": 100,
       "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "€20m でハル・シティへの移籍が合意に達したと報じられた。チャンピオンシップのクラブとしては大型の投資になる。",
-      "reasoning": "ベース: クラブ間合意 = 70–85%。金額の具体性で+。ただしチャンピオンシップのクラブによる€20m級の支出は資金確認や規定(PSR)で崩れる例があるため、上振れは抑えて86%。 追記: Football365(8/6)が約€20mで合意と報道、独立ソース一致で+3。",
+      "status": "成立",
+      "summaryJa": "ハル・シティがラージョ・バジェカーノからノベル・メンディをクラブ史上最高額で獲得したと発表。5年契約(+1年オプション)。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
           "outlet": "Football365",
           "tier": 3,
           "title": "Transfer rumour ranking: summer 2026",
           "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "publishedAt": "2026-08-06"
         },
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking (summer 2026)",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-06"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Hull break club transfer record to sign Senegal's Nobel Mendy",
+          "url": "https://www.espn.com/soccer/story/_/id/49591558/hull-city-transfer-record-nobel-mendy-senegal-rayo-vallecano",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-13T01:17:41Z"
     },
     {
       "id": "chavarria-rayo-chelsea",
@@ -3890,11 +3890,11 @@
       },
       "fee": "非公表",
       "type": "loan",
-      "probability": 72,
+      "probability": 100,
       "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "レアル・マドリードからフィオレンティーナへのレンタル移籍でクラブ間が合意に達したと報じられた。出場機会確保が目的とされる。",
-      "reasoning": "ベース: クラブ間で合意（70-85帯）の中位で76 → ソースがTier3のまとめ系のみで-5、独立した裏取り報道を確認できず加点なし → 72。",
+      "status": "成立",
+      "summaryJa": "レアル・マドリードとフィオレンティーナがマスタントゥオーノのレンタル移籍で正式合意。2027年6月30日までの1シーズンレンタル。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
           "outlet": "BeSoccer",
@@ -3902,9 +3902,16 @@
           "title": "Latest transfer news, football rumours and confirmed deals",
           "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
           "publishedAt": "2026-08-04"
+        },
+        {
+          "outlet": "Real Madrid CF (公式)",
+          "tier": 1,
+          "title": "Official Announcement: Mastantuono",
+          "url": "https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-mastantuono-05-08-2026",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-13T01:17:41Z"
     },
     {
       "id": "nico-gonzalez-juventus-atletico-madrid",
@@ -4284,13 +4291,13 @@
         "clubJa": "パルマ",
         "league": "Serie A"
       },
-      "fee": "€1.5m + €10m",
+      "fee": "€1.5m（ローン料）+ €11m（買取義務）",
       "type": "loan-to-buy",
-      "probability": 76,
+      "probability": 100,
       "trend": "up",
-      "status": "口頭合意",
-      "summaryJa": "アタランタからパルマへのレンタル移籍で口頭合意に達したと報じられた。レンタル料1.5MEURに10MEURの買い取りオプションが付き、パルマの残留と出場数の条件を満たせば義務化される。15%のセルオン条項も含まれる。",
-      "reasoning": "ベース: 移籍金でクラブ間が合意（70-85帯）の中位で80、ただし「口頭合意」段階で書面化前のため下振れ考慮 → ソースはTier2のFootball Italiaで補正なし、独立した裏取り未確認のため加点なし → 76。",
+      "status": "成立",
+      "summaryJa": "アタランタがパルマへのエル・ビラル・トゥーレのローン移籍(2027年6月まで、条件成就で買取義務)を公式発表。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
           "outlet": "Football Italia",
@@ -4298,9 +4305,16 @@
           "title": "LIVE Done Deals Tracker: Latest Serie A transfer agreements for summer 2026",
           "url": "https://football-italia.net/live-done-deal-tracker-latest-serie-a-transfer/",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Atalanta BC (公式)",
+          "tier": 1,
+          "title": "El Bilal Touré joins Parma",
+          "url": "https://en.atalanta.it/news/el-bilal-toure-joins-parma",
+          "publishedAt": "2026-08-07"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-13T01:17:41Z"
     },
     {
       "id": "leao-ac-milan-galatasaray",
@@ -4659,11 +4673,11 @@
       },
       "fee": "€50m",
       "type": "permanent",
-      "probability": 94,
+      "probability": 100,
       "trend": "up",
-      "status": "メディカル待ち",
-      "summaryJa": "PSGとモナコが約50MEURで最終合意に達したと報じられた。選手は来週メディカルを受け、5年契約を結ぶ見込み。PSGは複数回のオファーを拒否された末に交渉を決着させた。",
-      "reasoning": "ベース: メディカル実施／発表待ち（85-99帯）の中位で93 → Fabrizio Romanoの「Here We Go」を含む複数媒体が一致で+5 → 98 → 一次ソースとして参照したのはTier3のGet French Football Newsで-5、正式発表前である点も考慮 → 94。",
+      "status": "成立",
+      "summaryJa": "PSGがモナコからマゲネス・アクリウシュの完全移籍を発表。メディカルを経て契約書にサインした。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
           "outlet": "Get French Football News",
@@ -4671,9 +4685,16 @@
           "title": "Monaco agree €50m offer with PSG for Maghnes Akliouche",
           "url": "https://www.getfootballnewsfrance.com/2026/monaco-agree-e50m-deal-with-psg-for-maghnes-akliouche/",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Yahoo Sports",
+          "tier": 2,
+          "title": "Official | PSG sign Maghnes Akliouche from AS Monaco",
+          "url": "https://sports.yahoo.com/articles/official-psg-sign-maghnes-akliouche-171000523.html",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-13T01:17:41Z"
     },
     {
       "id": "openda-juventus-lyon",
