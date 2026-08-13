@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T01:17:41Z",
-  "nextUpdateAt": "2026-08-13T02:17:41Z",
+  "generatedAt": "2026-08-13T01:22:29Z",
+  "nextUpdateAt": "2026-08-13T02:22:29Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -343,30 +343,30 @@
         "clubJa": "チェルシー",
         "league": "Premier League"
       },
-      "fee": "約£22m + アドオン",
+      "fee": "€19m規模(報道。クラブ公式は金額非公表)",
       "type": "permanent",
-      "probability": 88,
+      "probability": 100,
       "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "チェルシーがラージョと約£22m + アドオンで移籍金に合意したとRomanoが報じた。左サイドバックの補強。",
-      "reasoning": "ベース: クラブ間で移籍金合意 = 70–85%。Romanoが金額付きで報じている点で帯の上限84%。個人条件やメディカルの報道はまだ出ていないため、それ以上は上げない。 追記: Football365(8/6)が個人条件合意・約£22m合意と報道、独立ソース一致で+4。",
+      "status": "成立",
+      "summaryJa": "チェルシーがラージョ・バジェカーノからペップ・チャバリアの完全移籍を公式発表した。2031年6月までの5年契約。マルク・ククレジャの後任左サイドバックとして加入し、今夏9人目の新加入選手となった。",
+      "reasoning": "クラブ公式発表(チェルシー)のため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking: summer 2026",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-05"
+          "outlet": "Chelsea FC(公式)",
+          "tier": 1,
+          "title": "Pep Chavarria signs for Chelsea",
+          "url": "https://www.chelseafc.com/en/news/article/pep-chavarria-signs-for-chelsea",
+          "publishedAt": "2026-08-12"
         },
         {
-          "outlet": "Football365",
-          "tier": 3,
-          "title": "Transfer rumour ranking (summer 2026)",
-          "url": "https://www.football365.com/news/transfer-window-summer-2026-rumours-ranked",
-          "publishedAt": "2026-08-06"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Chelsea bolster full-back options with Pep Chavarría arrival from Rayo Vallecano",
+          "url": "https://www.espn.com/soccer/story/_/id/49573746/chelsea-pep-chavarria-rayo-vallecano-premier-league-transfers",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-07T00:11:20Z"
+      "updatedAt": "2026-08-13T01:22:29Z"
     },
     {
       "id": "badiashile-chelsea-napoli",
@@ -610,11 +610,11 @@
       },
       "fee": "約€65m+ボーナス€5m",
       "type": "permanent",
-      "probability": 92,
-      "trend": "up",
-      "status": "メディカル待ち",
-      "summaryJa": "バルセロナとマンチェスター・シティが移籍の主要条件で合意し、書類手続きが最終段階。ロドリは休暇を切り上げてメディカル実施のためバルセロナ入りを待つ状態と複数メディアが報道。",
-      "reasoning": "ベース: メディカル実施／発表待ち(85-99%)。ステップ2: ESPN・Goal(Tier2/3)が独立して主要条件合意・メディカル待ちを一致して報道。前回84%から+8し92%。契約書の正式署名・クラブ公式発表がまだのため100%にはしない。",
+      "probability": 90,
+      "trend": "flat",
+      "status": "メディカル待ち(移籍金の一部で調整難航)",
+      "summaryJa": "バルセロナとマンチェスター・シティが主要条件で合意しメディカル待ちの段階。一方で移籍金パッケージの一部に財政的なギャップが残っているとの報道もあり、正式契約までもう一段階を要する見通し。",
+      "reasoning": "ベース: メディカル実施/発表待ち(85-99)。ステップ2: ESPN(Tier2)報道は前進を伝えるが、財政的ギャップを指摘する追加報道(2026-08-12、Tier3)もあり相殺。前回92%から-2の90%に据え置き。正式契約書サイン・クラブ公式発表がまだのため100%にはしない。",
       "sources": [
         {
           "outlet": "ESPN",
@@ -624,14 +624,14 @@
           "publishedAt": "2026-08-11"
         },
         {
-          "outlet": "Goal.com",
+          "outlet": "YSscores",
           "tier": 3,
-          "title": "Confirming his arrival date: Barcelona seal Rodri deal",
-          "url": "https://www.goal.com/en/news/setting-his-arrival-date-barcelona-seal-rodri-deal/bltb4b47bccbfab0a80",
-          "publishedAt": "2026-08-11"
+          "title": "Financial Gap Complicates Rodri's Move to Barcelona",
+          "url": "https://www.ysscores.com/en/news/14017793/financial-gap-complicates-rodris-move-to-barcelona",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-12T20:24:04Z"
+      "updatedAt": "2026-08-13T01:22:29Z"
     },
     {
       "id": "rulli-marseille-mancity",
@@ -693,30 +693,30 @@
         "clubJa": "レアル・マドリード",
         "league": "LaLiga"
       },
-      "fee": "約€140m(報道)",
+      "fee": "固定€125m+ボーナス最大€15m",
       "type": "permanent",
-      "probability": 78,
+      "probability": 100,
       "trend": "up",
-      "status": "メディカル(単独ソース)",
-      "summaryJa": "レアル・マドリードとライプツィヒが約€140mで合意に達し、ヤン・ディオマンデがメディカルへ向かう見通しと報じられた。現時点では単独ソースでの報道。",
-      "reasoning": "ベース: メディカル実施済み = 85–99%の帯だが、報じているのがBavarian Football Works(Tier4のSBNation系ブログ)単独で他の大手による裏付けが確認できないため-15程度の減点をして78%。前回の「交渉中」段階からは大きく前進しているためトレンドは上昇。",
+      "status": "成立",
+      "summaryJa": "レアル・マドリードが公式にヤン・ディオマンデの獲得を発表した。契約は2033年6月までの7年契約。固定移籍金1億2500万ユーロに条件付きボーナス最大1500万ユーロが加わり、メディカルも完了済み。",
+      "reasoning": "クラブ公式発表(レアル・マドリード)およびメディカル完了が複数メディアで確認されたため、確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "Bavarian Football Works",
-          "tier": 4,
-          "title": "RB Leipzig, Real Madrid on verge of deal that could be worth €140M",
-          "url": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/239728/rb-leipzig-real-madrid-on-verge-of-blockbuster-deal-that-could-be-worth-e140-million",
+          "outlet": "Real Madrid CF(公式)",
+          "tier": 1,
+          "title": "Official Announcement: Diomande",
+          "url": "https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-diomande-06-08-2026",
           "publishedAt": "2026-08-06"
         },
         {
-          "outlet": "BeSoccer",
-          "tier": 3,
-          "title": "Transfer news 2026: live updates, rumours & done deals",
-          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
-          "publishedAt": "2026-08-05"
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Yan Diomande completes big-money move to Real Madrid from RB Leipzig",
+          "url": "https://www.espn.com/soccer/story/_/id/49215309/yan-diomande-completes-big-money-transfer-real-madrid-rb-leipzig",
+          "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-06T23:43:06Z"
+      "updatedAt": "2026-08-13T01:22:29Z"
     },
     {
       "id": "asencio-realmadrid-liverpool",
@@ -4832,23 +4832,30 @@
         "clubJa": "フェネルバフチェ",
         "league": "Super Lig"
       },
-      "fee": "€40m + €2m",
+      "fee": "€39〜42m規模(報道)",
       "type": "permanent",
-      "probability": 88,
+      "probability": 100,
       "trend": "up",
-      "status": "クラブ間合意",
-      "summaryJa": "フェネルバフチェがマルセイユと総額42MEURのパッケージで合意したと報じられた。固定40MEURに出来高2MEURという内訳で、選手は4年契約を結ぶ見込み。アトレティコ・マドリードとアル・アハリがより高額を提示したが、本人がトルコ行きを希望した。",
-      "reasoning": "ベース: 移籍金でクラブ間が合意（70-85帯）の上限85、選手本人が移籍先を選択済みで個人条件も固まっている点から発表待ち帯（85-99）の下位93と評価 → ソースがTier3の追随報道中心で-5 → 88。正式発表前のため100は付けない。",
+      "status": "成立",
+      "summaryJa": "フェネルバフチェがマルセイユからメイソン・グリーンウッドの完全移籍による獲得を発表し、4年契約に合意した。アトレティコ・マドリードなどのより高額なオファーを退け、本人がトルコ移籍を選択。マンチェスター・ユナイテッドには売却条項により一部が還元される。",
+      "reasoning": "クラブ双方(フェネルバフチェ・マルセイユ)の公式声明が複数メディアで確認されたため、確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "FOX Sports",
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Mason Greenwood signs with Fenerbahçe from Marseille",
+          "url": "https://www.espn.com/soccer/story/_/id/49367104/mason-greenwood-signs-fenerbahce-marseille",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "outlet": "Goal.com",
           "tier": 3,
-          "title": "Fenerbahce agree €42m Mason Greenwood transfer with Marseille as ex-Man Utd forward snubs Saudi Arabia move",
-          "url": "https://www.foxsports.com/articles/soccer/fenerbahce-agree-42m-mason-greenwood-transfer-with-marseille-as-ex-man-utd-forward-snubs-saudi-arabia-move",
-          "publishedAt": "2026-08-05"
+          "title": "Marseille explain decision to sanction Mason Greenwood transfer to Fenerbahce in official statement",
+          "url": "https://www.goal.com/en-us/lists/marseille-explain-mason-greenwood-transfer-fenerbahce-official-statement/bltd63b11ab3824c942",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-13T01:22:29Z"
     },
     {
       "id": "schjelderup-benfica-tottenham",
@@ -4917,30 +4924,30 @@
         "clubJa": "PSVアイントホーフェン",
         "league": "Eredivisie"
       },
-      "fee": "最大約31億円と報道",
+      "fee": "固定€15m+出来高€2m(最大€17m、約31億円)",
       "type": "permanent",
-      "probability": 83,
+      "probability": 100,
       "trend": "up",
-      "status": "発表待ち",
-      "summaryJa": "NECナイメヘンの佐野航大がオランダ王者PSVへ移籍することで合意に達したと報じられた。移籍金は最大31億円、契約は5年とされる。ナイメヘン関係者も「間もなく移籍が正式決定する」と語っている。",
-      "reasoning": "クラブ間で移籍金・契約年数まで合意し正式発表が近いとの報道のため、メディカル／発表待ちの帯（85-99）の下限寄りとしてベース88。Tier3のため−5で83。今夏に二度の移籍破談を経験している経緯があるため上振れさせず83で確定。",
+      "status": "成立",
+      "summaryJa": "PSVが8日、NECナイメヘンから日本代表MF佐野航大の完全移籍による獲得を正式発表した。契約期間は2031年6月までの5年、背番号は24。移籍金は固定1500万ユーロに出来高200万ユーロを加えた最大1700万ユーロで、NEC史上最高額の放出となった。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
-          "outlet": "サッカーダイジェストWeb",
+          "outlet": "フットボールチャンネル",
           "tier": 3,
-          "title": "佐野航大のPSV移籍合意",
-          "url": "https://www.soccerdigestweb.com/news/detail/id=195328",
-          "publishedAt": "2026-08-05"
+          "title": "日本代表MF佐野航大、オランダ王者PSV加入が正式決定！NEC史上最高額の移籍",
+          "url": "https://www.footballchannel.jp/2026/08/09/post973608/",
+          "publishedAt": "2026-08-09"
         },
         {
-          "outlet": "Football Tribe Japan",
-          "tier": 4,
-          "title": "佐野航大は「間もなく移籍が正式決定」「必要不可欠な戦力になる」ナイメヘン関係者明かす",
-          "url": "https://football-tribe.com/japan/2026/08/03/357696/",
-          "publishedAt": "2026-08-03"
+          "outlet": "サッカーキング",
+          "tier": 3,
+          "title": "MF佐野航大、オランダ王者PSVへの完全移籍が決定！2031年までの5年契約",
+          "url": "https://www.soccer-king.jp/news/world/ned/20260808/2190253.html",
+          "publishedAt": "2026-08-08"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-13T01:22:29Z"
     },
     {
       "id": "ueda-feyenoord-everton",
