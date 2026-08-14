@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T01:22:29Z",
-  "nextUpdateAt": "2026-08-13T02:22:29Z",
+  "generatedAt": "2026-08-14T00:10:35Z",
+  "nextUpdateAt": "2026-08-14T01:10:35Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -1102,50 +1102,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 8,
-      "trend": "flat",
-      "status": "関心のみ",
-      "summaryJa": "レアル・マドリードとの結びつきが報じられたが、バイエルンからの獲得は「極めて困難」との見方が示されている。",
-      "reasoning": "ベース: 興味段階 = 5–20% の下限。報道自体が「実現は極めて難しい」と留保をつけており、売り手に放出意思がないことが明示されている。帯の下限8%。",
-      "sources": [
-        {
-          "outlet": "BeSoccer",
-          "tier": 3,
-          "title": "Transfer news 2026: live updates, rumours & done deals",
-          "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
-          "publishedAt": "2026-08-05"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:58:00Z"
-    },
-    {
-      "id": "kane-bayern-barcelona",
-      "tags": [
-        "bigclub"
-      ],
-      "player": {
-        "name": "Harry Kane",
-        "nameJa": "ハリー・ケイン",
-        "position": "FW",
-        "nationality": "イングランド"
-      },
-      "from": {
-        "club": "Bayern Munich",
-        "clubJa": "バイエルン・ミュンヘン",
-        "league": "Bundesliga"
-      },
-      "to": {
-        "club": "Barcelona",
-        "clubJa": "バルセロナ",
-        "league": "LaLiga"
-      },
-      "fee": "非公表",
-      "type": "permanent",
-      "probability": 5,
+      "probability": 2,
       "trend": "down",
-      "status": "事実上消滅",
-      "summaryJa": "バルセロナは獲得を追わない見通しに転じたと報じられた。ケイン本人がドイツ残留を強く望んでいるとされる。",
-      "reasoning": "ベース: 興味段階 = 5–20%。ただし買い手が撤退し、選手本人も残留意思を示している = 双方から否定されているため −20 相当。下限の5%まで引き下げ、トレンドは下降。",
+      "status": "レアルが公式否定",
+      "summaryJa": "レアル・マドリードがオリーズ獲得を巡る噂を公式声明で否定したと報じられた。バイエルン側も放出の意思がないとされ、移籍の可能性は事実上消滅した。",
+      "reasoning": "ベース: 興味段階(5-20%)の下限。レアル・マドリードによる公式否定が新たに報じられたため−20を適用し、下限の2%まで引き下げた。trendはdown。",
       "sources": [
         {
           "outlet": "BeSoccer",
@@ -1153,9 +1114,16 @@
           "title": "Transfer news 2026: live updates, rumours & done deals",
           "url": "https://www.besoccer.com/new/latest-transfer-news-football-rumours-confirmed-1412436",
           "publishedAt": "2026-08-05"
+        },
+        {
+          "outlet": "Goal.com",
+          "tier": 2,
+          "title": "Real Madrid throw the Olise ball into Bayern Munich's court despite the player's wish",
+          "url": "https://www.goal.com/en/lists/transfer-news-or-real-madrid-throws-the-olise-ball-into-bayern-munich-s-court-despite-the-player-s-wish-liverpool-rejects-vinicius-offer/blt499cb5ee9d1824be",
+          "publishedAt": "2026-08-13"
         }
       ],
-      "updatedAt": "2026-08-05T18:58:00Z"
+      "updatedAt": "2026-08-14T00:10:35Z"
     },
     {
       "id": "dumfries-inter-realmadrid",
@@ -1636,11 +1604,11 @@
       },
       "fee": "€35m（約64億円）",
       "type": "permanent",
-      "probability": 96,
+      "probability": 97,
       "trend": "up",
       "status": "合意・発表待ち(Here We Go)",
-      "summaryJa": "Fabrizio RomanoがPSGとパルマの間で移籍金3500万ユーロ規模の合意に達したと報道（「Here We Go」表現を使用）。5年契約が見込まれ、PSG入り後は出場機会確保のためユベントスへ1年間レンタルされる案も浮上している。正式なクラブ発表はまだ。",
-      "reasoning": "ベース: メディカル実施／発表待ち帯(85-99%)。Tier2のFabrizio Romanoが合意成立を報じ、複数の独立メディアが追随して一致しているため+。ただし正式発表・契約書サインの確認はまだのため上限の99ではなく96に据えた。",
+      "summaryJa": "Fabrizio Romanoが「Here We Go」を報じ、日刊スポーツなど複数メディアも追随。PSGとパルマの間で移籍金3500万ユーロ規模の合意に達したとされ、5年契約が見込まれる。出場機会確保のためPSG入り後すぐにユベントスへ1年間レンタルされる案が浮上し、ユベントス側が本人・代理人と交渉に入ったと報じられている。正式なクラブ発表はまだ。",
+      "reasoning": "ベース: メディカル実施／発表待ち帯(85-99%)。Tier2のFabrizio Romanoに加え日刊スポーツなど独立した複数メディアが「Here We Go」表現で一致しているため+。ただし正式発表・契約書サインの確認はまだのため上限99ではなく97に据えた。",
       "sources": [
         {
           "outlet": "Yahoo Sports",
@@ -1655,9 +1623,16 @@
           "title": "PSG Agrees to Sign Zion Suzuki from Parma for €35 Million",
           "url": "https://knews.media/2026/08/11/psg-agrees-to-sign-zion-suzuki-from-parma-for-e35-million/",
           "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "日刊スポーツ(dメニューニュース)",
+          "tier": 3,
+          "title": "GK鈴木彩艶、パリSG決定的「HERE WE GO」出た！ユベントスにレンタル移籍へ",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-sc-tp4-260811-202608110001347",
+          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-12T12:44:25Z"
+      "updatedAt": "2026-08-14T00:10:35Z"
     },
     {
       "id": "mitoma-brighton-bayern",
@@ -3537,43 +3512,6 @@
       "updatedAt": "2026-08-06T02:22:58Z"
     },
     {
-      "id": "lewisskelly-arsenal-manchesterunited",
-      "tags": [
-        "premier"
-      ],
-      "player": {
-        "name": "Myles Lewis-Skelly",
-        "nameJa": "マイルズ・ルイス=スケリー"
-      },
-      "from": {
-        "club": "Arsenal",
-        "clubJa": "アーセナル",
-        "league": "Premier League"
-      },
-      "to": {
-        "club": "Manchester United",
-        "clubJa": "マンチェスター・ユナイテッド",
-        "league": "Premier League"
-      },
-      "fee": "非公表",
-      "type": "permanent",
-      "probability": 5,
-      "trend": "down",
-      "status": "関心",
-      "summaryJa": "マンチェスター・ユナイテッドがアーセナルのルイス=スケリーに驚きの関心を示したと報じられたが、アーセナル側は売却対象ではないと伝えたとされる。交渉が進んでいる兆候はない。",
-      "reasoning": "興味の報道のみでベース12（5〜20帯の下位）。出典がCaughtOffside（Tier4）のみで−15、さらに保有クラブが売却を否定した点で−20。下限に張り付くため最終5。",
-      "sources": [
-        {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Manchester United given update amid surprise interest",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
-        }
-      ],
-      "updatedAt": "2026-08-06T02:22:58Z"
-    },
-    {
       "id": "gonzalo-garcia-real-madrid-fulham",
       "tags": [
         "premier",
@@ -3919,12 +3857,14 @@
         "bigclub"
       ],
       "player": {
-        "name": "Nico González",
-        "nameJa": "ニコ・ゴンサレス"
+        "name": "Nico Gonzalez",
+        "nameJa": "ニコ・ゴンサレス",
+        "position": "FW",
+        "nationality": "アルゼンチン"
       },
       "from": {
         "club": "Juventus",
-        "clubJa": "ユヴェントス",
+        "clubJa": "ユベントス",
         "league": "Serie A"
       },
       "to": {
@@ -3932,23 +3872,30 @@
         "clubJa": "アトレティコ・マドリード",
         "league": "LaLiga"
       },
-      "fee": "非公表",
-      "type": "permanent",
-      "probability": 54,
-      "trend": "up",
-      "status": "クラブ間交渉中",
-      "summaryJa": "ユヴェントスが要求移籍金を引き下げ、アトレティコ・マドリードへの移籍成立に近づいたと報じられた。合意額はまだ公表されていない。",
-      "reasoning": "ベース: クラブ間で交渉中／オファー提出（35-55帯）の上限付近で55、要求額引き下げという前進材料で+5 → 60 → ソースがTier3単独で-5 → 55、8月2日以降の続報未確認で-1相当 → 54。",
+      "fee": "ローン料€1m(最大€2m)+買取義務€32m、総額最大€34m",
+      "type": "loan-to-buy",
+      "probability": 100,
+      "trend": "flat",
+      "status": "成立",
+      "summaryJa": "ユベントスがニコ・ゴンサレスを買取義務付きのシーズンローンでアトレティコ・マドリードへ放出したと公式発表。今夏フィオレンティーナから完全移籍で獲得したばかりだったが、出場機会を求めて早々の放出となった。",
+      "reasoning": "公式発表済みのため確度の推定対象外。表示上は100%に固定",
       "sources": [
         {
-          "outlet": "Football Espana",
+          "outlet": "Juventus.com",
+          "tier": 1,
+          "title": "Nico Gonzalez joins Atletico Madrid",
+          "url": "https://www.juventus.com/en/news/articles/nico-gonzalez-joins-atletico-madrid",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "outlet": "OneFootball",
           "tier": 3,
-          "title": "Juventus Drop Nico González Fee Demand to Seal Atlético Madrid Deal",
-          "url": "https://www.football-espana.net/2026/08/02/nico-gonzalez-atletico-madrid-juventus-transfer",
-          "publishedAt": "2026-08-02"
+          "title": "Official: Juventus send Nico Gonzalez to Atletico Madrid in potential €34m deal",
+          "url": "https://onefootball.com/en/news/official-juventus-send-nico-gonzalez-to-atletico-madrid-in-potential-34m-deal-41601467",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-14T00:10:35Z"
     },
     {
       "id": "ferran-torres-barcelona-psg",
@@ -6248,6 +6195,53 @@
         }
       ],
       "updatedAt": "2026-08-12T22:13:58Z"
+    },
+    {
+      "id": "suzuki-psg-juventus",
+      "tags": [
+        "japanese",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Zion Suzuki",
+        "nameJa": "鈴木彩艶",
+        "position": "GK",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "PSG",
+        "clubJa": "パリ・サンジェルマン",
+        "league": "Ligue 1"
+      },
+      "to": {
+        "club": "Juventus",
+        "clubJa": "ユベントス",
+        "league": "Serie A"
+      },
+      "fee": "非公表",
+      "type": "loan",
+      "probability": 60,
+      "status": "ユベントスと交渉中",
+      "summaryJa": "パリ・サンジェルマンへの完全移籍合意を受け、出場機会確保のため即座にユベントスへ期限付き移籍する計画が浮上。ユベントスが本人・代理人と緊急協議に入り「あとは選手の決断次第」と報じられている。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)。ユベントスが直接交渉に入り決断待ちの段階まで進んでいるため帯の中間60に置いた。Tier3情報のため上限までは乗せない。",
+      "sources": [
+        {
+          "outlet": "日刊スポーツ(dメニューニュース)",
+          "tier": 3,
+          "title": "GK鈴木彩艶、パリSG決定的「HERE WE GO」出た！ユベントスにレンタル移籍へ",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-sc-tp4-260811-202608110001347",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "outlet": "東スポWEB(Yahoo!ニュース)",
+          "tier": 3,
+          "title": "鈴木彩艶がユベントスと緊急会談へ「あとは選手の決断次第だ」",
+          "url": "https://news.yahoo.co.jp/articles/f797d1fe4539969ef15429b0b4c74dbc4fe7af2e",
+          "publishedAt": "2026-08-12"
+        }
+      ],
+      "trend": "flat",
+      "updatedAt": "2026-08-14T00:10:35Z"
     }
   ]
 }
