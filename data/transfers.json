@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T00:10:35Z",
-  "nextUpdateAt": "2026-08-14T01:10:35Z",
+  "generatedAt": "2026-08-14T00:25:33Z",
+  "nextUpdateAt": "2026-08-14T01:25:33Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -5834,23 +5834,37 @@
         "clubJa": "フェネルバフチェ",
         "league": "Süper Lig"
       },
-      "fee": "€4m〜€12m(折衝中)",
+      "fee": "€6m + ボーナス（チェルシーへ移籍金の40%分配）",
       "type": "permanent",
-      "probability": 58,
-      "trend": "flat",
-      "status": "個人条件合意・移籍金で折衝",
-      "summaryJa": "ルカクがフェネルバフチェと2028年までの個人条件で合意したと報じられた。ナポリとフェネルバフチェは48時間以内の全体合意に自信を見せているが、ナポリの希望額(€12m前後)とフェネルバフチェの提示額(€4〜6m)に差があり、移籍金交渉が続いている。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)。ステップ2: Football Italia(Tier3)-5。ステップ3: 移籍金の折衝が難航している点で帯の下限寄りの58%。",
+      "probability": 100,
+      "trend": "up",
+      "status": "成立",
+      "summaryJa": "フェネルバフチェがロメル・ルカクの獲得をクラブ公式に発表。イスタンブールでのメディカルを終え、ナポリとは移籍金600万ユーロ+ボーナスで合意（チェルシーが2024年の売却契約に基づき40%を受け取る）。年俸は1000万ユーロ規模と報じられている。",
+      "reasoning": "フェネルバフチェが公式にルカクの加入を発表(2026-08-12)。公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
+        {
+          "outlet": "Yahoo Sports",
+          "tier": 2,
+          "title": "Napoli agree €6m deal with Fenerbahce to sell Romelu Lukaku",
+          "url": "https://sports.yahoo.com/articles/napoli-agree-6m-deal-fenerbahce-085529232.html",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "outlet": "beIN SPORTS",
+          "tier": 2,
+          "title": "Fenerbahce announce Lukaku arrival from Napoli",
+          "url": "https://www.beinsports.com/en-asia/football/serie-a/articles/fenerbahce-announce-lukaku-arrival-from-napoli-2026-08-12",
+          "publishedAt": "2026-08-12"
+        },
         {
           "outlet": "Football Italia",
           "tier": 3,
-          "title": "Lukaku, Fenerbahce and Napoli confident of agreement within 48 hours",
-          "url": "https://football-italia.net/lukaku-fenerbahce-napoli-confident-agreement/",
-          "publishedAt": "2026-08-08"
+          "title": "Warning Lukaku must have intensive Fenerbahce medical, Napoli share €6m fee with Chelsea",
+          "url": "https://football-italia.net/lukaku-fenerbahce-medical-napoli-fee-chelsea/",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-10T00:17:43Z"
+      "updatedAt": "2026-08-14T00:25:33Z"
     },
     {
       "id": "ndiaye-everton-arsenal",
