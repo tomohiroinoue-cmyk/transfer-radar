@@ -1253,5 +1253,35 @@
     "birthDate": "2003-11-05",
     "noPhoto": true,
     "reason": "記事に代表画像がない"
+  },
+  "Nico Gonzalez": {
+    "checkedAt": "2026-08-17T00:39:49.211Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Nico_Gonz%C3%A1lez_(footballer%2C_born_2002)",
+    "birthDate": "2002-01-03",
+    "file": "nico-gonzalez.jpg",
+    "artist": "Werner100359",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nico_Gonzalez_(cropped).jpg"
+  },
+  "Victor Osimhen": {
+    "checkedAt": "2026-08-17T00:39:53.150Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+    "birthDate": "1998-12-29",
+    "file": "victor-osimhen.jpg",
+    "artist": "Fédération Guinéenne Football",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Victor-osimhen-nigeria-2024-3-4.jpg"
+  },
+  "Tijjani Reijnders": {
+    "checkedAt": "2026-08-17T00:39:55.994Z",
+    "wikiPage": "https://en.wikipedia.org/wiki/Tijjani_Reijnders",
+    "birthDate": "1998-07-29",
+    "file": "tijjani-reijnders.jpg",
+    "artist": "Saggittarius A",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Reijnders_arriva_in_albergo_(cropped).jpg"
   }
 }

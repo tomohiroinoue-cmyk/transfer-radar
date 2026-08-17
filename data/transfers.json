@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T00:25:33Z",
-  "nextUpdateAt": "2026-08-14T01:25:33Z",
+  "generatedAt": "2026-08-17T00:39:40Z",
+  "nextUpdateAt": "2026-08-17T01:39:40Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -3400,80 +3400,6 @@
       "updatedAt": "2026-08-12T09:10:29Z"
     },
     {
-      "id": "woltemade-newcastleunited-liverpool",
-      "tags": [
-        "premier"
-      ],
-      "player": {
-        "name": "Nick Woltemade",
-        "nameJa": "ニック・ヴォルテマデ"
-      },
-      "from": {
-        "club": "Newcastle United",
-        "clubJa": "ニューカッスル・ユナイテッド",
-        "league": "Premier League"
-      },
-      "to": {
-        "club": "Liverpool",
-        "clubJa": "リバプール",
-        "league": "Premier League"
-      },
-      "fee": "非公表",
-      "type": "loan",
-      "probability": 9,
-      "trend": "up",
-      "status": "打診段階",
-      "summaryJa": "ニューカッスル・ユナイテッドがヴォルテマデの放出を容認する意向をリバプールとマンチェスター・ユナイテッドに伝えたと報じられている。レンタルを含む形が想定されているが具体的な合意には至っていない。",
-      "reasoning": "放出容認の伝達は打診・接触段階に相当するためベース30。出典がCaughtOffside（Tier4）のみで−15して15。行き先がリバプールとマンチェスター・ユナイテッドで競合しており、リバプールを選ぶ確率を割り引いて最終9。",
-      "sources": [
-        {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Newcastle inform Liverpool & Man United transfer target that he can leave",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
-        }
-      ],
-      "updatedAt": "2026-08-06T02:22:58Z"
-    },
-    {
-      "id": "hall-newcastleunited-manchesterunited",
-      "tags": [
-        "premier"
-      ],
-      "player": {
-        "name": "Lewis Hall",
-        "nameJa": "ルイス・ホール"
-      },
-      "from": {
-        "club": "Newcastle United",
-        "clubJa": "ニューカッスル・ユナイテッド",
-        "league": "Premier League"
-      },
-      "to": {
-        "club": "Manchester United",
-        "clubJa": "マンチェスター・ユナイテッド",
-        "league": "Premier League"
-      },
-      "fee": "非公表",
-      "type": "permanent",
-      "probability": 8,
-      "trend": "flat",
-      "status": "関心",
-      "summaryJa": "マンチェスター・ユナイテッドが左サイドバックの補強候補としてルイス・ホールに関心を示し、選手側も移籍に前向きと報じられている。オファー提出やクラブ間協議の報道は確認されていない。",
-      "reasoning": "興味・リストアップの報道のみのためベース18（5〜20帯の上位）。出典がFootballTransfers（Tier4）のみで−15し、ニューカッスルが主力の放出に消極的とされる状況も踏まえて下限付近に置き最終8。",
-      "sources": [
-        {
-          "outlet": "FootballTransfers",
-          "tier": 4,
-          "title": "Transfer News: 10 huge deals that could be completed this month",
-          "url": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/08/transfer-news-10-deals-could-be-completed-this-month-summer-window-deadline-day",
-          "publishedAt": "2026-08-02"
-        }
-      ],
-      "updatedAt": "2026-08-06T02:22:58Z"
-    },
-    {
       "id": "gusto-chelsea-psg",
       "tags": [
         "premier",
@@ -5236,25 +5162,25 @@
       },
       "fee": "アヤックスの評価額は約950万ユーロ",
       "type": "permanent",
-      "probability": 15,
+      "probability": 20,
       "trend": "up",
-      "status": "噂",
-      "summaryJa": "アヤックスは板倉滉の今夏の退団を容認しており、移籍先候補としてフラムが最有力と改めて報じられた。フラムが上田綺世(フェイエノールト)を獲得した場合はチームメイトになる可能性も指摘されている。正式オファー提出はまだ報じられていない。",
-      "reasoning": "クラブは放出を容認し、フラムが候補の中で最有力とする報道が複数回続いているため「興味・リストアップの報道のみ」帯（5-20）の上限20をベースとした。出典がまとめ系Tier4中心のため−5で15。最有力候補という位置づけの継続報道のためtrendはup。",
+      "status": "退団方針確定・本人はプレミア熱望",
+      "summaryJa": "アヤックスのテクニカルディレクター、ジョルディ・クライフ氏が板倉滉を今後数週間で売却する方針を固めたと報道され、開幕戦でもベンチ外となった。移籍先候補は4クラブ以上に上るが、本人がプレミアリーグ移籍を熱望していると伝えられており、候補の中ではフラムが最有力であり続けている。",
+      "reasoning": "ベース: 興味・リストアップの報道のみ帯(5-20)の上限。クラブが売却方針を確定させ、本人もプレミア志向を示していることで最有力候補としての位置づけが強まったため、前回15から20に引き上げ、trendはup。出典はTier4中心のため上限20に留めた。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
           "tier": 4,
-          "title": "板倉滉に3つの移籍先候補浮上！「CL出場」「資金力ある」「18億円回収可能」プレミア挑戦が最有力",
-          "url": "https://football-tribe.com/japan/2026/08/05/357765/",
-          "publishedAt": "2026-08-05"
+          "title": "板倉滉、開幕戦ベンチ外にアヤックス退団報道！「総額55億円が…」「プレミアリーグ移籍熱望」",
+          "url": "https://football-tribe.com/japan/2026/08/10/357897/",
+          "publishedAt": "2026-08-10"
         },
         {
           "outlet": "Football Tribe Japan",
           "tier": 4,
-          "title": "板倉滉が退団へ！「認められている」「アヤックスは板倉の売却によって得た資金を…」",
-          "url": "https://football-tribe.com/japan/2026/08/03/357711/",
-          "publishedAt": "2026-08-03"
+          "title": "板倉滉が今夏移籍へ！「アヤックスが構想外通告」移籍先候補は4クラブ以上！中東移籍の可能性も",
+          "url": "https://football-tribe.com/japan/2026/08/14/358100/",
+          "publishedAt": "2026-08-14"
         },
         {
           "outlet": "Football Tribe Japan",
@@ -5264,7 +5190,7 @@
           "publishedAt": "2026-08-06"
         }
       ],
-      "updatedAt": "2026-08-11T21:16:44Z"
+      "updatedAt": "2026-08-17T00:39:40Z"
     },
     {
       "id": "itakura-ajax-club-brugge",
@@ -6256,6 +6182,138 @@
       ],
       "trend": "flat",
       "updatedAt": "2026-08-14T00:10:35Z"
+    },
+    {
+      "id": "osimhen-galatasaray-arsenal",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Victor Osimhen",
+        "nameJa": "ヴィクター・オシムヘン",
+        "position": "FW",
+        "nationality": "ナイジェリア"
+      },
+      "from": {
+        "club": "Galatasaray",
+        "clubJa": "ガラタサライ",
+        "league": "Super Lig"
+      },
+      "to": {
+        "club": "Arsenal",
+        "clubJa": "アーセナル",
+        "league": "Premier League"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 12,
+      "trend": "flat",
+      "status": "接触も売却拒否",
+      "summaryJa": "アーセナルがガラタサライにガブリエウ・マルティネッリやイーサン・ヌワネリを巡る交渉の中で、オシムヘンの獲得可能性について打診したと英メディアが報道。本人は移籍に前向きな姿勢とされる一方、ガラタサライ側は今夏の売却に応じない方針を示している。",
+      "reasoning": "ベース: 打診・接触帯(20-35)の下限20を採用。出典がTelegraph経由の二次報道・Goal/Football365など中心でTier3相当のため-5。加えてガラタサライが今夏売却を拒否する姿勢を示しているため-8して12とした。",
+      "sources": [
+        {
+          "outlet": "TeamTalk",
+          "tier": 3,
+          "title": "Arsenal transfers: Galatasaray reach decision selling Victor Osimhen to Gunners as Arteta 'determined' to sign 175-goal striker",
+          "url": "https://www.teamtalk.com/arsenal/galatasaray-reach-victor-osimhen-sale-decision-amid-arsenal-strong-interest",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "outlet": "Football365",
+          "tier": 3,
+          "title": "Arsenal: Galatasaray stance on selling goal machine Victor Osimhen to Gunners revealed",
+          "url": "https://www.football365.com/news/galatasaray-stance-selling-victor-osimhen-arsenal-revealed",
+          "publishedAt": "2026-08-16"
+        }
+      ],
+      "updatedAt": "2026-08-17T00:39:40Z"
+    },
+    {
+      "id": "reijnders-mancity-alqadsiah",
+      "tags": [
+        "premier"
+      ],
+      "player": {
+        "name": "Tijjani Reijnders",
+        "nameJa": "ティジャニ・レインデルス",
+        "position": "MF",
+        "nationality": "オランダ"
+      },
+      "from": {
+        "club": "Manchester City",
+        "clubJa": "マンチェスター・シティ",
+        "league": "Premier League"
+      },
+      "to": {
+        "club": "Al-Qadsiah",
+        "clubJa": "アル・カディシーヤ",
+        "league": "Saudi Pro League"
+      },
+      "fee": "€61m（約111億円、一部報道は£52m）",
+      "type": "permanent",
+      "probability": 80,
+      "trend": "up",
+      "status": "合意・メディカル待ち",
+      "summaryJa": "マンチェスター・シティとアル・カディシーヤが移籍金約6100万ユーロで合意したとESPN・Yahoo Sportsなど複数メディアが報道。本人も移籍を承諾し書類のやり取りに入っているとされ、メディカル実施が残る段階。ACミランから加入後わずか1年での退団となる。",
+      "reasoning": "ベース: 移籍金でクラブ間が合意帯(70-85)。ESPN・Yahoo SportsのTier2複数が独立して一致しているため+3、正式発表・メディカルは未確認のため上限までは乗せず80とした。",
+      "sources": [
+        {
+          "outlet": "ESPN",
+          "tier": 2,
+          "title": "Sources: Reijnders exits Manchester City for £52M Saudi move",
+          "url": "https://www.espn.com/soccer/story/_/id/49602839/reijnders-exits-manchester-city-52m-saudi-move",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "outlet": "Yahoo Sports",
+          "tier": 2,
+          "title": "Manchester City agree Reijnders transfer with Al Qadsiah",
+          "url": "https://sports.yahoo.com/articles/manchester-city-agree-reijnders-transfer-with-al-qadsiah-102000289.html",
+          "publishedAt": "2026-08-15"
+        }
+      ],
+      "updatedAt": "2026-08-17T00:39:40Z"
+    },
+    {
+      "id": "itakura-ajax-gladbach",
+      "tags": [
+        "japanese"
+      ],
+      "player": {
+        "name": "Ko Itakura",
+        "nameJa": "板倉滉",
+        "position": "DF",
+        "nationality": "日本"
+      },
+      "from": {
+        "club": "Ajax",
+        "clubJa": "アヤックス",
+        "league": "Eredivisie"
+      },
+      "to": {
+        "club": "Borussia Monchengladbach",
+        "clubJa": "ボルシア・メンヒェングラッドバッハ",
+        "league": "Bundesliga"
+      },
+      "fee": "非公表",
+      "type": "permanent",
+      "probability": 10,
+      "trend": "flat",
+      "status": "候補の一つ",
+      "summaryJa": "アヤックスが板倉滉の今夏放出方針を固めたと報じられる中、以前所属したボルシア・メンヒェングラッドバッハも移籍先候補の一つとして名前が挙がっている。ただし本人はプレミアリーグ移籍を熱望しているとも報じられ、具体的なオファーは確認されていない。",
+      "reasoning": "ベース: 興味・リストアップの報道のみ帯(5-20)の下限付近。出典がFootball Tribe(Tier4)単独のため-5、かつ本人がプレミア移籍を熱望との報道があり本命候補ではないため10とした。",
+      "sources": [
+        {
+          "outlet": "Football Tribe Japan",
+          "tier": 4,
+          "title": "板倉滉が今夏移籍へ！「アヤックスが構想外通告」移籍先候補は4クラブ以上！中東移籍の可能性も",
+          "url": "https://football-tribe.com/japan/2026/08/14/358100/",
+          "publishedAt": "2026-08-14"
+        }
+      ],
+      "updatedAt": "2026-08-17T00:39:40Z"
     }
   ]
 }

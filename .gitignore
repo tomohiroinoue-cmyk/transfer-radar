@@ -5,3 +5,6 @@ desktop.ini
 
 # 自分用の作業メモ（ローカル専用・公開しない）
 PUSH_手順.md
+
+# Claude Code のローカル権限設定（公開リポジトリにコミットしない）
+.claude/settings.local.json
