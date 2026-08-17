@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T00:39:40Z",
-  "nextUpdateAt": "2026-08-17T01:39:40Z",
+  "generatedAt": "2026-08-17T00:45:02Z",
+  "nextUpdateAt": "2026-08-17T01:45:02Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -260,11 +260,11 @@
       },
       "fee": "トッテナムは約€50mを要求",
       "type": "permanent",
-      "probability": 75,
+      "probability": 2,
       "trend": "down",
-      "status": "アトレティコが競合・インテルは選手売却が先",
-      "summaryJa": "インテルはロメロの代理人と接触し獲得を検討しているが、まず選手を売却して資金を作る必要があると報じられた。さらにアトレティコ・マドリードもトッテナムと金額面で協議しており、行き先が競合する状況に。",
-      "reasoning": "前回は「practically done」報道で87%としたが、その後Sky Sportsがアトレティコとの並行協議・インテル側の資金事情（選手売却が先）という複雑化要因を報じたため一段階引き下げ。ベース85–99%からアトレティコとの競合（確率の按分）と資金面の障害で−12して75%、trendはdown。",
+      "status": "消滅(アトレティコ加入が成立)",
+      "summaryJa": "ロメロはアトレティコ・マドリードへの完全移籍を完了したため、インテル移籍の可能性は事実上消滅した。",
+      "reasoning": "同一選手の別移籍先案件がクラブ公式レベルで成立(Sky Sports確認)したため、本件は選択肢として消滅。0%相当だが記録として2%に据え置き。",
       "sources": [
         {
           "outlet": "Sky Sports",
@@ -274,7 +274,7 @@
           "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-12T09:10:29Z"
+      "updatedAt": "2026-08-17T00:45:02Z"
     },
     {
       "id": "mendy-rayo-hull",
@@ -392,18 +392,18 @@
       },
       "fee": "ローン料約€3m+買取OP €18-20m",
       "type": "loan-to-buy",
-      "probability": 80,
+      "probability": 88,
       "trend": "up",
-      "status": "クラブ間合意・条件詰め",
-      "summaryJa": "チェルシーとナポリがローン+買取オプション付きで基本合意。買取オプションの金額をチェルシー側が1800万〜2000万ユーロまで引き上げて要求しており、給与条件など詳細を詰めている段階。事務手続きが済めばメディカル実施の見込みと報じられている。",
-      "reasoning": "ベース: クラブ間で移籍金合意(70-85%)の上位。前回確認時から買取オプション金額の具体化が進み、メディカル実施の見通しにも触れる報道が増えたため+5して80。ただし正式なメディカル実施の確定情報はまだのため85%帯には入れない。",
+      "status": "メディカル・正式発表間近",
+      "summaryJa": "チェルシーとナポリがバディアシルの移籍で正式合意に達し、数時間以内にメディカル実施・サイン・公式発表に進む見通しだとイタリアメディアが報じた。",
+      "reasoning": "ベース: メディカル実施/発表待ち(85-99)の下限。Sky Sport Italia(Tier2)を含む複数メディアが「合意成立、数時間以内にメディカルへ」と報じたため、前回80から+8して88。正式発表前のため上限までは乗せない。",
       "sources": [
         {
-          "outlet": "FootballPlace",
-          "tier": 3,
-          "title": "Napoli close in on Benoît Badiashile as Juventus eye Chelsea defender",
-          "url": "https://footballplace.co.uk/benoit-badiashile-napoli-transfer-chelsea/",
-          "publishedAt": "2026-08-10"
+          "outlet": "Sky Sport Italia",
+          "tier": 2,
+          "title": "Napoli Badiashile, accordo verbale con il Chelsea",
+          "url": "https://sport.sky.it/calciomercato/2026/08/13/napoli-badiashile-calciomercato-news",
+          "publishedAt": "2026-08-13"
         },
         {
           "outlet": "Goal.com",
@@ -413,7 +413,7 @@
           "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-12T12:44:25Z"
+      "updatedAt": "2026-08-17T00:45:02Z"
     },
     {
       "id": "bouaddi-lille-mancity",
@@ -436,30 +436,30 @@
         "clubJa": "マンチェスター・シティ",
         "league": "Premier League"
       },
-      "fee": "シティ提示 約€90m保証 vs リール要求 約€100m",
+      "fee": "約€100m(リール要求額で合意との報道)",
       "type": "permanent",
-      "probability": 78,
+      "probability": 85,
       "trend": "up",
-      "status": "個人条件で完全合意・移籍金交渉大詰め",
-      "summaryJa": "マンチェスター・シティがブアディと2031年6月までの契約で個人条件に完全合意したと複数メディアが報道。選手はグリーンライトを出しており、残るはシティが提示する約€90m保証とリールが求める約€100mの差を埋める交渉のみとされる。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意 = 55–70%だが、独立した複数のTier2ソース(moroccoworldnews, Goal.com, Yahoo Sports経由のSky Sport報道)が個人条件の完全合意で一致し、かつ提示額と要求額の差が€10m程度まで縮まっているため+して78%とした。",
+      "status": "移籍金でも合意・正式発表待ち",
+      "summaryJa": "マンチェスター・シティがブアディと6年契約の個人条件で合意したのに続き、リールが求める約€100mの移籍金でもクラブ間合意に達したと複数メディアが報道。正式発表を待つ段階とされる。",
+      "reasoning": "ベース: 移籍金でクラブ間が合意(70-85%)。個人条件合意に加え、Morocco World Newsなど複数Tier3報道が移籍金の合意にも言及し前回の€10mギャップが解消したため、前回78から+7して85。",
       "sources": [
+        {
+          "outlet": "Morocco World News",
+          "tier": 3,
+          "title": "Bouaddi Agrees Six-Year Deal with Manchester City",
+          "url": "https://www.moroccoworldnews.com/2026/08/332885/bouaddi-agrees-six-year-deal-with-manchester-city/",
+          "publishedAt": "2026-08-16"
+        },
         {
           "outlet": "Goal.com",
           "tier": 2,
           "title": "Manchester City agrees personal terms with Lille star Ayyoub Bouaddi",
           "url": "https://www.goal.com/en/lists/manchester-city-lille-ayyoub-bouaddi-enzo-maresca-rodri/bltb444fd6d4dddbe06",
           "publishedAt": "2026-08-10"
-        },
-        {
-          "outlet": "Morocco World News",
-          "tier": 3,
-          "title": "Manchester City Reportedly Reaches Full Deal on Personal Terms with Ayyoub Bouaddi",
-          "url": "https://www.moroccoworldnews.com/2026/08/333918/manchester-city-reportedly-reaches-full-deal-on-personal-terms-with-ayyoub-bouaddi/",
-          "publishedAt": "2026-08-11"
         }
       ],
-      "updatedAt": "2026-08-12T09:10:29Z"
+      "updatedAt": "2026-08-17T00:45:02Z"
     },
     {
       "id": "odiomande-sporting-forest",
@@ -608,30 +608,30 @@
         "clubJa": "バルセロナ",
         "league": "LaLiga"
       },
-      "fee": "約€65m+ボーナス€5m",
+      "fee": "約€76.5m(固定€60m+ボーナス€16.5m)",
       "type": "permanent",
-      "probability": 90,
-      "trend": "flat",
-      "status": "メディカル待ち(移籍金の一部で調整難航)",
-      "summaryJa": "バルセロナとマンチェスター・シティが主要条件で合意しメディカル待ちの段階。一方で移籍金パッケージの一部に財政的なギャップが残っているとの報道もあり、正式契約までもう一段階を要する見通し。",
-      "reasoning": "ベース: メディカル実施/発表待ち(85-99)。ステップ2: ESPN(Tier2)報道は前進を伝えるが、財政的ギャップを指摘する追加報道(2026-08-12、Tier3)もあり相殺。前回92%から-2の90%に据え置き。正式契約書サイン・クラブ公式発表がまだのため100%にはしない。",
+      "probability": 94,
+      "trend": "up",
+      "status": "合意済み・来週メディカル予定",
+      "summaryJa": "Fabrizio Romanoが「すべて終わった」とし、マンチェスター・シティがバルセロナの最終オファーにゴーサインを出したと報道。ロドリとジョアン・カンセロのメディカル・渡航手配が進められており、来週中の契約サイン・4年契約締結が見込まれている。",
+      "reasoning": "ベース: メディカル実施/発表待ち(85-99)。Tier2(Fabrizio Romano/Goal.com)が「everything is done」と明言し、以前の懸念だった財政的ギャップも解消に向かっている様子。正式なクラブ発表・契約サインはまだのため100%にはせず、前回90から+4して94。",
       "sources": [
+        {
+          "outlet": "Goal.com (Fabrizio Romano)",
+          "tier": 2,
+          "title": "The deal is finally done: Rodri joins Barcelona",
+          "url": "https://www.goal.com/en/news/the-deal-is-finally-done-rodri-joins-barcelona/blt7a39ff83ec4b46a7",
+          "publishedAt": "2026-08-17"
+        },
         {
           "outlet": "ESPN",
           "tier": 2,
           "title": "Transfer rumors, news: Barcelona ratchet up efforts to sign Man City's Rodri",
           "url": "https://www.espn.com/soccer/story/_/id/49566333/transfer-rumors-news-barcelona-step-rodri-chase-man-city",
           "publishedAt": "2026-08-11"
-        },
-        {
-          "outlet": "YSscores",
-          "tier": 3,
-          "title": "Financial Gap Complicates Rodri's Move to Barcelona",
-          "url": "https://www.ysscores.com/en/news/14017793/financial-gap-complicates-rodris-move-to-barcelona",
-          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-13T01:22:29Z"
+      "updatedAt": "2026-08-17T00:45:02Z"
     },
     {
       "id": "rulli-marseille-mancity",
@@ -3381,61 +3381,23 @@
         "clubJa": "アトレティコ・マドリード",
         "league": "LaLiga"
       },
-      "fee": "非公表",
+      "fee": "£34.2m(+変動条項)",
       "type": "permanent",
-      "probability": 25,
+      "probability": 100,
       "trend": "up",
-      "status": "交渉が浮上",
-      "summaryJa": "Sky Sportsが、アトレティコ・マドリードがトッテナムとロメロ獲得について金額面を含め協議していると報じた。並行してインテルも関心を示しており行き先は未定。",
-      "reasoning": "ベース: クラブ間で交渉中 = 35–55%だが、Tier2(Sky Sports)ながらインテルとの競合で行き先が分散しているため「移籍する確率×アトレティコを選ぶ確率」で大きく割り引き25%とした。前回のTier4単独報道(12%)からTier2の裏付けが付いたためtrendはup。",
+      "status": "成立",
+      "summaryJa": "トッテナムのキャプテン、クリスティアン・ロメロがアトレティコ・マドリードへの完全移籍を完了したとSky Sportsが報じた。5年契約を締結し、トッテナムには15%の転売条項が残る。",
+      "reasoning": "クラブ公式・Tier2(Sky Sports)が「completes move」と正式完了を報道。公式発表済みのため確度の推定対象外。表示上は100%に固定。",
       "sources": [
         {
           "outlet": "Sky Sports",
           "tier": 2,
-          "title": "Cristian Romero transfer news: Atletico Madrid in talks to sign Tottenham captain amid Inter Milan interest",
-          "url": "https://www.skysports.com/football/news/11095/13570615/cristian-romero-transfer-news-atletico-madrid-in-talks-to-sign-tottenham-captain-amid-inter-milan-interest",
-          "publishedAt": "2026-08-12"
+          "title": "Cristian Romero: Tottenham captain completes move to Atletico Madrid",
+          "url": "https://www.skysports.com/football/news/11095/13573213/cristian-romero-tottenham-captain-completes-move-to-atletico-madrid",
+          "publishedAt": "2026-08-15"
         }
       ],
-      "updatedAt": "2026-08-12T09:10:29Z"
-    },
-    {
-      "id": "gusto-chelsea-psg",
-      "tags": [
-        "premier",
-        "bigclub"
-      ],
-      "player": {
-        "name": "Malo Gusto",
-        "nameJa": "マロ・グスト"
-      },
-      "from": {
-        "club": "Chelsea",
-        "clubJa": "チェルシー",
-        "league": "Premier League"
-      },
-      "to": {
-        "club": "PSG",
-        "clubJa": "パリ・サンジェルマン",
-        "league": "Ligue 1"
-      },
-      "fee": "£75m（報道）",
-      "type": "permanent",
-      "probability": 10,
-      "trend": "flat",
-      "status": "関心",
-      "summaryJa": "PSGの監督がチェルシーのグスト獲得に前向きな判断を示したと報じられている。想定される移籍金は7500万ポンド規模だが、正式なオファーやクラブ間協議は確認されていない。",
-      "reasoning": "監督の内部承認は興味・リストアップの段階に留まるためベース18（5〜20帯の上位）。出典がCaughtOffside（Tier4）のみで−15。下限を踏まえて最終10。",
-      "sources": [
-        {
-          "outlet": "CaughtOffside",
-          "tier": 4,
-          "title": "Manager greenlights potential £75m Chelsea transfer raid",
-          "url": "https://www.caughtoffside.com/tags/premier-league/",
-          "publishedAt": "2026-08-05"
-        }
-      ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-17T00:45:02Z"
     },
     {
       "id": "gonzalo-garcia-real-madrid-fulham",
@@ -6160,17 +6122,17 @@
       },
       "fee": "非公表",
       "type": "loan",
-      "probability": 60,
-      "status": "ユベントスと交渉中",
-      "summaryJa": "パリ・サンジェルマンへの完全移籍合意を受け、出場機会確保のため即座にユベントスへ期限付き移籍する計画が浮上。ユベントスが本人・代理人と緊急協議に入り「あとは選手の決断次第」と報じられている。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)。ユベントスが直接交渉に入り決断待ちの段階まで進んでいるため帯の中間60に置いた。Tier3情報のため上限までは乗せない。",
+      "probability": 72,
+      "status": "ユベントスへのレンタルで合意との報道",
+      "summaryJa": "PSGへの完全移籍合意を受け、ユベントスへの期限付き移籍についてもクラブ間で合意に達したと複数の英語メディアが報じている。PSG側の正式手続き完了が前提となる。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70)の上限〜クラブ間合意(70-85)の下限。複数の独立したTier3報道(Yahoo Sports, OneFootball, Football Italia)が「finalise agreement」と一致して伝えているため+して72。PSG本体の移籍完了に依存する派生案件のため上限は抑える。",
       "sources": [
         {
-          "outlet": "日刊スポーツ(dメニューニュース)",
+          "outlet": "Yahoo Sports",
           "tier": 3,
-          "title": "GK鈴木彩艶、パリSG決定的「HERE WE GO」出た！ユベントスにレンタル移籍へ",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-sc-tp4-260811-202608110001347",
-          "publishedAt": "2026-08-11"
+          "title": "Juventus finalise agreement to sign Suzuki on loan",
+          "url": "https://sports.yahoo.com/articles/juventus-finalise-agreement-sign-suzuki-141500341.html",
+          "publishedAt": "2026-08-15"
         },
         {
           "outlet": "東スポWEB(Yahoo!ニュース)",
@@ -6180,8 +6142,8 @@
           "publishedAt": "2026-08-12"
         }
       ],
-      "trend": "flat",
-      "updatedAt": "2026-08-14T00:10:35Z"
+      "trend": "up",
+      "updatedAt": "2026-08-17T00:45:02Z"
     },
     {
       "id": "osimhen-galatasaray-arsenal",
@@ -6314,6 +6276,53 @@
         }
       ],
       "updatedAt": "2026-08-17T00:39:40Z"
+    },
+    {
+      "id": "palhinha-bayern-newcastle",
+      "tags": [
+        "premier",
+        "bigclub"
+      ],
+      "player": {
+        "name": "Joao Palhinha",
+        "nameJa": "ジョアン・パリーニャ",
+        "position": "MF",
+        "nationality": "ポルトガル"
+      },
+      "from": {
+        "club": "Bayern Munich",
+        "clubJa": "バイエルン・ミュンヘン",
+        "league": "Bundesliga"
+      },
+      "to": {
+        "club": "Newcastle United",
+        "clubJa": "ニューカッスル・ユナイテッド",
+        "league": "Premier League"
+      },
+      "fee": "バイエルンは約€30mを要求",
+      "type": "permanent",
+      "probability": 28,
+      "trend": "flat",
+      "status": "交渉中(ヴィラとのローン交渉破談後)",
+      "summaryJa": "バイエルン・ミュンヘンに復帰したパリーニャ獲得へニューカッスルが接触・交渉入り。本人が望んでいたアストン・ヴィラへのローン移籍は、バイエルンが完全移籍のみを容認する方針のため破談。プレミア復帰を望む本人がニューカッスルとの合意に前向きとされる。",
+      "reasoning": "ベース: 打診・代理人接触が報じられた(20-35)。ニューカッスルがバイエルンに接触し交渉入りしたとの報道はあるが、本人との個人条件合意はまだ報じられておらず、Tier3/4ソースのみのため下限寄りの28とした。",
+      "sources": [
+        {
+          "outlet": "NUFC Blog (Sky Sports報道の引用)",
+          "tier": 3,
+          "title": "Newcastle in talks to sign Joao Palhinha",
+          "url": "https://nufcblog.co.uk/newcastle-in-talks-to-sign-joao-palhinha-sky-sports-38984",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "outlet": "TheHardTackle",
+          "tier": 4,
+          "title": "Newcastle United contact Bayern Munich for Joao Palhinha move, player reassessing stance as Aston Villa move stalls",
+          "url": "https://thehardtackle.com/transfer-news/2026/08/16/newcastle-united-contact-bayern-munich-for-joao-palhinha-move-player-reassessing-stance-as-aston-villa-move-stalls/",
+          "publishedAt": "2026-08-16"
+        }
+      ],
+      "updatedAt": "2026-08-17T00:45:02Z"
     }
   ]
 }
