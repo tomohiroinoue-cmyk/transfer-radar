@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T00:45:02Z",
-  "nextUpdateAt": "2026-08-17T01:45:02Z",
+  "generatedAt": "2026-08-18T00:20:40Z",
+  "nextUpdateAt": "2026-08-18T01:20:40Z",
   "updateSchedule": {
     "intervalMinutes": 60,
     "timezone": "Asia/Tokyo",
@@ -610,11 +610,11 @@
       },
       "fee": "約€76.5m(固定€60m+ボーナス€16.5m)",
       "type": "permanent",
-      "probability": 94,
+      "probability": 97,
       "trend": "up",
-      "status": "合意済み・来週メディカル予定",
-      "summaryJa": "Fabrizio Romanoが「すべて終わった」とし、マンチェスター・シティがバルセロナの最終オファーにゴーサインを出したと報道。ロドリとジョアン・カンセロのメディカル・渡航手配が進められており、来週中の契約サイン・4年契約締結が見込まれている。",
-      "reasoning": "ベース: メディカル実施/発表待ち(85-99)。Tier2(Fabrizio Romano/Goal.com)が「everything is done」と明言し、以前の懸念だった財政的ギャップも解消に向かっている様子。正式なクラブ発表・契約サインはまだのため100%にはせず、前回90から+4して94。",
+      "status": "本日(8/18)メディカル実施の見通し",
+      "summaryJa": "ロドリは8/17にバルセロナ入りし、8/18(火)にカタルーニャでメディカルを受ける予定と報じられた。メディカル通過後にサイン・正式発表へ進む見通しで、4年契約が見込まれている。",
+      "reasoning": "ベース: メディカル実施/発表待ち(85-99)。前回は「来週メディカル予定」だったが、実施日が本日(8/18)と具体化し、渡航も完了したとの続報が出たため94から+3して97。正式発表・サインはまだのため上限100は使わない。",
       "sources": [
         {
           "outlet": "Goal.com (Fabrizio Romano)",
@@ -624,14 +624,14 @@
           "publishedAt": "2026-08-17"
         },
         {
-          "outlet": "ESPN",
-          "tier": 2,
-          "title": "Transfer rumors, news: Barcelona ratchet up efforts to sign Man City's Rodri",
-          "url": "https://www.espn.com/soccer/story/_/id/49566333/transfer-rumors-news-barcelona-step-rodri-chase-man-city",
-          "publishedAt": "2026-08-11"
+          "outlet": "Yahoo Sports",
+          "tier": 3,
+          "title": "Rodri set to complete Barcelona transfer on Tuesday as fee agreed",
+          "url": "https://sports.yahoo.com/articles/rodri-set-complete-barcelona-transfer-091000005.html",
+          "publishedAt": "2026-08-17"
         }
       ],
-      "updatedAt": "2026-08-17T00:45:02Z"
+      "updatedAt": "2026-08-18T00:20:40Z"
     },
     {
       "id": "rulli-marseille-mancity",
@@ -1562,13 +1562,13 @@
         "clubJa": "リバプール",
         "league": "Premier League"
       },
-      "fee": "マインツは €60m（約111億円）を要求",
+      "fee": "マインツは約100〜111億円(€60m前後)を要求",
       "type": "permanent",
-      "probability": 62,
+      "probability": 65,
       "trend": "up",
-      "status": "リバプールが正式オファー準備中",
-      "summaryJa": "佐野の市場価値が€40mから€50mへ上昇したと報じられる中、リバプールが最大€60mの正式オファー準備を進めていると伝えられている。アーセナル、トッテナム、ドルトムントも代理人と接触を続けている。",
-      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)の範囲内。ステップ2: Football Tribe Japan(Tier3)-5。ステップ3: 正式オファー準備という具体的進展で前回60から62へ小幅上方修正。",
+      "status": "マインツが移籍期限を8/27に設定・後任確保が条件",
+      "summaryJa": "マインツのSDクリスティアン・ハイデル氏が、佐野に関するオファーを受け付けるのは今月27日頃までと独自の移籍期限を設定したと報じられた。「8月31日には売却しない」としつつ、適切なオファーと後任確保を条件に放出を認める構え。リバプール、ニューカッスルに加え、国内のRBライプツィヒも関心を示しているという。",
+      "reasoning": "ベース: 個人条件で合意、クラブ間は未合意(55-70%)の範囲内。ステップ2: サッカーキング・theWORLD(Tier3)-5。ステップ3: クラブ側が自ら移籍期限(8/27)を設定したことは交渉が具体的な段階にある強いシグナルのため、前回62から+3して65。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
@@ -1576,9 +1576,16 @@
           "title": "佐野海舟の獲得に向けリバプールが正式オファー準備か！",
           "url": "https://football-tribe.com/japan/2026/07/18/357032/",
           "publishedAt": "2026-07-18"
+        },
+        {
+          "outlet": "サッカーキング",
+          "tier": 3,
+          "title": "マインツ、佐野海舟の移籍期限を今月27日に設定か？…適切オファーに後任確保が前提",
+          "url": "https://www.soccer-king.jp/news/world/ger/20260815/2192775.html",
+          "publishedAt": "2026-08-15"
         }
       ],
-      "updatedAt": "2026-08-10T00:41:12Z"
+      "updatedAt": "2026-08-18T00:20:40Z"
     },
     {
       "id": "zionsuzuki-parma-psg",
@@ -5258,11 +5265,11 @@
       },
       "fee": "非公表",
       "type": "permanent",
-      "probability": 5,
-      "trend": "flat",
-      "status": "噂",
-      "summaryJa": "ブレーメンへの期限付き移籍が満了した菅原由勢について、サウサンプトン復帰は微妙とされ、かつて所属したPSVアイントホーフェンへの移籍が急浮上したと報じられた。PSVは右サイドバックの補強が急務とされている。",
-      "reasoning": "候補として浮上したとの報道のみで打診やオファーは確認できないため「興味・リストアップの報道のみ」帯（5-20）の上限20をベース。まとめ系Tier4のみで−15、さらに報道が7月29日で5日以上更新がないため−10となるが、下限として5に据え置いた。",
+      "probability": 12,
+      "trend": "up",
+      "status": "開幕戦ベンチ外・構想外が濃厚に",
+      "summaryJa": "菅原は8/16のリーグ戦でベンチ外となり、地元メディアによれば監督の構想からすでに外れ、約30人が在籍する過密スカッド整理の対象として放出候補になっているという。移籍先としてはPSVアイントホーフェン（同僚に佐野航大）が候補に挙がる。",
+      "reasoning": "ベース: 興味・リストアップの報道のみ(5-20)。具体的オファーはまだないが、開幕戦でのベンチ外という一次情報で構想外が裏付けられたため、前回5から+7して12とした。trendはup。",
       "sources": [
         {
           "outlet": "Football Tribe Japan",
@@ -5274,12 +5281,12 @@
         {
           "outlet": "Football Tribe Japan",
           "tier": 4,
-          "title": "菅原由勢の去就で新情報！「見限られている」「日本代表W杯ベスト32敗退でメリット」",
-          "url": "https://football-tribe.com/japan/2026/07/07/356622/",
-          "publishedAt": "2026-07-07"
+          "title": "菅原由勢、サウサンプトン退団か！「すでに構想外」今節ベンチ外…移籍日本代表MFと共闘も？",
+          "url": "https://football-tribe.com/japan/2026/08/17/358230/",
+          "publishedAt": "2026-08-17"
         }
       ],
-      "updatedAt": "2026-08-06T02:22:58Z"
+      "updatedAt": "2026-08-18T00:20:40Z"
     },
     {
       "id": "hatate-celtic-west-ham",
@@ -5816,11 +5823,11 @@
       },
       "fee": "非公表（フェネルバフチェ提示2000万ユーロ超、フェイエノールト要求2500万ユーロ）",
       "type": "permanent",
-      "probability": 40,
+      "probability": 43,
       "trend": "up",
-      "status": "具体的オファー提示・金額交渉中",
-      "summaryJa": "フェネルバフチェがフェイエノールトに2000万ユーロ超の具体的オファーを提示したと報道。フェイエノールトは2500万ユーロを要求し交渉に応じる用意があるとされる一方、上田本人はプレミアリーグ移籍を第一希望としており本格的なイングランドからのオファーはまだ届いていない。",
-      "reasoning": "ベース: クラブ間で交渉中／オファー提出(35-55%)の下限。前回確認時の「関心が本格化」段階から具体的な金額提示のある交渉段階に進んだため引き上げ。ただし選手本人の希望がプレミアリーグにある点を加味し下限の40に据えた。",
+      "status": "本人も受け入れの構え・交渉継続中",
+      "summaryJa": "フェネルバフチェが2000万ユーロ超のオファーを提示し交渉が続く中、プレミアリーグ移籍を第一希望としていた上田本人も、この選択肢を受け入れる考えがあるようだと欧州メディアが報じた。フェイエノールトはすでに後継FWを確保済みで売却に前向き。",
+      "reasoning": "ベース: クラブ間で交渉中／オファー提出(35-55%)。前回は本人の希望がプレミアにあるとして下限40としていたが、本人がこの移籍を受け入れる可能性を示す続報が出たため+3して43。trendはup。",
       "sources": [
         {
           "outlet": "フットボールチャンネル(Yahoo!ニュース)",
@@ -5830,14 +5837,14 @@
           "publishedAt": "2026-08-09"
         },
         {
-          "outlet": "ライブドアニュース",
+          "outlet": "THE DIGEST(Yahoo!ニュース)",
           "tier": 3,
-          "title": "フェネルバフチェが上田綺世の獲得へ本格交渉、移籍金は約2500万ユーロか",
-          "url": "https://news.livedoor.com/topics/detail/32028381/",
-          "publishedAt": "2026-08-09"
+          "title": "フェイエノールトFW上田綺世の去就、フェネルバフチェのオファーを「受け入れる考えがあるようだ」欧州メディア注目",
+          "url": "https://news.yahoo.co.jp/articles/3997df1506b2f4078f29c8f9c3b541ebb9527988",
+          "publishedAt": "2026-08-12"
         }
       ],
-      "updatedAt": "2026-08-12T12:44:25Z"
+      "updatedAt": "2026-08-18T00:20:40Z"
     },
     {
       "id": "ueda-feyenoord-ipswich",
